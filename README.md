@@ -1,6 +1,6 @@
 # Webkit 
 
-This package is deprecated, please check this link for the [most recent version](https://sourceforge.net/projects/phpbrowserbox/)
+This package is deprecated, please check this link for the [most recent version](https://sourceforge.net/projects/phpbrowserbox/).
 
 ## What am I looking at?
 
