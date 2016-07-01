@@ -1,5 +1,7 @@
 # Webkit 
 
+This package is deprecated, please check this link for the [most recent version](https://sourceforge.net/projects/phpbrowserbox/)
+
 ## What am I looking at?
 
 You are looking at the main binary of phpbrowserbox i.e phpbrowserbox.exe that powers [phpbrowserbox](http://www.africoders.com/forum/phpbrowserbox). You can download the [full app here](https://sourceforge.net/p/phpbrowserbox/).
