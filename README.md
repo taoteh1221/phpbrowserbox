@@ -1,39 +1,65 @@
-# Webkit 
+# electron-app
 
-This package is deprecated, please check this link for the [most recent version](https://sourceforge.net/projects/phpbrowserbox/).
+![electron version](https://img.shields.io/github/package-json/dependency-version/alex8088/electron-vite-boilerplate/dev/electron)
+![electron vite version](https://img.shields.io/github/package-json/dependency-version/alex8088/electron-vite-boilerplate/dev/electron-vite)
+![electron builder version](https://img.shields.io/github/package-json/dependency-version/alex8088/electron-vite-boilerplate/dev/electron-builder)
+![vite version](https://img.shields.io/github/package-json/dependency-version/alex8088/electron-vite-boilerplate/dev/vite)
+![vue version](https://img.shields.io/github/package-json/dependency-version/alex8088/electron-vite-boilerplate/dev/vue)
+![typescript version](https://img.shields.io/github/package-json/dependency-version/alex8088/electron-vite-boilerplate/dev/typescript)
 
-## What am I looking at?
-
-You are looking at the main binary of phpbrowserbox i.e phpbrowserbox.exe that powers [phpbrowserbox](http://www.africoders.com/forum/phpbrowserbox). You can download the [full app here](https://sourceforge.net/p/phpbrowserbox/).
+> An Electron application with Vue3 and TypesSript
 
 ## Features
- * It grabs the port number to use for the localpath of the browser from support/port.ini
- * It starts mysql binaries to allow mysql support (by default, but this feature might be removed with no advertse effect)
- * It initiates the internal php server
- * It finally launches the webkit browser component found in support/webkit/webkit.exe 
- 
-If you are interested in modifying the webkit component, you should be looking at https://github.com/dhtml/webkit
 
+- **📁 Scaffolding - [create-electron](https://github.com/alex8088/quick-start/tree/master/packages/create-electron)**, scaffolding your project quickly
+  - Currently supported framework: `Vue`, `React`, `Svelte`, `Solid`
+- **🚀 Build - [electron-vite](https://github.com/alex8088/electron-vite)**, fast and easy-to-use build tool integrated with Vite 3
+  - [Fast HMR](https://evite.netlify.app/guide/hmr-in-renderer.html)
+  - [Hot Reloading](https://evite.netlify.app/guide/hot-reloading.html)
+  - [Easy to Debug](https://evite.netlify.app/guide/debugging.html)
+  - [Source code protection](https://evite.netlify.app/guide/source-code-protection.html) (compile to V8 bytecode to protect source code)
+- **💡 Development - [electron-toolkit](https://github.com/alex8088/electron-toolkit)**, useful API, help you develop
+- **📦 Pack - [electron-builder](https://www.electron.build)**, pre-configured to pack your app
 
-## Installation and Usage
-One of the main goals of phpbrowserbox is that the components should be flexible and easily replaceable.
+---
 
-This major aspect of the phpbrowserbox was written in dev c++ 5.11. If you are able to improve this aspect of the app, please share with the community
+- **📁 创建 - [create-electron](https://github.com/alex8088/quick-start/tree/master/packages/create-electron)**，快速构建项目
+  - 目前支持的框架： `Vue`, `React`, `Svelte`, `Solid`
+- **🚀 构建 - [electron-vite](https://github.com/alex8088/electron-vite)**，与 Vite 集成，快速且简单易用的构建工具
+  - [热替换 HMR](https://cn-evite.netlify.app/guide/hmr-in-renderer.html)
+  - [热重载](https://cn-evite.netlify.app/guide/hot-reloading.html)
+  - [易于调试](https://cn-evite.netlify.app/guide/debugging.html)
+  - [源代码保护](https://cn-evite.netlify.app/guide/source-code-protection.html)（编译为 V8 字节码以保护源代码）
+- **💡 开发 - [electron-toolkit](https://github.com/alex8088/electron-toolkit)**，提供丰富实用 API，辅助开发
+- **📦 打包 - [electron-builder](https://www.electron.build)**，预置打包配置，轻松完成打包
 
-[Download the archive](https://github.com/dhtml/phpbrowserbox/archive/master.zip) and simply modify it, then repackage it as phpbrowserbox.exe.
+## Recommended IDE Setup
 
-And that should be all.
+- [VSCode](https://code.visualstudio.com/) + [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) + [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 
-### Support
-Visit the [project page](http://www.africoders.com/forum/phpbrowserbox) for documentation, configuration, and more advanced usage examples. 
+## Project Setup
 
+### Install
 
-### Author
+```bash
+$ npm install
+```
 
-**Anthony Ogundipe** a.k.a dhtml
+### Development
 
+```bash
+$ npm run dev
+```
 
-### License
+### Build
 
-Licensed under the MIT License
- 
+```bash
+# For windows
+$ npm run build:win
+
+# For macOS
+$ npm run build:mac
+
+# For Linux
+$ npm run build:linux
+```

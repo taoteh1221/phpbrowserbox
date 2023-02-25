@@ -1,6 +1,4 @@
 node_modules
 dist
 out
-app
-*.log*
-startup.log
+.gitignore
