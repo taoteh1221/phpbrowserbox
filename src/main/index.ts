@@ -3,10 +3,14 @@ import * as path from 'path'
 import { electronApp, optimizer } from '@electron-toolkit/utils'
 const fs = require('fs')
 const request = require('request')
+const spawn = require('child_process').spawn;
+const kill  = require('tree-kill');
 
 String.prototype.replaceAll = function (search, replacement) {
   return this.replace(new RegExp(search, 'g'), replacement)
 }
+
+const processId = {mysql:0,httpd:0}
 
 const Config = require('electron-config')
 
@@ -28,7 +32,7 @@ startLog['basePath'] = basePath
 let appConfig
 try {
   appConfig = JSON.parse(
-    fs.readFileSync(path.join(appPath, 'package.json'), {
+    fs.readFileSync(path.join(appPath, 'application.json'), {
       encoding: 'utf8',
       flag: 'r'
     })
@@ -183,6 +187,13 @@ app.on('second-instance', async (_event, _commandLine, _workingDirectory) => {
 // explicitly with Cmd + Q.
 app.on('window-all-closed', () => {
   if (process.platform !== 'darwin') {
+    if(processId.httpd) {
+       kill(processId.httpd);
+    }
+    if(processId.mysql) {
+       kill(processId.mysql);
+    }
+    console.log('closing event',processId);
     app.quit()
   }
 })
@@ -234,33 +245,24 @@ fs.writeFileSync(path.join(basePath, 'startup.log'), JSON.stringify(startLog, nu
 const mysqldPath = appPath + '\\bin\\mysql\\bin\\mysqld.exe'
 const httpdPath = appPath + '\\bin\\apache\\bin\\httpd.exe'
 
-  if(appConfig.config.apache || appConfig.config.mysql) {     
-      const spawn = require('child_process').spawn;
+    if(appConfig.config.mysql) {    
+          console.log('starting mysql');
+          const mysql = spawn(mysqldPath,[],{stdio: 'inherit',detached:false});
+          mysql.on('error', function(err) {
+              console.log('Oh noez, teh errurz: ' + err);
+        });
+        processId.mysql = mysql.pid;
+    }
 
+    
     if(appConfig.config.apache) {    
-      try{
           console.log('starting apache');
           const httpd = spawn(httpdPath);
           httpd.on('error', function(err) {
               console.log('Oh noez, teh errurz: ' + err);
-        });
-      } catch(err){
-        console.log("exception: "+err)
-      }
+          });
+          processId.httpd = httpd.pid;
+          console.log(`Started apache ${httpd.pid}`);
     }
-
-        if(appConfig.config.mysql) {    
-      try{
-          console.log('starting mysql');
-          const mysql = spawn(mysqldPath);
-          mysql.on('error', function(err) {
-              console.log('Oh noez, teh errurz: ' + err);
-        });
-      } catch(err){
-        console.log("exception: "+err)
-      }
-    }
-
-  }
 
   //console.log(startLog);
