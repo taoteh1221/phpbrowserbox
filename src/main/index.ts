@@ -44,8 +44,8 @@ try {
 
 //const homePage = path.join(__dirname, '../renderer/index.html')
 
-const startPage = `${appPath}/startup/index.html`
-const baseUrl = `http://localhost:${appConfig.apache_port}`
+const startPage = `${appPath}/${appConfig.main}`
+const baseUrl = `http://localhost:${appConfig.apache_port}${appConfig.baseUrl}`
 
 
 startLog['baseUrl'] = baseUrl

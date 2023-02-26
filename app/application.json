@@ -1,0 +1,27 @@
+{
+  "author": "Anthony Ogundipe",
+  "name": "phpbrowserbox",
+  "version": "5.0",
+  "description": "Run PHP Application As Windows Desktop App",
+  "main": "/startup/index.html",
+  "homepage": "https://phpbrowserbox.com",
+  "baseUrl": "/wp-admin",
+  "devtools": 0,
+  "apache_port": 81,
+  "mysql_port": 3308,
+  "loading_delay": 3000,
+  "config": {
+    "startup": true,
+    "apache": true,
+    "mysql": true
+  },
+  "meta": {
+    "name": "PHPBrowserBox",
+    "version": "4.0.0",
+    "Released": "Feb 20, 2023 (during Naira Swap Policy)",
+    "author": "Anthony Ogundipe",
+    "email": "diltony@yahoo.com",
+    "phone": "+234(0)7030290746",
+    "url": "https://phpbrowserbox.com/"
+  }
+}
