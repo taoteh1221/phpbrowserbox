@@ -20,7 +20,7 @@ let startLog = {}
 const basePath = __dirname.includes('.asar')
   ? path.resolve(__dirname, '../../../..')
   : path.resolve(__dirname, '../..')
-const appPath = path.join(basePath, 'app')
+const appPath = path.join(basePath, 'app').replace(/\\/g, "/");
 
 startLog['appPath'] = appPath
 startLog['basePath'] = basePath
@@ -234,16 +234,33 @@ fs.writeFileSync(path.join(basePath, 'startup.log'), JSON.stringify(startLog, nu
 const mysqldPath = appPath + '\\bin\\mysql\\bin\\mysqld.exe'
 const httpdPath = appPath + '\\bin\\apache\\bin\\httpd.exe'
 
-const proc = require('child_process')
+  if(appConfig.config.apache || appConfig.config.mysql) {     
+      const spawn = require('child_process').spawn;
 
-//start apache server
-  if(appConfig.config.apache) {    
-      console.log('starting apache');
-      proc.spawn(httpdPath)
+    if(appConfig.config.apache) {    
+      try{
+          console.log('starting apache');
+          const httpd = spawn(httpdPath);
+          httpd.on('error', function(err) {
+              console.log('Oh noez, teh errurz: ' + err);
+        });
+      } catch(err){
+        console.log("exception: "+err)
+      }
+    }
+
+        if(appConfig.config.mysql) {    
+      try{
+          console.log('starting mysql');
+          const mysql = spawn(mysqldPath);
+          mysql.on('error', function(err) {
+              console.log('Oh noez, teh errurz: ' + err);
+        });
+      } catch(err){
+        console.log("exception: "+err)
+      }
+    }
+
   }
 
-//start mysql server
-  if(appConfig.config.mysql) {    
-      console.log('starting mysql');
-      proc.spawn(mysqldPath)
-  }
+  //console.log(startLog);
