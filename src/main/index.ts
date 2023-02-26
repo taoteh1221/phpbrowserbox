@@ -39,9 +39,10 @@ try {
 }
 
 //const homePage = path.join(__dirname, '../renderer/index.html')
-const homePage = `${appPath}/startup/index.html`
 
+const startPage = `${appPath}/startup/index.html`
 const baseUrl = `http://localhost:${appConfig.apache_port}`
+
 
 startLog['baseUrl'] = baseUrl
 
@@ -105,7 +106,9 @@ const createWindow = () => {
   })
 
   win.webContents.on('did-fail-load', function () {
-    win.loadFile(homePage)
+      if(appConfig.config.startup) {
+        win.loadFile(startPage)
+      }
     // REDIRECT TO FIRST WEBPAGE AGAIN
   })
 
@@ -121,12 +124,20 @@ const createWindow = () => {
 
   // HMR for renderer base on electron-vite cli.
   //win.loadURL(`file://${__dirname}/app/index.html`);
-  win.loadFile(homePage)
+
+  if(appConfig.config.startup) {
+    console.log('Loading startup page');
+    win.loadFile(startPage)
+  }
 
   //request Base URL
-  setTimeout(() => {
-    requestBaseUrl()
-  }, 3000)
+  if(appConfig.config.apache) {
+    console.log('Loading apache url');
+    setTimeout(() => {
+      requestBaseUrl()
+    }, 3000)
+  }
+
 }
 
 // This method will be called when Electron has finished
@@ -176,10 +187,13 @@ app.on('window-all-closed', () => {
   }
 })
 
-const processConfig = (file: string, path: string) => {
-  const sourceFile = appPath + '\\config\\' + file
+const processConfig = (file: string, path: string, path2?: string) => {
   const destinationFile = appPath + '\\' + path + '\\' + file
+  const destinationFile2 = path2 ? appPath + '\\' + path2 + '\\' + file : false
+  //const sourceFile = appPath + '\\config\\' + file
+  const sourceFile = destinationFile + '.phpbrowserbox'
 
+  try {
   let contents = fs.readFileSync(sourceFile, {
     encoding: 'utf8',
     flag: 'r'
@@ -191,12 +205,19 @@ const processConfig = (file: string, path: string) => {
   contents = contents.replaceAll('%apache_port%', appConfig.apache_port)
 
   fs.writeFileSync(destinationFile, contents)
+
+  if(destinationFile2) {
+    fs.writeFileSync(destinationFile2, contents)
+  }
+
+  } catch(err) {
+    console.log('Error',err);
+  }
 }
 
 //fix configurations
 try {
-  processConfig('php.ini', 'bin\\php')
-  processConfig('php.ini', 'bin\\apache\\bin')
+  processConfig('php.ini', 'bin\\php', 'bin\\apache\\bin')
   processConfig('my.ini', 'bin\\mysql')
   processConfig('httpd.conf', 'bin\\apache\\conf')
   startLog['loadConfig'] = 'Successful'
@@ -216,7 +237,13 @@ const httpdPath = appPath + '\\bin\\apache\\bin\\httpd.exe'
 const proc = require('child_process')
 
 //start apache server
-proc.spawn(httpdPath)
+  if(appConfig.config.apache) {    
+      console.log('starting apache');
+      proc.spawn(httpdPath)
+  }
 
 //start mysql server
-proc.spawn(mysqldPath)
+  if(appConfig.config.mysql) {    
+      console.log('starting mysql');
+      proc.spawn(mysqldPath)
+  }
