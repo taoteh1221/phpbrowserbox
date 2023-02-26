@@ -3,4 +3,5 @@ dist
 out
 workspace
 *.log*
+push.bat
 startup.log
