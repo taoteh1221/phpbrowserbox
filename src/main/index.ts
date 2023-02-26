@@ -247,7 +247,7 @@ const httpdPath = appPath + '\\bin\\apache\\bin\\httpd.exe'
 
     if(appConfig.config.mysql) {    
           console.log('starting mysql');
-          const mysql = spawn(mysqldPath,[],{stdio: 'inherit',detached:false});
+          const mysql = spawn(mysqldPath);
           mysql.on('error', function(err) {
               console.log('Oh noez, teh errurz: ' + err);
         });
