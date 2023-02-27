@@ -25,7 +25,7 @@ Technically all php versions are supported, but official support is php 7.3 and 
 All popular PHP frameworks are supported, see the [PHP frameworks support](../../wiki/PHP-frameworks-support) wiki page.
 
 You can create a standalone executable for distribution with the help of the [Inno Setup installer](../../wiki/Knowledge-Base#application-installer).
-PHP sources can be protected with the many of the available [PHP encoders](../../wiki/PHP-frameworks-support).
+PHP sources can be protected with other [useful tools](../../wiki/Knowledge-Base#useful-tools).
 
 PHPBrowserBox is released under non-restrictive license, thus it is [free for commercial use](../../wiki/Knowledge-Base#can-i-use-php-desktop-in-a-commercial-closed-sourced-project).
 
