@@ -11,7 +11,7 @@ Earlier versions were built with CPP, even NODE Webkit, but this latest verson a
 
 ![php-8 2](https://user-images.githubusercontent.com/948100/221455117-641db17a-557f-4319-8b9e-cd77da7ead03.png)
 
-It is a convienient tool for converting PHP web apps and PHP CLI tools to desktop applications with little effort.
+It is a convenient tool for converting PHP web apps and PHP CLI tools to desktop applications with little effort.
 
 
 Learn more about [PHPBrowserBox Support Packages](https://github.com/dhtml/phpbrowserbox/wiki/Support-packages).
