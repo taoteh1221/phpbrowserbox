@@ -16,10 +16,8 @@ PHPBrowserBox is an open source project founded by Anthony Ogundipe in the year 
 
 It is a convenient tool for converting PHP web apps and PHP CLI tools to desktop applications with little effort.
 
-
 In a certain sense phpbrowserbox acts differently from a PHP to EXE compiler. It embeds a web browser, a multi-threaded web server and a PHP interpreter.
 All embedded into a single application, a portable folder that you can easily distribute to end users by packing it to zip archive or by making an [installer for your application](../../wiki/Knowledge-Base#application-installer).
-
 
 Technically all php versions are supported, but official support is php 7.0,7.3,7.4,8.0,8.1 and 8.2.
 All popular PHP frameworks are supported, see the [PHP frameworks support](../../wiki/PHP-frameworks-support) wiki page.
@@ -42,14 +40,13 @@ The minimum requirements is Windows 10.
 
 #### Getting Started
 
-* [Setup BasicHTML Application](../../wiki/Knowledge-Base#hello-world-html)
-* [Setup Basic PHP Application](../../wiki/Knowledge-Base#hello-world-php)
-
+- [Setup BasicHTML Application](../../wiki/Knowledge-Base#hello-world-html)
+- [Setup Basic PHP Application](../../wiki/Knowledge-Base#hello-world-php)
 
 ## Downloads
 
 - PHPBrowserBox Application - [PHPBrowserBox v5.0 for Windows
-  ](https://github.com/dhtml/phpbrowserbox/releases/tag/phpbrowserboxv5.0app)
+  ](https://github.com/dhtml/phpbrowserbox/releases/tag/phpbrowserboxv5.0)
   release.
 
 - PHPBrowserBox Support Packages - [PHPBrowserBox support packages for Windows
@@ -59,7 +56,7 @@ The minimum requirements is Windows 10.
 
 - Documentation is on the [Wiki Pages](../../wiki). Start with the
   [Knowledge Base](../../wiki/Knowledge-Base), and [Settings](../../wiki/Settings)
-   wiki pages.
+  wiki pages.
 - Ask questions and report problems on the
   [PHPBrowserBox Support Forum](https://web.facebook.com/phpbrowserbox)
 
