@@ -21,7 +21,7 @@ In a certain sense phpbrowserbox acts differently from a PHP to EXE compiler. It
 All embedded into a single application, a portable folder that you can easily distribute to end users by packing it to zip archive or by making an [installer for your application](../../wiki/Knowledge-Base#application-installer).
 
 
-Technically all php versions are supported, but official support is php 7.3 and above.
+Technically all php versions are supported, but official support is php 7.0,7.3,7.4,8.0,8.1 and 8.2.
 All popular PHP frameworks are supported, see the [PHP frameworks support](../../wiki/PHP-frameworks-support) wiki page.
 
 You can create a standalone executable for distribution with the help of the [Inno Setup installer](../../wiki/Knowledge-Base#application-installer).
