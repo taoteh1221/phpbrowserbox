@@ -60,6 +60,7 @@ Lots of other useful information can be found on the
 [PHPBrowserBox Website](https://phpbrowserbox.com).
 
 ## Installation
+![phpbrowserbox-structure](https://user-images.githubusercontent.com/948100/221671814-5b345dea-d8ef-4c90-ac72-2fe81cba1511.png)
 
 #### Installation Requirements
 While older versions of phpbrowserbox (v4.0 and below) supports were mainly 32 bits but may work in 64 bits windows.
