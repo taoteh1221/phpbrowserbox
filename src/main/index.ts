@@ -60,7 +60,7 @@ if (!gotTheLock) {
 }
 
 let opts = {
-  autoHideMenuBar: true,
+  autoHideMenuBar: appConfig.menuBar ?? false,
   show: false,
   icon: path.join(__dirname, '../../build/icon.png'),
   webPreferences: {
