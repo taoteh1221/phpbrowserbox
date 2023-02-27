@@ -1,5 +1,4 @@
-Copyright (c) 2023 Anthony Ogundipe. Portions Copyright
-(c) 2008 Marshall A.Greenblatt, 2006 Google Inc.
+Copyright (c) 2023 Anthony Ogundipe. All rights reserved.
 All rights reserved.
 
 Project website: https://github.com/dhtml/phpbrowserbox
