@@ -1,39 +1,17 @@
-# Webkit 
+# PHPBrowserBox Support Package
 
-This package is deprecated, please check this link for the [most recent version](https://sourceforge.net/projects/phpbrowserbox/).
+PHPBrowserBox is an open source project founded by Anthony Ogundipe
+in 2013 to provide a way for developing native desktop GUI applications
+using web technologies such as PHP, HTML5, JavaScript, MySQL and SQLite.
+It was make use of google chrome internally and have support for NODE.JS module as well.
 
-## What am I looking at?
+![3 ](https://user-images.githubusercontent.com/948100/221455215-802497e3-051d-415f-b109-4e3ed24b1bae.png)
 
-You are looking at the main binary of phpbrowserbox i.e phpbrowserbox.exe that powers [phpbrowserbox](http://www.africoders.com/forum/phpbrowserbox). You can download the [full app here](https://sourceforge.net/p/phpbrowserbox/).
+Earlier versions were built with CPP, even NODE Webkit, but this latest verson as 2023 release is built on Electron JS and it actually allows you to package just HTML app alone, Apache/PHP is optional, MySQL is optional. These configurations are made so to allow for flexible.
 
-## Features
- * It grabs the port number to use for the localpath of the browser from support/port.ini
- * It starts mysql binaries to allow mysql support (by default, but this feature might be removed with no advertse effect)
- * It initiates the internal php server
- * It finally launches the webkit browser component found in support/webkit/webkit.exe 
- 
-If you are interested in modifying the webkit component, you should be looking at https://github.com/dhtml/webkit
+![php-8 2](https://user-images.githubusercontent.com/948100/221455117-641db17a-557f-4319-8b9e-cd77da7ead03.png)
 
-
-## Installation and Usage
-One of the main goals of phpbrowserbox is that the components should be flexible and easily replaceable.
-
-This major aspect of the phpbrowserbox was written in dev c++ 5.11. If you are able to improve this aspect of the app, please share with the community
-
-[Download the archive](https://github.com/dhtml/phpbrowserbox/archive/master.zip) and simply modify it, then repackage it as phpbrowserbox.exe.
-
-And that should be all.
-
-### Support
-Visit the [project page](http://www.africoders.com/forum/phpbrowserbox) for documentation, configuration, and more advanced usage examples. 
+It is a convienient tool for converting PHP web apps and PHP CLI tools to desktop applications with little effort.
 
 
-### Author
-
-**Anthony Ogundipe** a.k.a dhtml
-
-
-### License
-
-Licensed under the MIT License
- 
+Learn more about [PHPBrowserBox Support Packages](https://github.com/dhtml/phpbrowserbox/wiki/Support-packages).
