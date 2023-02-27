@@ -65,6 +65,7 @@ let opts = {
   icon: path.join(__dirname, '../../build/icon.png'),
   webPreferences: {
     preload: path.join(__dirname, '../preload/index.js'),
+    nodeIntegration: appConfig.nodeIntegration ?? false,
     sandbox: false
   }
 }

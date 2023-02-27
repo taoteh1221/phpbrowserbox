@@ -6,6 +6,7 @@
   "mysql_port": 3308,
   "loading_delay": 3000,
   "autoHideMenuBar": true,
+  "nodeIntegration": false,
   "config": {
     "startup": true,
     "apache": true,
