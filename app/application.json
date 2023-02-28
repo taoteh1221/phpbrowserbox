@@ -1,6 +1,6 @@
 {
   "main": "/startup/index.html",
-  "baseUrl": "/i",
+  "baseUrl": "/",
   "devtools": false,
   "apache_port": 81,
   "mysql_port": 3308,
