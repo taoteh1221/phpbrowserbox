@@ -47,10 +47,7 @@ The minimum requirements is Windows 10.
 
 - PHPBrowserBox [Download Guide](../../wiki/Download-Phpbrowserbox). This is very necessary for new users.
 
-- PHPBrowserBox Application - [PHPBrowserBox latest release for Windows](https://github.com/dhtml/phpbrowserbox/releases/latest)
-
-- PHPBrowserBox + Apache + PHP 7.4 + MySQL8 + Wordpress 6.1 Application - [PHPBrowserBox latest release demo for Windows
-  ](https://github.com/dhtml/phpbrowserbox/releases/tag/phpbrowserboxv5.0%2Bwordpressv6.1%2Bdemo)
+- PHPBrowserBox Base Application - [PHPBrowserBox latest release for Windows](https://github.com/dhtml/phpbrowserbox/releases/latest)
 
 - [PHPBrowserBox v5.0 For Windows + PHP 8.2 + Wordpress 6.1](https://github.com/dhtml/phpbrowserbox/releases/tag/phpbrowserboxv5.0%2Bphp8.2%2Bwp6)
 
