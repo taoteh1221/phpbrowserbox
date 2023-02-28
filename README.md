@@ -45,13 +45,22 @@ The minimum requirements is Windows 10.
 
 ## Downloads
 
-- PHPBrowserBox [Download Guide](../../wiki/Download-Phpbrowserbox)
+- PHPBrowserBox [Download Guide](../../wiki/Download-Phpbrowserbox). This is very necessary for new users.
 
-- PHPBrowserBox Application - [PHPBrowserBox latest release for Windows
-  ](https://github.com/dhtml/phpbrowserbox/releases/latest)
+- PHPBrowserBox Application - [PHPBrowserBox latest release for Windows](https://github.com/dhtml/phpbrowserbox/releases/latest)
 
 - PHPBrowserBox + Apache + PHP 7.4 + MySQL8 + Wordpress 6.1 Application - [PHPBrowserBox latest release demo for Windows
   ](https://github.com/dhtml/phpbrowserbox/releases/tag/phpbrowserboxv5.0%2Bwordpressv6.1%2Bdemo)
+
+- [PHPBrowserBox v5.0 For Windows + PHP 8.2 + Wordpress 6.1](https://github.com/dhtml/phpbrowserbox/releases/tag/phpbrowserboxv5.0%2Bphp8.2%2Bwp6)
+
+- [PHPBrowserBox v5.0 For Windows + PHP 8.1 + Wordpress 6.1](https://github.com/dhtml/phpbrowserbox/releases/tag/phpbrowserboxv5.0%2Bphp8.1%2Bwp6)
+
+- [PHPBrowserBox v5.0 For Windows + PHP 8.0 + Wordpress 6.1](https://github.com/dhtml/phpbrowserbox/releases/tag/phpbrowserboxv5.0%2Bphp8.0%2Bwp6)
+
+- [PHPBrowserBox v5.0 For Windows + PHP 7.4 + Wordpress 6.1](https://github.com/dhtml/phpbrowserbox/releases/tag/phpbrowserboxv5.0%2Bwordpressv6.1%2Bdemo)
+
+- [PHPBrowserBox v5.0 For Windows + PHP 7.3 + Wordpress 6.1](https://github.com/dhtml/phpbrowserbox/releases/tag/phpbrowserboxv5.0%2Bphp7.3%2Bwp6)
 
 - PHPBrowserBox Support Packages - [PHPBrowserBox support packages for Windows
   ](../../wiki/Support-packages)
