@@ -45,6 +45,9 @@ The minimum requirements is Windows 10.
 
 ## Downloads
 
+- PHPBrowserBox Download Guide
+  ](../../wiki/wiki/Download-Phpbrowserbox)
+
 - PHPBrowserBox Application - [PHPBrowserBox latest release for Windows
   ](https://github.com/dhtml/phpbrowserbox/releases/latest)
 
