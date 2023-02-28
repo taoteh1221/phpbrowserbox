@@ -1,6 +1,6 @@
 {
   "main": "/startup/index.html",
-  "baseUrl": "/info.php",
+  "baseUrl": "/i",
   "devtools": false,
   "apache_port": 81,
   "mysql_port": 3308,
@@ -9,8 +9,8 @@
   "nodeIntegration": false,
   "config": {
     "startup": true,
-    "apache": true,
-    "mysql": true
+    "apache": false,
+    "mysql": false
   },
   "meta": {
     "name": "PHPBrowserBox",

@@ -6,6 +6,7 @@ files:
   - '!**/.vscode/*'
   - '!src/*'
   - '!app/*'
+  - '!workspace/*'
   - '!electron.vite.config.{js,ts,mjs,cjs}'
   - '!{.eslintignore,.eslintrc.cjs,.prettierignore,.prettierrc.yaml,dev-app-update.yml,CHANGELOG.md,README.md}'
   - '!{tsconfig.json,tsconfig.node.json,deploy.bat,startup.log}'
