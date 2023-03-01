@@ -1,4 +1,4 @@
-import { app, shell, ipcMain, BrowserWindow } from 'electron'
+import { app, shell, dialog, ipcMain, BrowserWindow } from 'electron'
 import * as path from 'path'
 import { electronApp, optimizer } from '@electron-toolkit/utils'
 const fs = require('fs')
@@ -38,9 +38,11 @@ try {
     })
   )
 } catch (e) {
+  dialog.showErrorBox("application.json invalid,`There is a problem with app/application.json`)
   console.log('config error')
   app.exit(0)
 }
+
 
 //const homePage = path.join(__dirname, '../renderer/index.html')
 
@@ -223,21 +225,21 @@ const processConfig = (file: string, path: string, path2?: string) => {
   }
 
   } catch(err) {
+      dialog.showErrorBox("Config Error",`There is a problem with processing ${sourceFile}`)
     console.log('Error',err);
   }
 }
 
 //fix configurations
-try {
-  processConfig('php.ini', 'bin\\php', 'bin\\apache\\bin')
-  processConfig('my.ini', 'bin\\mysql')
-  processConfig('httpd.conf', 'bin\\apache\\conf')
-  startLog['loadConfig'] = 'Successful'
-} catch (err) {
-  startLog['loadConfig'] = 'Failed'
-}
 
-//console.log(startLog)
+      if(appConfig.config.apache) {    
+          processConfig('php.ini', 'bin\\php', 'bin\\apache\\bin')
+          processConfig('httpd.conf', 'bin\\apache\\conf')
+      }
+
+      if(appConfig.config.mysql) {    
+          processConfig('my.ini', 'bin\\mysql')
+      }
 
 //write out start log
 fs.writeFileSync(path.join(basePath, 'startup.log'), JSON.stringify(startLog, null, 4))
