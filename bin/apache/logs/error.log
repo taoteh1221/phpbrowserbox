@@ -1602,3 +1602,13 @@ Apache server shutdown initiated...
 [Sat Mar 18 13:35:08.080898 2023] [core:notice] [pid 10596:tid 436] AH00094: Command line: 'E:\\phpbrowserbox\\workspace5 0\\phpbbv60\\bin\\apache\\bin\\httpd.exe -d E:/phpbrowserbox/workspace5 0/phpbbv60/bin/apache'
 [Sat Mar 18 13:35:08.085916 2023] [mpm_winnt:notice] [pid 10596:tid 436] AH00418: Parent: Created child process 15040
 [Sat Mar 18 13:35:09.347934 2023] [mpm_winnt:notice] [pid 15040:tid 424] AH00354: Child: Starting 64 worker threads.
+[Sat Mar 18 13:53:25.704943 2023] [core:warn] [pid 10600:tid 184] AH00098: pid file E:/phpbrowserbox/workspace5 1/phpbbv60/bin/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Mar 18 13:53:25.779958 2023] [mpm_winnt:notice] [pid 10600:tid 184] AH00455: Apache/2.4.55 (Win64) PHP/8.2.2 configured -- resuming normal operations
+[Sat Mar 18 13:53:25.779958 2023] [mpm_winnt:notice] [pid 10600:tid 184] AH00456: Apache Lounge VS17 Server built: Feb  9 2023 09:58:39
+[Sat Mar 18 13:53:25.779958 2023] [core:notice] [pid 10600:tid 184] AH00094: Command line: 'E:\\phpbrowserbox\\workspace5 1\\phpbbv60\\bin\\apache\\bin\\httpd.exe -d E:/phpbrowserbox/workspace5 1/phpbbv60/bin/apache'
+[Sat Mar 18 13:53:25.784973 2023] [mpm_winnt:notice] [pid 10600:tid 184] AH00418: Parent: Created child process 17584
+[Sat Mar 18 13:53:26.555944 2023] [mpm_winnt:notice] [pid 17584:tid 452] AH00354: Child: Starting 64 worker threads.
+[Sat Mar 18 13:54:05.466471 2023] [mpm_winnt:crit] [pid 17584:tid 452] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Sat Mar 18 13:54:05.466471 2023] [mpm_winnt:warn] [pid 17584:tid 1248] (OS 995)The I/O operation has been aborted because of either a thread exit or an application request.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Sat Mar 18 13:54:05.466471 2023] [mpm_winnt:warn] [pid 17584:tid 540] (OS 995)The I/O operation has been aborted because of either a thread exit or an application request.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Sat Mar 18 13:54:07.479313 2023] [mpm_winnt:notice] [pid 17584:tid 452] AH00364: Child: All worker threads have exited.
