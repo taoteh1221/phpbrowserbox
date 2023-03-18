@@ -1,0 +1,45 @@
+{
+	"name": "phpbrowserbox",
+	"version": "5.0.0",
+
+	"#splashscreen": "Decide whether to display splashscreen",
+	"splashscreen": true,
+
+	"#ports": "The ports to run php/mysql. 0 as a value means use dynamic port",
+	"ports": {
+		"apache": "0",
+		"mysql": "0"
+	},
+
+	"#contextMenu": "Configure contexmenu behaviour",
+	"contextMenu": {
+		"showSaveImageAs": true,
+		"showLearnSpelling": true,
+		"showLookUpSelection": true,
+		"showSearchWithGoogle": true,
+		"showSelectAll": true,
+		"showCopyImage": true,
+		"showCopyImageAddress": true,
+		"showSaveImage": true,
+		"showCopyVideoAddress": true,
+		"showSaveVideo": true,
+		"showSaveVideoAs": true,
+		"showCopyLink": true,
+		"showSaveLinkAs": true,
+		"showInspectElement": true
+	},
+
+
+	"#electron": "This is the default electronjs config",
+	"electron": {
+		"autoHideMenuBar": true,
+		"webPreferences": {
+			"spellcheck": true,
+			"contextIsolation": false,
+			"nodeIntegration": true,
+			"nodeIntegrationInWorker": true,
+			"webSecurity": false,
+			"sandbox": false
+		}
+	}
+}

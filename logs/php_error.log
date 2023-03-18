@@ -1,0 +1,801 @@
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: E:\phpbb\bin\php\ext\curl (The specified module could not be found), E:\phpbb\bin\php\ext\php_curl.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: E:\phpbb\bin\php\ext\intl (The specified module could not be found), E:\phpbb\bin\php\ext\php_intl.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_pgsql' (tried: E:\phpbb\bin\php\ext\pdo_pgsql (The specified module could not be found), E:\phpbb\bin\php\ext\php_pdo_pgsql.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite' (tried: E:\phpbb\bin\php\ext\pdo_sqlite (The specified module could not be found), E:\phpbb\bin\php\ext\php_pdo_sqlite.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pgsql' (tried: E:\phpbb\bin\php\ext\pgsql (The specified module could not be found), E:\phpbb\bin\php\ext\php_pgsql.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'sodium' (tried: E:\phpbb\bin\php\ext\sodium (The specified module could not be found), E:\phpbb\bin\php\ext\php_sodium.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'sqlite3' (tried: E:\phpbb\bin\php\ext\sqlite3 (The specified module could not be found), E:\phpbb\bin\php\ext\php_sqlite3.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: E:\phpbb\bin\php\ext\curl (The specified module could not be found), E:\phpbb\bin\php\ext\php_curl.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  Module "FFI" is already loaded in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  Module "ftp" is already loaded in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  Module "fileinfo" is already loaded in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  Module "gd" is already loaded in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  Module "gettext" is already loaded in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  Module "gmp" is already loaded in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: E:\phpbb\bin\php\ext\intl (The specified module could not be found), E:\phpbb\bin\php\ext\php_intl.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  Module "imap" is already loaded in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  Module "mbstring" is already loaded in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  Module "exif" is already loaded in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  Module "mysqli" is already loaded in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  Module "pdo_mysql" is already loaded in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_pgsql' (tried: E:\phpbb\bin\php\ext\pdo_pgsql (The specified module could not be found), E:\phpbb\bin\php\ext\php_pdo_pgsql.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite' (tried: E:\phpbb\bin\php\ext\pdo_sqlite (The specified module could not be found), E:\phpbb\bin\php\ext\php_pdo_sqlite.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pgsql' (tried: E:\phpbb\bin\php\ext\pgsql (The specified module could not be found), E:\phpbb\bin\php\ext\php_pgsql.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  Module "soap" is already loaded in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  Module "sockets" is already loaded in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'sodium' (tried: E:\phpbb\bin\php\ext\sodium (The specified module could not be found), E:\phpbb\bin\php\ext\php_sodium.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'sqlite3' (tried: E:\phpbb\bin\php\ext\sqlite3 (The specified module could not be found), E:\phpbb\bin\php\ext\php_sqlite3.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  Module "tidy" is already loaded in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  Module "xsl" is already loaded in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  Module "zip" is already loaded in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: E:\phpbb\bin\php\ext\curl (The specified module could not be found), E:\phpbb\bin\php\ext\php_curl.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  Module "FFI" is already loaded in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  Module "ftp" is already loaded in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  Module "fileinfo" is already loaded in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  Module "gd" is already loaded in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  Module "gettext" is already loaded in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  Module "gmp" is already loaded in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: E:\phpbb\bin\php\ext\intl (The specified module could not be found), E:\phpbb\bin\php\ext\php_intl.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  Module "imap" is already loaded in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  Module "mbstring" is already loaded in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  Module "exif" is already loaded in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  Module "mysqli" is already loaded in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  Module "pdo_mysql" is already loaded in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_pgsql' (tried: E:\phpbb\bin\php\ext\pdo_pgsql (The specified module could not be found), E:\phpbb\bin\php\ext\php_pdo_pgsql.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite' (tried: E:\phpbb\bin\php\ext\pdo_sqlite (The specified module could not be found), E:\phpbb\bin\php\ext\php_pdo_sqlite.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pgsql' (tried: E:\phpbb\bin\php\ext\pgsql (The specified module could not be found), E:\phpbb\bin\php\ext\php_pgsql.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  Module "soap" is already loaded in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  Module "sockets" is already loaded in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'sodium' (tried: E:\phpbb\bin\php\ext\sodium (The specified module could not be found), E:\phpbb\bin\php\ext\php_sodium.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'sqlite3' (tried: E:\phpbb\bin\php\ext\sqlite3 (The specified module could not be found), E:\phpbb\bin\php\ext\php_sqlite3.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  Module "tidy" is already loaded in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  Module "xsl" is already loaded in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  Module "zip" is already loaded in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: E:\phpbb\bin\php\ext\curl (The specified module could not be found), E:\phpbb\bin\php\ext\php_curl.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  Module "FFI" is already loaded in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  Module "ftp" is already loaded in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  Module "fileinfo" is already loaded in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  Module "gd" is already loaded in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  Module "gettext" is already loaded in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  Module "gmp" is already loaded in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: E:\phpbb\bin\php\ext\intl (The specified module could not be found), E:\phpbb\bin\php\ext\php_intl.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  Module "imap" is already loaded in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  Module "mbstring" is already loaded in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  Module "exif" is already loaded in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  Module "mysqli" is already loaded in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  Module "pdo_mysql" is already loaded in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_pgsql' (tried: E:\phpbb\bin\php\ext\pdo_pgsql (The specified module could not be found), E:\phpbb\bin\php\ext\php_pdo_pgsql.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite' (tried: E:\phpbb\bin\php\ext\pdo_sqlite (The specified module could not be found), E:\phpbb\bin\php\ext\php_pdo_sqlite.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pgsql' (tried: E:\phpbb\bin\php\ext\pgsql (The specified module could not be found), E:\phpbb\bin\php\ext\php_pgsql.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  Module "soap" is already loaded in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  Module "sockets" is already loaded in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'sodium' (tried: E:\phpbb\bin\php\ext\sodium (The specified module could not be found), E:\phpbb\bin\php\ext\php_sodium.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'sqlite3' (tried: E:\phpbb\bin\php\ext\sqlite3 (The specified module could not be found), E:\phpbb\bin\php\ext\php_sqlite3.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  Module "tidy" is already loaded in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  Module "xsl" is already loaded in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  Module "zip" is already loaded in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: E:\phpbb\bin\php\ext\curl (The specified module could not be found), E:\phpbb\bin\php\ext\php_curl.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  Module "FFI" is already loaded in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  Module "ftp" is already loaded in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  Module "fileinfo" is already loaded in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  Module "gd" is already loaded in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  Module "gettext" is already loaded in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  Module "gmp" is already loaded in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: E:\phpbb\bin\php\ext\intl (The specified module could not be found), E:\phpbb\bin\php\ext\php_intl.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  Module "imap" is already loaded in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  Module "mbstring" is already loaded in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  Module "exif" is already loaded in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  Module "mysqli" is already loaded in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  Module "pdo_mysql" is already loaded in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_pgsql' (tried: E:\phpbb\bin\php\ext\pdo_pgsql (The specified module could not be found), E:\phpbb\bin\php\ext\php_pdo_pgsql.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite' (tried: E:\phpbb\bin\php\ext\pdo_sqlite (The specified module could not be found), E:\phpbb\bin\php\ext\php_pdo_sqlite.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pgsql' (tried: E:\phpbb\bin\php\ext\pgsql (The specified module could not be found), E:\phpbb\bin\php\ext\php_pgsql.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  Module "soap" is already loaded in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  Module "sockets" is already loaded in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'sodium' (tried: E:\phpbb\bin\php\ext\sodium (The specified module could not be found), E:\phpbb\bin\php\ext\php_sodium.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'sqlite3' (tried: E:\phpbb\bin\php\ext\sqlite3 (The specified module could not be found), E:\phpbb\bin\php\ext\php_sqlite3.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  Module "tidy" is already loaded in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  Module "xsl" is already loaded in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  Module "zip" is already loaded in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: E:\phpbb\bin\php\ext\curl (The specified module could not be found), E:\phpbb\bin\php\ext\php_curl.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  Module "FFI" is already loaded in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  Module "ftp" is already loaded in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  Module "fileinfo" is already loaded in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  Module "gd" is already loaded in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  Module "gettext" is already loaded in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  Module "gmp" is already loaded in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: E:\phpbb\bin\php\ext\intl (The specified module could not be found), E:\phpbb\bin\php\ext\php_intl.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  Module "imap" is already loaded in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  Module "mbstring" is already loaded in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  Module "exif" is already loaded in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  Module "mysqli" is already loaded in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  Module "pdo_mysql" is already loaded in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_pgsql' (tried: E:\phpbb\bin\php\ext\pdo_pgsql (The specified module could not be found), E:\phpbb\bin\php\ext\php_pdo_pgsql.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite' (tried: E:\phpbb\bin\php\ext\pdo_sqlite (The specified module could not be found), E:\phpbb\bin\php\ext\php_pdo_sqlite.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pgsql' (tried: E:\phpbb\bin\php\ext\pgsql (The specified module could not be found), E:\phpbb\bin\php\ext\php_pgsql.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  Module "soap" is already loaded in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  Module "sockets" is already loaded in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'sodium' (tried: E:\phpbb\bin\php\ext\sodium (The specified module could not be found), E:\phpbb\bin\php\ext\php_sodium.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'sqlite3' (tried: E:\phpbb\bin\php\ext\sqlite3 (The specified module could not be found), E:\phpbb\bin\php\ext\php_sqlite3.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  Module "tidy" is already loaded in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  Module "xsl" is already loaded in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  Module "zip" is already loaded in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: E:\phpbb\bin\php\ext\curl (The specified module could not be found), E:\phpbb\bin\php\ext\php_curl.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  Module "FFI" is already loaded in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  Module "ftp" is already loaded in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  Module "fileinfo" is already loaded in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  Module "gd" is already loaded in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  Module "gettext" is already loaded in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  Module "gmp" is already loaded in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: E:\phpbb\bin\php\ext\intl (The specified module could not be found), E:\phpbb\bin\php\ext\php_intl.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  Module "imap" is already loaded in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  Module "mbstring" is already loaded in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  Module "exif" is already loaded in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  Module "mysqli" is already loaded in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  Module "pdo_mysql" is already loaded in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_pgsql' (tried: E:\phpbb\bin\php\ext\pdo_pgsql (The specified module could not be found), E:\phpbb\bin\php\ext\php_pdo_pgsql.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite' (tried: E:\phpbb\bin\php\ext\pdo_sqlite (The specified module could not be found), E:\phpbb\bin\php\ext\php_pdo_sqlite.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pgsql' (tried: E:\phpbb\bin\php\ext\pgsql (The specified module could not be found), E:\phpbb\bin\php\ext\php_pgsql.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  Module "soap" is already loaded in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  Module "sockets" is already loaded in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'sodium' (tried: E:\phpbb\bin\php\ext\sodium (The specified module could not be found), E:\phpbb\bin\php\ext\php_sodium.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'sqlite3' (tried: E:\phpbb\bin\php\ext\sqlite3 (The specified module could not be found), E:\phpbb\bin\php\ext\php_sqlite3.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  Module "tidy" is already loaded in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  Module "xsl" is already loaded in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  Module "zip" is already loaded in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: E:\phpbb\bin\php\ext\curl (The specified module could not be found), E:\phpbb\bin\php\ext\php_curl.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  Module "FFI" is already loaded in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  Module "ftp" is already loaded in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  Module "fileinfo" is already loaded in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  Module "gd" is already loaded in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  Module "gettext" is already loaded in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  Module "gmp" is already loaded in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: E:\phpbb\bin\php\ext\intl (The specified module could not be found), E:\phpbb\bin\php\ext\php_intl.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  Module "imap" is already loaded in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  Module "mbstring" is already loaded in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  Module "exif" is already loaded in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  Module "mysqli" is already loaded in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  Module "pdo_mysql" is already loaded in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_pgsql' (tried: E:\phpbb\bin\php\ext\pdo_pgsql (The specified module could not be found), E:\phpbb\bin\php\ext\php_pdo_pgsql.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite' (tried: E:\phpbb\bin\php\ext\pdo_sqlite (The specified module could not be found), E:\phpbb\bin\php\ext\php_pdo_sqlite.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pgsql' (tried: E:\phpbb\bin\php\ext\pgsql (The specified module could not be found), E:\phpbb\bin\php\ext\php_pgsql.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  Module "soap" is already loaded in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  Module "sockets" is already loaded in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'sodium' (tried: E:\phpbb\bin\php\ext\sodium (The specified module could not be found), E:\phpbb\bin\php\ext\php_sodium.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'sqlite3' (tried: E:\phpbb\bin\php\ext\sqlite3 (The specified module could not be found), E:\phpbb\bin\php\ext\php_sqlite3.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  Module "tidy" is already loaded in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  Module "xsl" is already loaded in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  Module "zip" is already loaded in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: E:\phpbb\bin\php\ext\curl (The specified module could not be found), E:\phpbb\bin\php\ext\php_curl.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  Module "FFI" is already loaded in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  Module "ftp" is already loaded in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  Module "fileinfo" is already loaded in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  Module "gd" is already loaded in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  Module "gettext" is already loaded in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  Module "gmp" is already loaded in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: E:\phpbb\bin\php\ext\intl (The specified module could not be found), E:\phpbb\bin\php\ext\php_intl.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  Module "imap" is already loaded in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  Module "mbstring" is already loaded in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  Module "exif" is already loaded in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  Module "mysqli" is already loaded in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  Module "pdo_mysql" is already loaded in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_pgsql' (tried: E:\phpbb\bin\php\ext\pdo_pgsql (The specified module could not be found), E:\phpbb\bin\php\ext\php_pdo_pgsql.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite' (tried: E:\phpbb\bin\php\ext\pdo_sqlite (The specified module could not be found), E:\phpbb\bin\php\ext\php_pdo_sqlite.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pgsql' (tried: E:\phpbb\bin\php\ext\pgsql (The specified module could not be found), E:\phpbb\bin\php\ext\php_pgsql.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  Module "soap" is already loaded in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  Module "sockets" is already loaded in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'sodium' (tried: E:\phpbb\bin\php\ext\sodium (The specified module could not be found), E:\phpbb\bin\php\ext\php_sodium.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'sqlite3' (tried: E:\phpbb\bin\php\ext\sqlite3 (The specified module could not be found), E:\phpbb\bin\php\ext\php_sqlite3.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  Module "tidy" is already loaded in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  Module "xsl" is already loaded in Unknown on line 0
+[16-Mar-2023 22:37:59 UTC] PHP Warning:  Module "zip" is already loaded in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: E:\phpbb\bin\php\ext\curl (The specified module could not be found), E:\phpbb\bin\php\ext\php_curl.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: E:\phpbb\bin\php\ext\intl (The specified module could not be found), E:\phpbb\bin\php\ext\php_intl.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_pgsql' (tried: E:\phpbb\bin\php\ext\pdo_pgsql (The specified module could not be found), E:\phpbb\bin\php\ext\php_pdo_pgsql.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite' (tried: E:\phpbb\bin\php\ext\pdo_sqlite (The specified module could not be found), E:\phpbb\bin\php\ext\php_pdo_sqlite.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pgsql' (tried: E:\phpbb\bin\php\ext\pgsql (The specified module could not be found), E:\phpbb\bin\php\ext\php_pgsql.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'sodium' (tried: E:\phpbb\bin\php\ext\sodium (The specified module could not be found), E:\phpbb\bin\php\ext\php_sodium.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'sqlite3' (tried: E:\phpbb\bin\php\ext\sqlite3 (The specified module could not be found), E:\phpbb\bin\php\ext\php_sqlite3.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: E:\phpbb\bin\php\ext\curl (The specified module could not be found), E:\phpbb\bin\php\ext\php_curl.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  Module "FFI" is already loaded in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  Module "ftp" is already loaded in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  Module "fileinfo" is already loaded in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  Module "gd" is already loaded in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  Module "gettext" is already loaded in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  Module "gmp" is already loaded in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: E:\phpbb\bin\php\ext\intl (The specified module could not be found), E:\phpbb\bin\php\ext\php_intl.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  Module "imap" is already loaded in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  Module "mbstring" is already loaded in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  Module "exif" is already loaded in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  Module "mysqli" is already loaded in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  Module "pdo_mysql" is already loaded in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_pgsql' (tried: E:\phpbb\bin\php\ext\pdo_pgsql (The specified module could not be found), E:\phpbb\bin\php\ext\php_pdo_pgsql.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite' (tried: E:\phpbb\bin\php\ext\pdo_sqlite (The specified module could not be found), E:\phpbb\bin\php\ext\php_pdo_sqlite.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pgsql' (tried: E:\phpbb\bin\php\ext\pgsql (The specified module could not be found), E:\phpbb\bin\php\ext\php_pgsql.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  Module "soap" is already loaded in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  Module "sockets" is already loaded in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'sodium' (tried: E:\phpbb\bin\php\ext\sodium (The specified module could not be found), E:\phpbb\bin\php\ext\php_sodium.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'sqlite3' (tried: E:\phpbb\bin\php\ext\sqlite3 (The specified module could not be found), E:\phpbb\bin\php\ext\php_sqlite3.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  Module "tidy" is already loaded in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  Module "xsl" is already loaded in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  Module "zip" is already loaded in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: E:\phpbb\bin\php\ext\curl (The specified module could not be found), E:\phpbb\bin\php\ext\php_curl.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  Module "FFI" is already loaded in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  Module "ftp" is already loaded in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  Module "fileinfo" is already loaded in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  Module "gd" is already loaded in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  Module "gettext" is already loaded in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  Module "gmp" is already loaded in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: E:\phpbb\bin\php\ext\intl (The specified module could not be found), E:\phpbb\bin\php\ext\php_intl.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  Module "imap" is already loaded in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  Module "mbstring" is already loaded in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  Module "exif" is already loaded in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  Module "mysqli" is already loaded in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  Module "pdo_mysql" is already loaded in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_pgsql' (tried: E:\phpbb\bin\php\ext\pdo_pgsql (The specified module could not be found), E:\phpbb\bin\php\ext\php_pdo_pgsql.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite' (tried: E:\phpbb\bin\php\ext\pdo_sqlite (The specified module could not be found), E:\phpbb\bin\php\ext\php_pdo_sqlite.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pgsql' (tried: E:\phpbb\bin\php\ext\pgsql (The specified module could not be found), E:\phpbb\bin\php\ext\php_pgsql.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  Module "soap" is already loaded in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  Module "sockets" is already loaded in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'sodium' (tried: E:\phpbb\bin\php\ext\sodium (The specified module could not be found), E:\phpbb\bin\php\ext\php_sodium.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'sqlite3' (tried: E:\phpbb\bin\php\ext\sqlite3 (The specified module could not be found), E:\phpbb\bin\php\ext\php_sqlite3.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  Module "tidy" is already loaded in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  Module "xsl" is already loaded in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  Module "zip" is already loaded in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: E:\phpbb\bin\php\ext\curl (The specified module could not be found), E:\phpbb\bin\php\ext\php_curl.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  Module "FFI" is already loaded in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  Module "ftp" is already loaded in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  Module "fileinfo" is already loaded in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  Module "gd" is already loaded in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  Module "gettext" is already loaded in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  Module "gmp" is already loaded in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: E:\phpbb\bin\php\ext\intl (The specified module could not be found), E:\phpbb\bin\php\ext\php_intl.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  Module "imap" is already loaded in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  Module "mbstring" is already loaded in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  Module "exif" is already loaded in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  Module "mysqli" is already loaded in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  Module "pdo_mysql" is already loaded in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_pgsql' (tried: E:\phpbb\bin\php\ext\pdo_pgsql (The specified module could not be found), E:\phpbb\bin\php\ext\php_pdo_pgsql.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite' (tried: E:\phpbb\bin\php\ext\pdo_sqlite (The specified module could not be found), E:\phpbb\bin\php\ext\php_pdo_sqlite.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pgsql' (tried: E:\phpbb\bin\php\ext\pgsql (The specified module could not be found), E:\phpbb\bin\php\ext\php_pgsql.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  Module "soap" is already loaded in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  Module "sockets" is already loaded in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'sodium' (tried: E:\phpbb\bin\php\ext\sodium (The specified module could not be found), E:\phpbb\bin\php\ext\php_sodium.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'sqlite3' (tried: E:\phpbb\bin\php\ext\sqlite3 (The specified module could not be found), E:\phpbb\bin\php\ext\php_sqlite3.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  Module "tidy" is already loaded in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  Module "xsl" is already loaded in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  Module "zip" is already loaded in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: E:\phpbb\bin\php\ext\curl (The specified module could not be found), E:\phpbb\bin\php\ext\php_curl.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  Module "FFI" is already loaded in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  Module "ftp" is already loaded in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  Module "fileinfo" is already loaded in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  Module "gd" is already loaded in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  Module "gettext" is already loaded in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  Module "gmp" is already loaded in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: E:\phpbb\bin\php\ext\intl (The specified module could not be found), E:\phpbb\bin\php\ext\php_intl.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  Module "imap" is already loaded in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  Module "mbstring" is already loaded in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  Module "exif" is already loaded in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  Module "mysqli" is already loaded in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  Module "pdo_mysql" is already loaded in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_pgsql' (tried: E:\phpbb\bin\php\ext\pdo_pgsql (The specified module could not be found), E:\phpbb\bin\php\ext\php_pdo_pgsql.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite' (tried: E:\phpbb\bin\php\ext\pdo_sqlite (The specified module could not be found), E:\phpbb\bin\php\ext\php_pdo_sqlite.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pgsql' (tried: E:\phpbb\bin\php\ext\pgsql (The specified module could not be found), E:\phpbb\bin\php\ext\php_pgsql.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  Module "soap" is already loaded in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  Module "sockets" is already loaded in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'sodium' (tried: E:\phpbb\bin\php\ext\sodium (The specified module could not be found), E:\phpbb\bin\php\ext\php_sodium.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'sqlite3' (tried: E:\phpbb\bin\php\ext\sqlite3 (The specified module could not be found), E:\phpbb\bin\php\ext\php_sqlite3.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  Module "tidy" is already loaded in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  Module "xsl" is already loaded in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  Module "zip" is already loaded in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: E:\phpbb\bin\php\ext\curl (The specified module could not be found), E:\phpbb\bin\php\ext\php_curl.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  Module "FFI" is already loaded in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  Module "ftp" is already loaded in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  Module "fileinfo" is already loaded in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  Module "gd" is already loaded in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  Module "gettext" is already loaded in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  Module "gmp" is already loaded in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: E:\phpbb\bin\php\ext\intl (The specified module could not be found), E:\phpbb\bin\php\ext\php_intl.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  Module "imap" is already loaded in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  Module "mbstring" is already loaded in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  Module "exif" is already loaded in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  Module "mysqli" is already loaded in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  Module "pdo_mysql" is already loaded in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_pgsql' (tried: E:\phpbb\bin\php\ext\pdo_pgsql (The specified module could not be found), E:\phpbb\bin\php\ext\php_pdo_pgsql.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite' (tried: E:\phpbb\bin\php\ext\pdo_sqlite (The specified module could not be found), E:\phpbb\bin\php\ext\php_pdo_sqlite.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pgsql' (tried: E:\phpbb\bin\php\ext\pgsql (The specified module could not be found), E:\phpbb\bin\php\ext\php_pgsql.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  Module "soap" is already loaded in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  Module "sockets" is already loaded in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'sodium' (tried: E:\phpbb\bin\php\ext\sodium (The specified module could not be found), E:\phpbb\bin\php\ext\php_sodium.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'sqlite3' (tried: E:\phpbb\bin\php\ext\sqlite3 (The specified module could not be found), E:\phpbb\bin\php\ext\php_sqlite3.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  Module "tidy" is already loaded in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  Module "xsl" is already loaded in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  Module "zip" is already loaded in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: E:\phpbb\bin\php\ext\curl (The specified module could not be found), E:\phpbb\bin\php\ext\php_curl.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  Module "FFI" is already loaded in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  Module "ftp" is already loaded in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  Module "fileinfo" is already loaded in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  Module "gd" is already loaded in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  Module "gettext" is already loaded in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  Module "gmp" is already loaded in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: E:\phpbb\bin\php\ext\intl (The specified module could not be found), E:\phpbb\bin\php\ext\php_intl.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  Module "imap" is already loaded in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  Module "mbstring" is already loaded in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  Module "exif" is already loaded in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  Module "mysqli" is already loaded in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  Module "pdo_mysql" is already loaded in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_pgsql' (tried: E:\phpbb\bin\php\ext\pdo_pgsql (The specified module could not be found), E:\phpbb\bin\php\ext\php_pdo_pgsql.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite' (tried: E:\phpbb\bin\php\ext\pdo_sqlite (The specified module could not be found), E:\phpbb\bin\php\ext\php_pdo_sqlite.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pgsql' (tried: E:\phpbb\bin\php\ext\pgsql (The specified module could not be found), E:\phpbb\bin\php\ext\php_pgsql.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  Module "soap" is already loaded in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  Module "sockets" is already loaded in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'sodium' (tried: E:\phpbb\bin\php\ext\sodium (The specified module could not be found), E:\phpbb\bin\php\ext\php_sodium.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'sqlite3' (tried: E:\phpbb\bin\php\ext\sqlite3 (The specified module could not be found), E:\phpbb\bin\php\ext\php_sqlite3.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  Module "tidy" is already loaded in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  Module "xsl" is already loaded in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  Module "zip" is already loaded in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: E:\phpbb\bin\php\ext\curl (The specified module could not be found), E:\phpbb\bin\php\ext\php_curl.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  Module "FFI" is already loaded in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  Module "ftp" is already loaded in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  Module "fileinfo" is already loaded in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  Module "gd" is already loaded in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  Module "gettext" is already loaded in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  Module "gmp" is already loaded in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: E:\phpbb\bin\php\ext\intl (The specified module could not be found), E:\phpbb\bin\php\ext\php_intl.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  Module "imap" is already loaded in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  Module "mbstring" is already loaded in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  Module "exif" is already loaded in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  Module "mysqli" is already loaded in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  Module "pdo_mysql" is already loaded in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_pgsql' (tried: E:\phpbb\bin\php\ext\pdo_pgsql (The specified module could not be found), E:\phpbb\bin\php\ext\php_pdo_pgsql.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite' (tried: E:\phpbb\bin\php\ext\pdo_sqlite (The specified module could not be found), E:\phpbb\bin\php\ext\php_pdo_sqlite.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pgsql' (tried: E:\phpbb\bin\php\ext\pgsql (The specified module could not be found), E:\phpbb\bin\php\ext\php_pgsql.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  Module "soap" is already loaded in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  Module "sockets" is already loaded in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'sodium' (tried: E:\phpbb\bin\php\ext\sodium (The specified module could not be found), E:\phpbb\bin\php\ext\php_sodium.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'sqlite3' (tried: E:\phpbb\bin\php\ext\sqlite3 (The specified module could not be found), E:\phpbb\bin\php\ext\php_sqlite3.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  Module "tidy" is already loaded in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  Module "xsl" is already loaded in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  Module "zip" is already loaded in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: E:\phpbb\bin\php\ext\curl (The specified module could not be found), E:\phpbb\bin\php\ext\php_curl.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  Module "FFI" is already loaded in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  Module "ftp" is already loaded in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  Module "fileinfo" is already loaded in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  Module "gd" is already loaded in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  Module "gettext" is already loaded in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  Module "gmp" is already loaded in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: E:\phpbb\bin\php\ext\intl (The specified module could not be found), E:\phpbb\bin\php\ext\php_intl.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  Module "imap" is already loaded in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  Module "mbstring" is already loaded in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  Module "exif" is already loaded in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  Module "mysqli" is already loaded in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  Module "pdo_mysql" is already loaded in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_pgsql' (tried: E:\phpbb\bin\php\ext\pdo_pgsql (The specified module could not be found), E:\phpbb\bin\php\ext\php_pdo_pgsql.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite' (tried: E:\phpbb\bin\php\ext\pdo_sqlite (The specified module could not be found), E:\phpbb\bin\php\ext\php_pdo_sqlite.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pgsql' (tried: E:\phpbb\bin\php\ext\pgsql (The specified module could not be found), E:\phpbb\bin\php\ext\php_pgsql.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  Module "soap" is already loaded in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  Module "sockets" is already loaded in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'sodium' (tried: E:\phpbb\bin\php\ext\sodium (The specified module could not be found), E:\phpbb\bin\php\ext\php_sodium.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'sqlite3' (tried: E:\phpbb\bin\php\ext\sqlite3 (The specified module could not be found), E:\phpbb\bin\php\ext\php_sqlite3.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  Module "tidy" is already loaded in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  Module "xsl" is already loaded in Unknown on line 0
+[16-Mar-2023 22:38:00 UTC] PHP Warning:  Module "zip" is already loaded in Unknown on line 0
+[16-Mar-2023 22:52:39 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: E:\phpbb\bin\php\ext\curl (The specified module could not be found), E:\phpbb\bin\php\ext\php_curl.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:52:39 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: E:\phpbb\bin\php\ext\intl (The specified module could not be found), E:\phpbb\bin\php\ext\php_intl.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:52:39 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_pgsql' (tried: E:\phpbb\bin\php\ext\pdo_pgsql (The specified module could not be found), E:\phpbb\bin\php\ext\php_pdo_pgsql.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:52:39 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite' (tried: E:\phpbb\bin\php\ext\pdo_sqlite (The specified module could not be found), E:\phpbb\bin\php\ext\php_pdo_sqlite.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:52:39 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pgsql' (tried: E:\phpbb\bin\php\ext\pgsql (The specified module could not be found), E:\phpbb\bin\php\ext\php_pgsql.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:52:39 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'sodium' (tried: E:\phpbb\bin\php\ext\sodium (The specified module could not be found), E:\phpbb\bin\php\ext\php_sodium.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:52:39 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'sqlite3' (tried: E:\phpbb\bin\php\ext\sqlite3 (The specified module could not be found), E:\phpbb\bin\php\ext\php_sqlite3.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:52:39 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: E:\phpbb\bin\php\ext\curl (The specified module could not be found), E:\phpbb\bin\php\ext\php_curl.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:52:39 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: E:\phpbb\bin\php\ext\intl (The specified module could not be found), E:\phpbb\bin\php\ext\php_intl.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:52:39 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_pgsql' (tried: E:\phpbb\bin\php\ext\pdo_pgsql (The specified module could not be found), E:\phpbb\bin\php\ext\php_pdo_pgsql.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:52:39 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite' (tried: E:\phpbb\bin\php\ext\pdo_sqlite (The specified module could not be found), E:\phpbb\bin\php\ext\php_pdo_sqlite.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:52:39 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pgsql' (tried: E:\phpbb\bin\php\ext\pgsql (The specified module could not be found), E:\phpbb\bin\php\ext\php_pgsql.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:52:39 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'sodium' (tried: E:\phpbb\bin\php\ext\sodium (The specified module could not be found), E:\phpbb\bin\php\ext\php_sodium.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:52:39 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'sqlite3' (tried: E:\phpbb\bin\php\ext\sqlite3 (The specified module could not be found), E:\phpbb\bin\php\ext\php_sqlite3.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:56:00 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: E:\phpbb\bin\php\ext\curl (The specified module could not be found), E:\phpbb\bin\php\ext\php_curl.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:56:00 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: E:\phpbb\bin\php\ext\intl (The specified module could not be found), E:\phpbb\bin\php\ext\php_intl.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:56:00 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_pgsql' (tried: E:\phpbb\bin\php\ext\pdo_pgsql (The specified module could not be found), E:\phpbb\bin\php\ext\php_pdo_pgsql.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:56:00 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite' (tried: E:\phpbb\bin\php\ext\pdo_sqlite (The specified module could not be found), E:\phpbb\bin\php\ext\php_pdo_sqlite.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:56:00 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pgsql' (tried: E:\phpbb\bin\php\ext\pgsql (The specified module could not be found), E:\phpbb\bin\php\ext\php_pgsql.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:56:00 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'sodium' (tried: E:\phpbb\bin\php\ext\sodium (The specified module could not be found), E:\phpbb\bin\php\ext\php_sodium.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:56:00 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'sqlite3' (tried: E:\phpbb\bin\php\ext\sqlite3 (The specified module could not be found), E:\phpbb\bin\php\ext\php_sqlite3.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:56:01 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: E:\phpbb\bin\php\ext\curl (The specified module could not be found), E:\phpbb\bin\php\ext\php_curl.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:56:01 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: E:\phpbb\bin\php\ext\intl (The specified module could not be found), E:\phpbb\bin\php\ext\php_intl.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:56:01 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_pgsql' (tried: E:\phpbb\bin\php\ext\pdo_pgsql (The specified module could not be found), E:\phpbb\bin\php\ext\php_pdo_pgsql.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:56:01 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite' (tried: E:\phpbb\bin\php\ext\pdo_sqlite (The specified module could not be found), E:\phpbb\bin\php\ext\php_pdo_sqlite.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:56:01 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pgsql' (tried: E:\phpbb\bin\php\ext\pgsql (The specified module could not be found), E:\phpbb\bin\php\ext\php_pgsql.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:56:01 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'sodium' (tried: E:\phpbb\bin\php\ext\sodium (The specified module could not be found), E:\phpbb\bin\php\ext\php_sodium.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 22:56:01 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'sqlite3' (tried: E:\phpbb\bin\php\ext\sqlite3 (The specified module could not be found), E:\phpbb\bin\php\ext\php_sqlite3.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 23:01:46 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: E:\phpbb\bin\php\ext\curl (The specified module could not be found), E:\phpbb\bin\php\ext\php_curl.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 23:01:46 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: E:\phpbb\bin\php\ext\intl (The specified module could not be found), E:\phpbb\bin\php\ext\php_intl.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 23:01:46 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_pgsql' (tried: E:\phpbb\bin\php\ext\pdo_pgsql (The specified module could not be found), E:\phpbb\bin\php\ext\php_pdo_pgsql.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 23:01:46 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite' (tried: E:\phpbb\bin\php\ext\pdo_sqlite (The specified module could not be found), E:\phpbb\bin\php\ext\php_pdo_sqlite.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 23:01:46 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pgsql' (tried: E:\phpbb\bin\php\ext\pgsql (The specified module could not be found), E:\phpbb\bin\php\ext\php_pgsql.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 23:01:46 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'sodium' (tried: E:\phpbb\bin\php\ext\sodium (The specified module could not be found), E:\phpbb\bin\php\ext\php_sodium.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 23:01:46 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'sqlite3' (tried: E:\phpbb\bin\php\ext\sqlite3 (The specified module could not be found), E:\phpbb\bin\php\ext\php_sqlite3.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 23:01:46 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: E:\phpbb\bin\php\ext\curl (The specified module could not be found), E:\phpbb\bin\php\ext\php_curl.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 23:01:46 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: E:\phpbb\bin\php\ext\intl (The specified module could not be found), E:\phpbb\bin\php\ext\php_intl.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 23:01:46 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_pgsql' (tried: E:\phpbb\bin\php\ext\pdo_pgsql (The specified module could not be found), E:\phpbb\bin\php\ext\php_pdo_pgsql.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 23:01:46 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite' (tried: E:\phpbb\bin\php\ext\pdo_sqlite (The specified module could not be found), E:\phpbb\bin\php\ext\php_pdo_sqlite.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 23:01:46 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pgsql' (tried: E:\phpbb\bin\php\ext\pgsql (The specified module could not be found), E:\phpbb\bin\php\ext\php_pgsql.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 23:01:46 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'sodium' (tried: E:\phpbb\bin\php\ext\sodium (The specified module could not be found), E:\phpbb\bin\php\ext\php_sodium.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 23:01:46 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'sqlite3' (tried: E:\phpbb\bin\php\ext\sqlite3 (The specified module could not be found), E:\phpbb\bin\php\ext\php_sqlite3.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 23:06:04 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: E:\phpbb\bin\php\ext\curl (The specified module could not be found), E:\phpbb\bin\php\ext\php_curl.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 23:06:04 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: E:\phpbb\bin\php\ext\intl (The specified module could not be found), E:\phpbb\bin\php\ext\php_intl.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 23:06:04 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_pgsql' (tried: E:\phpbb\bin\php\ext\pdo_pgsql (The specified module could not be found), E:\phpbb\bin\php\ext\php_pdo_pgsql.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 23:06:04 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite' (tried: E:\phpbb\bin\php\ext\pdo_sqlite (The specified module could not be found), E:\phpbb\bin\php\ext\php_pdo_sqlite.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 23:06:04 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pgsql' (tried: E:\phpbb\bin\php\ext\pgsql (The specified module could not be found), E:\phpbb\bin\php\ext\php_pgsql.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 23:06:04 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'sodium' (tried: E:\phpbb\bin\php\ext\sodium (The specified module could not be found), E:\phpbb\bin\php\ext\php_sodium.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 23:06:04 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'sqlite3' (tried: E:\phpbb\bin\php\ext\sqlite3 (The specified module could not be found), E:\phpbb\bin\php\ext\php_sqlite3.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 23:06:04 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: E:\phpbb\bin\php\ext\curl (The specified module could not be found), E:\phpbb\bin\php\ext\php_curl.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 23:06:04 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: E:\phpbb\bin\php\ext\intl (The specified module could not be found), E:\phpbb\bin\php\ext\php_intl.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 23:06:04 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_pgsql' (tried: E:\phpbb\bin\php\ext\pdo_pgsql (The specified module could not be found), E:\phpbb\bin\php\ext\php_pdo_pgsql.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 23:06:04 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite' (tried: E:\phpbb\bin\php\ext\pdo_sqlite (The specified module could not be found), E:\phpbb\bin\php\ext\php_pdo_sqlite.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 23:06:04 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pgsql' (tried: E:\phpbb\bin\php\ext\pgsql (The specified module could not be found), E:\phpbb\bin\php\ext\php_pgsql.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 23:06:04 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'sodium' (tried: E:\phpbb\bin\php\ext\sodium (The specified module could not be found), E:\phpbb\bin\php\ext\php_sodium.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 23:06:04 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'sqlite3' (tried: E:\phpbb\bin\php\ext\sqlite3 (The specified module could not be found), E:\phpbb\bin\php\ext\php_sqlite3.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 23:07:33 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: E:\phpbb\bin\php\ext\curl (The specified module could not be found), E:\phpbb\bin\php\ext\php_curl.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 23:07:33 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: E:\phpbb\bin\php\ext\intl (The specified module could not be found), E:\phpbb\bin\php\ext\php_intl.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 23:07:33 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_pgsql' (tried: E:\phpbb\bin\php\ext\pdo_pgsql (The specified module could not be found), E:\phpbb\bin\php\ext\php_pdo_pgsql.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 23:07:33 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite' (tried: E:\phpbb\bin\php\ext\pdo_sqlite (The specified module could not be found), E:\phpbb\bin\php\ext\php_pdo_sqlite.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 23:07:33 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pgsql' (tried: E:\phpbb\bin\php\ext\pgsql (The specified module could not be found), E:\phpbb\bin\php\ext\php_pgsql.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 23:07:33 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'sodium' (tried: E:\phpbb\bin\php\ext\sodium (The specified module could not be found), E:\phpbb\bin\php\ext\php_sodium.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 23:07:33 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'sqlite3' (tried: E:\phpbb\bin\php\ext\sqlite3 (The specified module could not be found), E:\phpbb\bin\php\ext\php_sqlite3.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 23:07:33 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: E:\phpbb\bin\php\ext\curl (The specified module could not be found), E:\phpbb\bin\php\ext\php_curl.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 23:07:33 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: E:\phpbb\bin\php\ext\intl (The specified module could not be found), E:\phpbb\bin\php\ext\php_intl.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 23:07:33 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_pgsql' (tried: E:\phpbb\bin\php\ext\pdo_pgsql (The specified module could not be found), E:\phpbb\bin\php\ext\php_pdo_pgsql.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 23:07:33 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite' (tried: E:\phpbb\bin\php\ext\pdo_sqlite (The specified module could not be found), E:\phpbb\bin\php\ext\php_pdo_sqlite.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 23:07:33 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pgsql' (tried: E:\phpbb\bin\php\ext\pgsql (The specified module could not be found), E:\phpbb\bin\php\ext\php_pgsql.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 23:07:33 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'sodium' (tried: E:\phpbb\bin\php\ext\sodium (The specified module could not be found), E:\phpbb\bin\php\ext\php_sodium.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 23:07:33 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'sqlite3' (tried: E:\phpbb\bin\php\ext\sqlite3 (The specified module could not be found), E:\phpbb\bin\php\ext\php_sqlite3.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 23:08:47 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: E:\phpbb\bin\php\ext\curl (The specified module could not be found), E:\phpbb\bin\php\ext\php_curl.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 23:08:47 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: E:\phpbb\bin\php\ext\intl (The specified module could not be found), E:\phpbb\bin\php\ext\php_intl.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 23:08:47 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_pgsql' (tried: E:\phpbb\bin\php\ext\pdo_pgsql (The specified module could not be found), E:\phpbb\bin\php\ext\php_pdo_pgsql.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 23:08:47 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite' (tried: E:\phpbb\bin\php\ext\pdo_sqlite (The specified module could not be found), E:\phpbb\bin\php\ext\php_pdo_sqlite.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 23:08:47 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pgsql' (tried: E:\phpbb\bin\php\ext\pgsql (The specified module could not be found), E:\phpbb\bin\php\ext\php_pgsql.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 23:08:47 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'sodium' (tried: E:\phpbb\bin\php\ext\sodium (The specified module could not be found), E:\phpbb\bin\php\ext\php_sodium.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 23:08:47 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'sqlite3' (tried: E:\phpbb\bin\php\ext\sqlite3 (The specified module could not be found), E:\phpbb\bin\php\ext\php_sqlite3.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 23:08:47 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: E:\phpbb\bin\php\ext\curl (The specified module could not be found), E:\phpbb\bin\php\ext\php_curl.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 23:08:47 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: E:\phpbb\bin\php\ext\intl (The specified module could not be found), E:\phpbb\bin\php\ext\php_intl.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 23:08:47 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_pgsql' (tried: E:\phpbb\bin\php\ext\pdo_pgsql (The specified module could not be found), E:\phpbb\bin\php\ext\php_pdo_pgsql.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 23:08:47 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite' (tried: E:\phpbb\bin\php\ext\pdo_sqlite (The specified module could not be found), E:\phpbb\bin\php\ext\php_pdo_sqlite.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 23:08:47 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pgsql' (tried: E:\phpbb\bin\php\ext\pgsql (The specified module could not be found), E:\phpbb\bin\php\ext\php_pgsql.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 23:08:47 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'sodium' (tried: E:\phpbb\bin\php\ext\sodium (The specified module could not be found), E:\phpbb\bin\php\ext\php_sodium.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 23:08:47 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'sqlite3' (tried: E:\phpbb\bin\php\ext\sqlite3 (The specified module could not be found), E:\phpbb\bin\php\ext\php_sqlite3.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 23:10:29 UTC] PHP Fatal error:  Uncaught ArgumentCountError: apache_getenv() expects at least 1 argument, 0 given in E:\phpbb\www\test.php:3
+Stack trace:
+#0 E:\phpbb\www\test.php(3): apache_getenv()
+#1 {main}
+  thrown in E:\phpbb\www\test.php on line 3
+[16-Mar-2023 23:12:18 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: E:\phpbb\bin\php\ext\curl (The specified module could not be found), E:\phpbb\bin\php\ext\php_curl.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 23:12:18 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: E:\phpbb\bin\php\ext\intl (The specified module could not be found), E:\phpbb\bin\php\ext\php_intl.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 23:12:18 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_pgsql' (tried: E:\phpbb\bin\php\ext\pdo_pgsql (The specified module could not be found), E:\phpbb\bin\php\ext\php_pdo_pgsql.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 23:12:18 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite' (tried: E:\phpbb\bin\php\ext\pdo_sqlite (The specified module could not be found), E:\phpbb\bin\php\ext\php_pdo_sqlite.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 23:12:18 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pgsql' (tried: E:\phpbb\bin\php\ext\pgsql (The specified module could not be found), E:\phpbb\bin\php\ext\php_pgsql.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 23:12:18 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'sodium' (tried: E:\phpbb\bin\php\ext\sodium (The specified module could not be found), E:\phpbb\bin\php\ext\php_sodium.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 23:12:18 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'sqlite3' (tried: E:\phpbb\bin\php\ext\sqlite3 (The specified module could not be found), E:\phpbb\bin\php\ext\php_sqlite3.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 23:12:19 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: E:\phpbb\bin\php\ext\curl (The specified module could not be found), E:\phpbb\bin\php\ext\php_curl.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 23:12:19 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: E:\phpbb\bin\php\ext\intl (The specified module could not be found), E:\phpbb\bin\php\ext\php_intl.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 23:12:19 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_pgsql' (tried: E:\phpbb\bin\php\ext\pdo_pgsql (The specified module could not be found), E:\phpbb\bin\php\ext\php_pdo_pgsql.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 23:12:19 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite' (tried: E:\phpbb\bin\php\ext\pdo_sqlite (The specified module could not be found), E:\phpbb\bin\php\ext\php_pdo_sqlite.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 23:12:19 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pgsql' (tried: E:\phpbb\bin\php\ext\pgsql (The specified module could not be found), E:\phpbb\bin\php\ext\php_pgsql.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 23:12:19 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'sodium' (tried: E:\phpbb\bin\php\ext\sodium (The specified module could not be found), E:\phpbb\bin\php\ext\php_sodium.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 23:12:19 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'sqlite3' (tried: E:\phpbb\bin\php\ext\sqlite3 (The specified module could not be found), E:\phpbb\bin\php\ext\php_sqlite3.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 23:15:53 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: E:\phpbb\bin\php\ext\curl (The specified module could not be found), E:\phpbb\bin\php\ext\php_curl.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 23:15:53 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: E:\phpbb\bin\php\ext\intl (The specified module could not be found), E:\phpbb\bin\php\ext\php_intl.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 23:15:53 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_pgsql' (tried: E:\phpbb\bin\php\ext\pdo_pgsql (The specified module could not be found), E:\phpbb\bin\php\ext\php_pdo_pgsql.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 23:15:53 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite' (tried: E:\phpbb\bin\php\ext\pdo_sqlite (The specified module could not be found), E:\phpbb\bin\php\ext\php_pdo_sqlite.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 23:15:53 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pgsql' (tried: E:\phpbb\bin\php\ext\pgsql (The specified module could not be found), E:\phpbb\bin\php\ext\php_pgsql.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 23:15:53 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'sodium' (tried: E:\phpbb\bin\php\ext\sodium (The specified module could not be found), E:\phpbb\bin\php\ext\php_sodium.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 23:15:53 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'sqlite3' (tried: E:\phpbb\bin\php\ext\sqlite3 (The specified module could not be found), E:\phpbb\bin\php\ext\php_sqlite3.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 23:15:54 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: E:\phpbb\bin\php\ext\curl (The specified module could not be found), E:\phpbb\bin\php\ext\php_curl.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 23:15:54 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: E:\phpbb\bin\php\ext\intl (The specified module could not be found), E:\phpbb\bin\php\ext\php_intl.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 23:15:54 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_pgsql' (tried: E:\phpbb\bin\php\ext\pdo_pgsql (The specified module could not be found), E:\phpbb\bin\php\ext\php_pdo_pgsql.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 23:15:54 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite' (tried: E:\phpbb\bin\php\ext\pdo_sqlite (The specified module could not be found), E:\phpbb\bin\php\ext\php_pdo_sqlite.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 23:15:54 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pgsql' (tried: E:\phpbb\bin\php\ext\pgsql (The specified module could not be found), E:\phpbb\bin\php\ext\php_pgsql.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 23:15:54 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'sodium' (tried: E:\phpbb\bin\php\ext\sodium (The specified module could not be found), E:\phpbb\bin\php\ext\php_sodium.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 23:15:54 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'sqlite3' (tried: E:\phpbb\bin\php\ext\sqlite3 (The specified module could not be found), E:\phpbb\bin\php\ext\php_sqlite3.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 23:28:44 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: E:\phpbb\bin\php\ext\curl (The specified module could not be found), E:\phpbb\bin\php\ext\php_curl.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 23:28:44 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: E:\phpbb\bin\php\ext\intl (The specified module could not be found), E:\phpbb\bin\php\ext\php_intl.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 23:28:44 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_pgsql' (tried: E:\phpbb\bin\php\ext\pdo_pgsql (The specified module could not be found), E:\phpbb\bin\php\ext\php_pdo_pgsql.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 23:28:44 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite' (tried: E:\phpbb\bin\php\ext\pdo_sqlite (The specified module could not be found), E:\phpbb\bin\php\ext\php_pdo_sqlite.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 23:28:44 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pgsql' (tried: E:\phpbb\bin\php\ext\pgsql (The specified module could not be found), E:\phpbb\bin\php\ext\php_pgsql.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 23:28:44 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'sodium' (tried: E:\phpbb\bin\php\ext\sodium (The specified module could not be found), E:\phpbb\bin\php\ext\php_sodium.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 23:28:44 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'sqlite3' (tried: E:\phpbb\bin\php\ext\sqlite3 (The specified module could not be found), E:\phpbb\bin\php\ext\php_sqlite3.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 23:28:44 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: E:\phpbb\bin\php\ext\curl (The specified module could not be found), E:\phpbb\bin\php\ext\php_curl.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 23:28:44 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: E:\phpbb\bin\php\ext\intl (The specified module could not be found), E:\phpbb\bin\php\ext\php_intl.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 23:28:44 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_pgsql' (tried: E:\phpbb\bin\php\ext\pdo_pgsql (The specified module could not be found), E:\phpbb\bin\php\ext\php_pdo_pgsql.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 23:28:44 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite' (tried: E:\phpbb\bin\php\ext\pdo_sqlite (The specified module could not be found), E:\phpbb\bin\php\ext\php_pdo_sqlite.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 23:28:44 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pgsql' (tried: E:\phpbb\bin\php\ext\pgsql (The specified module could not be found), E:\phpbb\bin\php\ext\php_pgsql.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 23:28:44 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'sodium' (tried: E:\phpbb\bin\php\ext\sodium (The specified module could not be found), E:\phpbb\bin\php\ext\php_sodium.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 23:28:44 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'sqlite3' (tried: E:\phpbb\bin\php\ext\sqlite3 (The specified module could not be found), E:\phpbb\bin\php\ext\php_sqlite3.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 23:32:58 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: E:\phpbb\bin\php\ext\curl (The specified module could not be found), E:\phpbb\bin\php\ext\php_curl.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 23:32:58 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: E:\phpbb\bin\php\ext\intl (The specified module could not be found), E:\phpbb\bin\php\ext\php_intl.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 23:32:58 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_pgsql' (tried: E:\phpbb\bin\php\ext\pdo_pgsql (The specified module could not be found), E:\phpbb\bin\php\ext\php_pdo_pgsql.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 23:32:58 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite' (tried: E:\phpbb\bin\php\ext\pdo_sqlite (The specified module could not be found), E:\phpbb\bin\php\ext\php_pdo_sqlite.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 23:32:58 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pgsql' (tried: E:\phpbb\bin\php\ext\pgsql (The specified module could not be found), E:\phpbb\bin\php\ext\php_pgsql.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 23:32:58 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'sodium' (tried: E:\phpbb\bin\php\ext\sodium (The specified module could not be found), E:\phpbb\bin\php\ext\php_sodium.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 23:32:58 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'sqlite3' (tried: E:\phpbb\bin\php\ext\sqlite3 (The specified module could not be found), E:\phpbb\bin\php\ext\php_sqlite3.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 23:32:59 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: E:\phpbb\bin\php\ext\curl (The specified module could not be found), E:\phpbb\bin\php\ext\php_curl.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 23:32:59 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: E:\phpbb\bin\php\ext\intl (The specified module could not be found), E:\phpbb\bin\php\ext\php_intl.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 23:32:59 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_pgsql' (tried: E:\phpbb\bin\php\ext\pdo_pgsql (The specified module could not be found), E:\phpbb\bin\php\ext\php_pdo_pgsql.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 23:32:59 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite' (tried: E:\phpbb\bin\php\ext\pdo_sqlite (The specified module could not be found), E:\phpbb\bin\php\ext\php_pdo_sqlite.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 23:32:59 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pgsql' (tried: E:\phpbb\bin\php\ext\pgsql (The specified module could not be found), E:\phpbb\bin\php\ext\php_pgsql.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 23:32:59 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'sodium' (tried: E:\phpbb\bin\php\ext\sodium (The specified module could not be found), E:\phpbb\bin\php\ext\php_sodium.dll (The specified module could not be found)) in Unknown on line 0
+[16-Mar-2023 23:32:59 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'sqlite3' (tried: E:\phpbb\bin\php\ext\sqlite3 (The specified module could not be found), E:\phpbb\bin\php\ext\php_sqlite3.dll (The specified module could not be found)) in Unknown on line 0
+[17-Mar-2023 01:29:48 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: C:\php\ext\curl (The specified module could not be found), C:\php\ext\php_curl.dll (The specified module could not be found)) in Unknown on line 0
+[17-Mar-2023 01:29:48 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'ffi' (tried: C:\php\ext\ffi (The specified module could not be found), C:\php\ext\php_ffi.dll (The specified module could not be found)) in Unknown on line 0
+[17-Mar-2023 01:29:48 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'ftp' (tried: C:\php\ext\ftp (The specified module could not be found), C:\php\ext\php_ftp.dll (The specified module could not be found)) in Unknown on line 0
+[17-Mar-2023 01:29:48 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'fileinfo' (tried: C:\php\ext\fileinfo (The specified module could not be found), C:\php\ext\php_fileinfo.dll (The specified module could not be found)) in Unknown on line 0
+[17-Mar-2023 01:29:48 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'gd' (tried: C:\php\ext\gd (The specified module could not be found), C:\php\ext\php_gd.dll (The specified module could not be found)) in Unknown on line 0
+[17-Mar-2023 01:30:02 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: C:\php\ext\curl (The specified module could not be found), C:\php\ext\php_curl.dll (The specified module could not be found)) in Unknown on line 0
+[17-Mar-2023 01:30:02 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'ffi' (tried: C:\php\ext\ffi (The specified module could not be found), C:\php\ext\php_ffi.dll (The specified module could not be found)) in Unknown on line 0
+[17-Mar-2023 01:30:02 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'ftp' (tried: C:\php\ext\ftp (The specified module could not be found), C:\php\ext\php_ftp.dll (The specified module could not be found)) in Unknown on line 0
+[17-Mar-2023 01:30:02 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'fileinfo' (tried: C:\php\ext\fileinfo (The specified module could not be found), C:\php\ext\php_fileinfo.dll (The specified module could not be found)) in Unknown on line 0
+[17-Mar-2023 01:30:02 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'gd' (tried: C:\php\ext\gd (The specified module could not be found), C:\php\ext\php_gd.dll (The specified module could not be found)) in Unknown on line 0
+[17-Mar-2023 01:30:02 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: C:\php\ext\curl (The specified module could not be found), C:\php\ext\php_curl.dll (The specified module could not be found)) in Unknown on line 0
+[17-Mar-2023 01:30:02 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'ffi' (tried: C:\php\ext\ffi (The specified module could not be found), C:\php\ext\php_ffi.dll (The specified module could not be found)) in Unknown on line 0
+[17-Mar-2023 01:30:02 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'ftp' (tried: C:\php\ext\ftp (The specified module could not be found), C:\php\ext\php_ftp.dll (The specified module could not be found)) in Unknown on line 0
+[17-Mar-2023 01:30:02 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'fileinfo' (tried: C:\php\ext\fileinfo (The specified module could not be found), C:\php\ext\php_fileinfo.dll (The specified module could not be found)) in Unknown on line 0
+[17-Mar-2023 01:30:02 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'gd' (tried: C:\php\ext\gd (The specified module could not be found), C:\php\ext\php_gd.dll (The specified module could not be found)) in Unknown on line 0
+[17-Mar-2023 01:36:34 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: C:\php\ext\curl (The specified module could not be found), C:\php\ext\php_curl.dll (The specified module could not be found)) in Unknown on line 0
+[17-Mar-2023 01:36:34 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'ffi' (tried: C:\php\ext\ffi (The specified module could not be found), C:\php\ext\php_ffi.dll (The specified module could not be found)) in Unknown on line 0
+[17-Mar-2023 01:36:34 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'ftp' (tried: C:\php\ext\ftp (The specified module could not be found), C:\php\ext\php_ftp.dll (The specified module could not be found)) in Unknown on line 0
+[17-Mar-2023 01:36:34 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'fileinfo' (tried: C:\php\ext\fileinfo (The specified module could not be found), C:\php\ext\php_fileinfo.dll (The specified module could not be found)) in Unknown on line 0
+[17-Mar-2023 01:36:34 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'gd' (tried: C:\php\ext\gd (The specified module could not be found), C:\php\ext\php_gd.dll (The specified module could not be found)) in Unknown on line 0
+[17-Mar-2023 01:46:56 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: E:/phpbb/bin/php/ext/curl (The specified module could not be found), E:/phpbb/bin/php/ext/php_curl.dll (The specified module could not be found)) in Unknown on line 0
+[17-Mar-2023 01:46:57 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: E:/phpbb/bin/php/ext/curl (The specified module could not be found), E:/phpbb/bin/php/ext/php_curl.dll (The specified module could not be found)) in Unknown on line 0
+[17-Mar-2023 02:05:19 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: E:/phpbb/bin/php/ext/curl (The specified module could not be found), E:/phpbb/bin/php/ext/php_curl.dll (The specified module could not be found)) in Unknown on line 0
+[17-Mar-2023 02:05:19 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: E:/phpbb/bin/php/ext/intl (The specified module could not be found), E:/phpbb/bin/php/ext/php_intl.dll (The specified module could not be found)) in Unknown on line 0
+[17-Mar-2023 02:05:19 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_pgsql' (tried: E:/phpbb/bin/php/ext/pdo_pgsql (The specified module could not be found), E:/phpbb/bin/php/ext/php_pdo_pgsql.dll (The specified module could not be found)) in Unknown on line 0
+[17-Mar-2023 02:05:19 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite' (tried: E:/phpbb/bin/php/ext/pdo_sqlite (The specified module could not be found), E:/phpbb/bin/php/ext/php_pdo_sqlite.dll (The specified module could not be found)) in Unknown on line 0
+[17-Mar-2023 02:05:19 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pgsql' (tried: E:/phpbb/bin/php/ext/pgsql (The specified module could not be found), E:/phpbb/bin/php/ext/php_pgsql.dll (The specified module could not be found)) in Unknown on line 0
+[17-Mar-2023 02:05:19 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'sodium' (tried: E:/phpbb/bin/php/ext/sodium (The specified module could not be found), E:/phpbb/bin/php/ext/php_sodium.dll (The specified module could not be found)) in Unknown on line 0
+[17-Mar-2023 02:05:19 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'sqlite3' (tried: E:/phpbb/bin/php/ext/sqlite3 (The specified module could not be found), E:/phpbb/bin/php/ext/php_sqlite3.dll (The specified module could not be found)) in Unknown on line 0
+[17-Mar-2023 02:05:20 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: E:/phpbb/bin/php/ext/curl (The specified module could not be found), E:/phpbb/bin/php/ext/php_curl.dll (The specified module could not be found)) in Unknown on line 0
+[17-Mar-2023 02:05:20 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: E:/phpbb/bin/php/ext/intl (The specified module could not be found), E:/phpbb/bin/php/ext/php_intl.dll (The specified module could not be found)) in Unknown on line 0
+[17-Mar-2023 02:05:20 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_pgsql' (tried: E:/phpbb/bin/php/ext/pdo_pgsql (The specified module could not be found), E:/phpbb/bin/php/ext/php_pdo_pgsql.dll (The specified module could not be found)) in Unknown on line 0
+[17-Mar-2023 02:05:20 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite' (tried: E:/phpbb/bin/php/ext/pdo_sqlite (The specified module could not be found), E:/phpbb/bin/php/ext/php_pdo_sqlite.dll (The specified module could not be found)) in Unknown on line 0
+[17-Mar-2023 02:05:20 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pgsql' (tried: E:/phpbb/bin/php/ext/pgsql (The specified module could not be found), E:/phpbb/bin/php/ext/php_pgsql.dll (The specified module could not be found)) in Unknown on line 0
+[17-Mar-2023 02:05:20 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'sodium' (tried: E:/phpbb/bin/php/ext/sodium (The specified module could not be found), E:/phpbb/bin/php/ext/php_sodium.dll (The specified module could not be found)) in Unknown on line 0
+[17-Mar-2023 02:05:20 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'sqlite3' (tried: E:/phpbb/bin/php/ext/sqlite3 (The specified module could not be found), E:/phpbb/bin/php/ext/php_sqlite3.dll (The specified module could not be found)) in Unknown on line 0
+[17-Mar-2023 02:20:19 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: E:/phpbb/bin/php/ext/curl (The specified module could not be found), E:/phpbb/bin/php/ext/php_curl.dll (The specified module could not be found)) in Unknown on line 0
+[17-Mar-2023 02:20:19 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: E:/phpbb/bin/php/ext/intl (The specified module could not be found), E:/phpbb/bin/php/ext/php_intl.dll (The specified module could not be found)) in Unknown on line 0
+[17-Mar-2023 02:20:19 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_pgsql' (tried: E:/phpbb/bin/php/ext/pdo_pgsql (The specified module could not be found), E:/phpbb/bin/php/ext/php_pdo_pgsql.dll (The specified module could not be found)) in Unknown on line 0
+[17-Mar-2023 02:20:19 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite' (tried: E:/phpbb/bin/php/ext/pdo_sqlite (The specified module could not be found), E:/phpbb/bin/php/ext/php_pdo_sqlite.dll (The specified module could not be found)) in Unknown on line 0
+[17-Mar-2023 02:20:19 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pgsql' (tried: E:/phpbb/bin/php/ext/pgsql (The specified module could not be found), E:/phpbb/bin/php/ext/php_pgsql.dll (The specified module could not be found)) in Unknown on line 0
+[17-Mar-2023 02:20:19 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'sodium' (tried: E:/phpbb/bin/php/ext/sodium (The specified module could not be found), E:/phpbb/bin/php/ext/php_sodium.dll (The specified module could not be found)) in Unknown on line 0
+[17-Mar-2023 02:20:19 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'sqlite3' (tried: E:/phpbb/bin/php/ext/sqlite3 (The specified module could not be found), E:/phpbb/bin/php/ext/php_sqlite3.dll (The specified module could not be found)) in Unknown on line 0
+[17-Mar-2023 02:20:19 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: E:/phpbb/bin/php/ext/curl (The specified module could not be found), E:/phpbb/bin/php/ext/php_curl.dll (The specified module could not be found)) in Unknown on line 0
+[17-Mar-2023 02:20:19 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: E:/phpbb/bin/php/ext/intl (The specified module could not be found), E:/phpbb/bin/php/ext/php_intl.dll (The specified module could not be found)) in Unknown on line 0
+[17-Mar-2023 02:20:19 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_pgsql' (tried: E:/phpbb/bin/php/ext/pdo_pgsql (The specified module could not be found), E:/phpbb/bin/php/ext/php_pdo_pgsql.dll (The specified module could not be found)) in Unknown on line 0
+[17-Mar-2023 02:20:19 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite' (tried: E:/phpbb/bin/php/ext/pdo_sqlite (The specified module could not be found), E:/phpbb/bin/php/ext/php_pdo_sqlite.dll (The specified module could not be found)) in Unknown on line 0
+[17-Mar-2023 02:20:19 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pgsql' (tried: E:/phpbb/bin/php/ext/pgsql (The specified module could not be found), E:/phpbb/bin/php/ext/php_pgsql.dll (The specified module could not be found)) in Unknown on line 0
+[17-Mar-2023 02:20:19 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'sodium' (tried: E:/phpbb/bin/php/ext/sodium (The specified module could not be found), E:/phpbb/bin/php/ext/php_sodium.dll (The specified module could not be found)) in Unknown on line 0
+[17-Mar-2023 02:20:19 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'sqlite3' (tried: E:/phpbb/bin/php/ext/sqlite3 (The specified module could not be found), E:/phpbb/bin/php/ext/php_sqlite3.dll (The specified module could not be found)) in Unknown on line 0
+[17-Mar-2023 02:54:18 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: E:/phpbb/bin/php/ext/curl (The specified module could not be found), E:/phpbb/bin/php/ext/php_curl.dll (The specified module could not be found)) in Unknown on line 0
+[17-Mar-2023 02:54:18 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: E:/phpbb/bin/php/ext/intl (The specified module could not be found), E:/phpbb/bin/php/ext/php_intl.dll (The specified module could not be found)) in Unknown on line 0
+[17-Mar-2023 02:54:18 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_pgsql' (tried: E:/phpbb/bin/php/ext/pdo_pgsql (The specified module could not be found), E:/phpbb/bin/php/ext/php_pdo_pgsql.dll (The specified module could not be found)) in Unknown on line 0
+[17-Mar-2023 02:54:18 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite' (tried: E:/phpbb/bin/php/ext/pdo_sqlite (The specified module could not be found), E:/phpbb/bin/php/ext/php_pdo_sqlite.dll (The specified module could not be found)) in Unknown on line 0
+[17-Mar-2023 02:54:18 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pgsql' (tried: E:/phpbb/bin/php/ext/pgsql (The specified module could not be found), E:/phpbb/bin/php/ext/php_pgsql.dll (The specified module could not be found)) in Unknown on line 0
+[17-Mar-2023 02:54:18 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'sodium' (tried: E:/phpbb/bin/php/ext/sodium (The specified module could not be found), E:/phpbb/bin/php/ext/php_sodium.dll (The specified module could not be found)) in Unknown on line 0
+[17-Mar-2023 02:54:18 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'sqlite3' (tried: E:/phpbb/bin/php/ext/sqlite3 (The specified module could not be found), E:/phpbb/bin/php/ext/php_sqlite3.dll (The specified module could not be found)) in Unknown on line 0
+[17-Mar-2023 02:54:19 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: E:/phpbb/bin/php/ext/curl (The specified module could not be found), E:/phpbb/bin/php/ext/php_curl.dll (The specified module could not be found)) in Unknown on line 0
+[17-Mar-2023 02:54:19 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: E:/phpbb/bin/php/ext/intl (The specified module could not be found), E:/phpbb/bin/php/ext/php_intl.dll (The specified module could not be found)) in Unknown on line 0
+[17-Mar-2023 02:54:19 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_pgsql' (tried: E:/phpbb/bin/php/ext/pdo_pgsql (The specified module could not be found), E:/phpbb/bin/php/ext/php_pdo_pgsql.dll (The specified module could not be found)) in Unknown on line 0
+[17-Mar-2023 02:54:19 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite' (tried: E:/phpbb/bin/php/ext/pdo_sqlite (The specified module could not be found), E:/phpbb/bin/php/ext/php_pdo_sqlite.dll (The specified module could not be found)) in Unknown on line 0
+[17-Mar-2023 02:54:19 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pgsql' (tried: E:/phpbb/bin/php/ext/pgsql (The specified module could not be found), E:/phpbb/bin/php/ext/php_pgsql.dll (The specified module could not be found)) in Unknown on line 0
+[17-Mar-2023 02:54:19 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'sodium' (tried: E:/phpbb/bin/php/ext/sodium (The specified module could not be found), E:/phpbb/bin/php/ext/php_sodium.dll (The specified module could not be found)) in Unknown on line 0
+[17-Mar-2023 02:54:19 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'sqlite3' (tried: E:/phpbb/bin/php/ext/sqlite3 (The specified module could not be found), E:/phpbb/bin/php/ext/php_sqlite3.dll (The specified module could not be found)) in Unknown on line 0
+[17-Mar-2023 02:58:19 UTC] PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in E:\phpbb\www\info.php on line 2
+[17-Mar-2023 03:18:43 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: E:/phpbb/bin/php/ext/curl (The specified module could not be found), E:/phpbb/bin/php/ext/php_curl.dll (The specified module could not be found)) in Unknown on line 0
+[17-Mar-2023 03:18:43 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: E:/phpbb/bin/php/ext/intl (The specified module could not be found), E:/phpbb/bin/php/ext/php_intl.dll (The specified module could not be found)) in Unknown on line 0
+[17-Mar-2023 03:18:43 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_pgsql' (tried: E:/phpbb/bin/php/ext/pdo_pgsql (The specified module could not be found), E:/phpbb/bin/php/ext/php_pdo_pgsql.dll (The specified module could not be found)) in Unknown on line 0
+[17-Mar-2023 03:18:43 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite' (tried: E:/phpbb/bin/php/ext/pdo_sqlite (The specified module could not be found), E:/phpbb/bin/php/ext/php_pdo_sqlite.dll (The specified module could not be found)) in Unknown on line 0
+[17-Mar-2023 03:18:43 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pgsql' (tried: E:/phpbb/bin/php/ext/pgsql (The specified module could not be found), E:/phpbb/bin/php/ext/php_pgsql.dll (The specified module could not be found)) in Unknown on line 0
+[17-Mar-2023 03:18:43 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'sodium' (tried: E:/phpbb/bin/php/ext/sodium (The specified module could not be found), E:/phpbb/bin/php/ext/php_sodium.dll (The specified module could not be found)) in Unknown on line 0
+[17-Mar-2023 03:18:43 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'sqlite3' (tried: E:/phpbb/bin/php/ext/sqlite3 (The specified module could not be found), E:/phpbb/bin/php/ext/php_sqlite3.dll (The specified module could not be found)) in Unknown on line 0
+[17-Mar-2023 03:18:44 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: E:/phpbb/bin/php/ext/curl (The specified module could not be found), E:/phpbb/bin/php/ext/php_curl.dll (The specified module could not be found)) in Unknown on line 0
+[17-Mar-2023 03:18:44 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: E:/phpbb/bin/php/ext/intl (The specified module could not be found), E:/phpbb/bin/php/ext/php_intl.dll (The specified module could not be found)) in Unknown on line 0
+[17-Mar-2023 03:18:44 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_pgsql' (tried: E:/phpbb/bin/php/ext/pdo_pgsql (The specified module could not be found), E:/phpbb/bin/php/ext/php_pdo_pgsql.dll (The specified module could not be found)) in Unknown on line 0
+[17-Mar-2023 03:18:44 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite' (tried: E:/phpbb/bin/php/ext/pdo_sqlite (The specified module could not be found), E:/phpbb/bin/php/ext/php_pdo_sqlite.dll (The specified module could not be found)) in Unknown on line 0
+[17-Mar-2023 03:18:44 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pgsql' (tried: E:/phpbb/bin/php/ext/pgsql (The specified module could not be found), E:/phpbb/bin/php/ext/php_pgsql.dll (The specified module could not be found)) in Unknown on line 0
+[17-Mar-2023 03:18:44 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'sodium' (tried: E:/phpbb/bin/php/ext/sodium (The specified module could not be found), E:/phpbb/bin/php/ext/php_sodium.dll (The specified module could not be found)) in Unknown on line 0
+[17-Mar-2023 03:18:44 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'sqlite3' (tried: E:/phpbb/bin/php/ext/sqlite3 (The specified module could not be found), E:/phpbb/bin/php/ext/php_sqlite3.dll (The specified module could not be found)) in Unknown on line 0
+[17-Mar-2023 03:19:38 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: E:/phpbb/bin/php/ext/curl (The specified module could not be found), E:/phpbb/bin/php/ext/php_curl.dll (The specified module could not be found)) in Unknown on line 0
+[17-Mar-2023 03:19:38 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'ftp' (tried: E:/phpbb/bin/php/ext/ftp (The specified module could not be found), E:/phpbb/bin/php/ext/php_ftp.dll (The specified module could not be found)) in Unknown on line 0
+[17-Mar-2023 03:19:38 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: E:/phpbb/bin/php/ext/intl (The specified module could not be found), E:/phpbb/bin/php/ext/php_intl.dll (The specified module could not be found)) in Unknown on line 0
+[17-Mar-2023 03:19:38 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'openssl' (tried: E:/phpbb/bin/php/ext/openssl (The specified module could not be found), E:/phpbb/bin/php/ext/php_openssl.dll (The specified module could not be found)) in Unknown on line 0
+[17-Mar-2023 03:19:38 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_pgsql' (tried: E:/phpbb/bin/php/ext/pdo_pgsql (The specified module could not be found), E:/phpbb/bin/php/ext/php_pdo_pgsql.dll (The specified module could not be found)) in Unknown on line 0
+[17-Mar-2023 03:19:38 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite' (tried: E:/phpbb/bin/php/ext/pdo_sqlite (The specified module could not be found), E:/phpbb/bin/php/ext/php_pdo_sqlite.dll (The specified module could not be found)) in Unknown on line 0
+[17-Mar-2023 03:19:38 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pgsql' (tried: E:/phpbb/bin/php/ext/pgsql (The specified module could not be found), E:/phpbb/bin/php/ext/php_pgsql.dll (The specified module could not be found)) in Unknown on line 0
+[17-Mar-2023 03:19:38 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'sodium' (tried: E:/phpbb/bin/php/ext/sodium (The specified module could not be found), E:/phpbb/bin/php/ext/php_sodium.dll (The specified module could not be found)) in Unknown on line 0
+[17-Mar-2023 03:19:38 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'sqlite3' (tried: E:/phpbb/bin/php/ext/sqlite3 (The specified module could not be found), E:/phpbb/bin/php/ext/php_sqlite3.dll (The specified module could not be found)) in Unknown on line 0
+[17-Mar-2023 03:19:38 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'zip' (tried: E:/phpbb/bin/php/ext/zip (The specified module could not be found), E:/phpbb/bin/php/ext/php_zip.dll (The specified module could not be found)) in Unknown on line 0
+[17-Mar-2023 03:19:39 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: E:/phpbb/bin/php/ext/curl (The specified module could not be found), E:/phpbb/bin/php/ext/php_curl.dll (The specified module could not be found)) in Unknown on line 0
+[17-Mar-2023 03:19:39 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'ftp' (tried: E:/phpbb/bin/php/ext/ftp (The specified module could not be found), E:/phpbb/bin/php/ext/php_ftp.dll (The specified module could not be found)) in Unknown on line 0
+[17-Mar-2023 03:19:39 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: E:/phpbb/bin/php/ext/intl (The specified module could not be found), E:/phpbb/bin/php/ext/php_intl.dll (The specified module could not be found)) in Unknown on line 0
+[17-Mar-2023 03:19:39 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'openssl' (tried: E:/phpbb/bin/php/ext/openssl (The specified module could not be found), E:/phpbb/bin/php/ext/php_openssl.dll (The specified module could not be found)) in Unknown on line 0
+[17-Mar-2023 03:19:39 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_pgsql' (tried: E:/phpbb/bin/php/ext/pdo_pgsql (The specified module could not be found), E:/phpbb/bin/php/ext/php_pdo_pgsql.dll (The specified module could not be found)) in Unknown on line 0
+[17-Mar-2023 03:19:39 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite' (tried: E:/phpbb/bin/php/ext/pdo_sqlite (The specified module could not be found), E:/phpbb/bin/php/ext/php_pdo_sqlite.dll (The specified module could not be found)) in Unknown on line 0
+[17-Mar-2023 03:19:39 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pgsql' (tried: E:/phpbb/bin/php/ext/pgsql (The specified module could not be found), E:/phpbb/bin/php/ext/php_pgsql.dll (The specified module could not be found)) in Unknown on line 0
+[17-Mar-2023 03:19:39 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'sodium' (tried: E:/phpbb/bin/php/ext/sodium (The specified module could not be found), E:/phpbb/bin/php/ext/php_sodium.dll (The specified module could not be found)) in Unknown on line 0
+[17-Mar-2023 03:19:39 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'sqlite3' (tried: E:/phpbb/bin/php/ext/sqlite3 (The specified module could not be found), E:/phpbb/bin/php/ext/php_sqlite3.dll (The specified module could not be found)) in Unknown on line 0
+[17-Mar-2023 03:19:39 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'zip' (tried: E:/phpbb/bin/php/ext/zip (The specified module could not be found), E:/phpbb/bin/php/ext/php_zip.dll (The specified module could not be found)) in Unknown on line 0
+[17-Mar-2023 03:23:29 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: E:/phpbb/bin/php/ext/curl (The specified module could not be found), E:/phpbb/bin/php/ext/php_curl.dll (The specified module could not be found)) in Unknown on line 0
+[17-Mar-2023 03:23:29 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'ftp' (tried: E:/phpbb/bin/php/ext/ftp (The specified module could not be found), E:/phpbb/bin/php/ext/php_ftp.dll (The specified module could not be found)) in Unknown on line 0
+[17-Mar-2023 03:23:29 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: E:/phpbb/bin/php/ext/intl (The specified module could not be found), E:/phpbb/bin/php/ext/php_intl.dll (The specified module could not be found)) in Unknown on line 0
+[17-Mar-2023 03:23:29 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'openssl' (tried: E:/phpbb/bin/php/ext/openssl (The specified module could not be found), E:/phpbb/bin/php/ext/php_openssl.dll (The specified module could not be found)) in Unknown on line 0
+[17-Mar-2023 03:23:29 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_pgsql' (tried: E:/phpbb/bin/php/ext/pdo_pgsql (The specified module could not be found), E:/phpbb/bin/php/ext/php_pdo_pgsql.dll (The specified module could not be found)) in Unknown on line 0
+[17-Mar-2023 03:23:29 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite' (tried: E:/phpbb/bin/php/ext/pdo_sqlite (The specified module could not be found), E:/phpbb/bin/php/ext/php_pdo_sqlite.dll (The specified module could not be found)) in Unknown on line 0
+[17-Mar-2023 03:23:29 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pgsql' (tried: E:/phpbb/bin/php/ext/pgsql (The specified module could not be found), E:/phpbb/bin/php/ext/php_pgsql.dll (The specified module could not be found)) in Unknown on line 0
+[17-Mar-2023 03:23:29 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'sodium' (tried: E:/phpbb/bin/php/ext/sodium (The specified module could not be found), E:/phpbb/bin/php/ext/php_sodium.dll (The specified module could not be found)) in Unknown on line 0
+[17-Mar-2023 03:23:29 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'sqlite3' (tried: E:/phpbb/bin/php/ext/sqlite3 (The specified module could not be found), E:/phpbb/bin/php/ext/php_sqlite3.dll (The specified module could not be found)) in Unknown on line 0
+[17-Mar-2023 03:23:29 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: E:/phpbb/bin/php/ext/curl (The specified module could not be found), E:/phpbb/bin/php/ext/php_curl.dll (The specified module could not be found)) in Unknown on line 0
+[17-Mar-2023 03:23:29 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'ftp' (tried: E:/phpbb/bin/php/ext/ftp (The specified module could not be found), E:/phpbb/bin/php/ext/php_ftp.dll (The specified module could not be found)) in Unknown on line 0
+[17-Mar-2023 03:23:29 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: E:/phpbb/bin/php/ext/intl (The specified module could not be found), E:/phpbb/bin/php/ext/php_intl.dll (The specified module could not be found)) in Unknown on line 0
+[17-Mar-2023 03:23:29 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'openssl' (tried: E:/phpbb/bin/php/ext/openssl (The specified module could not be found), E:/phpbb/bin/php/ext/php_openssl.dll (The specified module could not be found)) in Unknown on line 0
+[17-Mar-2023 03:23:29 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_pgsql' (tried: E:/phpbb/bin/php/ext/pdo_pgsql (The specified module could not be found), E:/phpbb/bin/php/ext/php_pdo_pgsql.dll (The specified module could not be found)) in Unknown on line 0
+[17-Mar-2023 03:23:29 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite' (tried: E:/phpbb/bin/php/ext/pdo_sqlite (The specified module could not be found), E:/phpbb/bin/php/ext/php_pdo_sqlite.dll (The specified module could not be found)) in Unknown on line 0
+[17-Mar-2023 03:23:29 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pgsql' (tried: E:/phpbb/bin/php/ext/pgsql (The specified module could not be found), E:/phpbb/bin/php/ext/php_pgsql.dll (The specified module could not be found)) in Unknown on line 0
+[17-Mar-2023 03:23:29 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'sodium' (tried: E:/phpbb/bin/php/ext/sodium (The specified module could not be found), E:/phpbb/bin/php/ext/php_sodium.dll (The specified module could not be found)) in Unknown on line 0
+[17-Mar-2023 03:23:29 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'sqlite3' (tried: E:/phpbb/bin/php/ext/sqlite3 (The specified module could not be found), E:/phpbb/bin/php/ext/php_sqlite3.dll (The specified module could not be found)) in Unknown on line 0
+[17-Mar-2023 03:25:45 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: E:/phpbb/bin/php/ext/curl (The specified module could not be found.), E:/phpbb/bin/php/ext/php_curl.dll (The specified module could not be found.)) in Unknown on line 0
+[17-Mar-2023 03:25:45 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'ftp' (tried: E:/phpbb/bin/php/ext/ftp (The specified module could not be found.), E:/phpbb/bin/php/ext/php_ftp.dll (The specified module could not be found.)) in Unknown on line 0
+[17-Mar-2023 03:25:45 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: E:/phpbb/bin/php/ext/intl (The specified module could not be found.), E:/phpbb/bin/php/ext/php_intl.dll (The specified module could not be found.)) in Unknown on line 0
+[17-Mar-2023 03:25:46 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'openssl' (tried: E:/phpbb/bin/php/ext/openssl (The specified module could not be found.), E:/phpbb/bin/php/ext/php_openssl.dll (The specified module could not be found.)) in Unknown on line 0
+[17-Mar-2023 03:25:46 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_pgsql' (tried: E:/phpbb/bin/php/ext/pdo_pgsql (The specified module could not be found.), E:/phpbb/bin/php/ext/php_pdo_pgsql.dll (The specified module could not be found.)) in Unknown on line 0
+[17-Mar-2023 03:25:46 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite' (tried: E:/phpbb/bin/php/ext/pdo_sqlite (The specified module could not be found.), E:/phpbb/bin/php/ext/php_pdo_sqlite.dll (The specified module could not be found.)) in Unknown on line 0
+[17-Mar-2023 03:25:46 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pgsql' (tried: E:/phpbb/bin/php/ext/pgsql (The specified module could not be found.), E:/phpbb/bin/php/ext/php_pgsql.dll (The specified module could not be found.)) in Unknown on line 0
+[17-Mar-2023 03:25:46 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'sodium' (tried: E:/phpbb/bin/php/ext/sodium (The specified module could not be found.), E:/phpbb/bin/php/ext/php_sodium.dll (The specified module could not be found.)) in Unknown on line 0
+[17-Mar-2023 03:25:46 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'sqlite3' (tried: E:/phpbb/bin/php/ext/sqlite3 (The specified module could not be found.), E:/phpbb/bin/php/ext/php_sqlite3.dll (The specified module could not be found.)) in Unknown on line 0
+[17-Mar-2023 03:25:46 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: E:/phpbb/bin/php/ext/curl (The specified module could not be found.), E:/phpbb/bin/php/ext/php_curl.dll (The specified module could not be found.)) in Unknown on line 0
+[17-Mar-2023 03:25:46 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'ftp' (tried: E:/phpbb/bin/php/ext/ftp (The specified module could not be found.), E:/phpbb/bin/php/ext/php_ftp.dll (The specified module could not be found.)) in Unknown on line 0
+[17-Mar-2023 03:25:46 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: E:/phpbb/bin/php/ext/intl (The specified module could not be found.), E:/phpbb/bin/php/ext/php_intl.dll (The specified module could not be found.)) in Unknown on line 0
+[17-Mar-2023 03:25:46 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'openssl' (tried: E:/phpbb/bin/php/ext/openssl (The specified module could not be found.), E:/phpbb/bin/php/ext/php_openssl.dll (The specified module could not be found.)) in Unknown on line 0
+[17-Mar-2023 03:25:46 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_pgsql' (tried: E:/phpbb/bin/php/ext/pdo_pgsql (The specified module could not be found.), E:/phpbb/bin/php/ext/php_pdo_pgsql.dll (The specified module could not be found.)) in Unknown on line 0
+[17-Mar-2023 03:25:46 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite' (tried: E:/phpbb/bin/php/ext/pdo_sqlite (The specified module could not be found.), E:/phpbb/bin/php/ext/php_pdo_sqlite.dll (The specified module could not be found.)) in Unknown on line 0
+[17-Mar-2023 03:25:46 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pgsql' (tried: E:/phpbb/bin/php/ext/pgsql (The specified module could not be found.), E:/phpbb/bin/php/ext/php_pgsql.dll (The specified module could not be found.)) in Unknown on line 0
+[17-Mar-2023 03:25:46 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'sodium' (tried: E:/phpbb/bin/php/ext/sodium (The specified module could not be found.), E:/phpbb/bin/php/ext/php_sodium.dll (The specified module could not be found.)) in Unknown on line 0
+[17-Mar-2023 03:25:46 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'sqlite3' (tried: E:/phpbb/bin/php/ext/sqlite3 (The specified module could not be found.), E:/phpbb/bin/php/ext/php_sqlite3.dll (The specified module could not be found.)) in Unknown on line 0
+[17-Mar-2023 03:31:07 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: C:\php\ext\curl (The specified module could not be found.), C:\php\ext\php_curl.dll (The specified module could not be found.)) in Unknown on line 0
+[17-Mar-2023 03:31:07 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'fileinfo' (tried: C:\php\ext\fileinfo (The specified module could not be found.), C:\php\ext\php_fileinfo.dll (The specified module could not be found.)) in Unknown on line 0
+[17-Mar-2023 03:31:07 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'gd2' (tried: C:\php\ext\gd2 (The specified module could not be found.), C:\php\ext\php_gd2.dll (The specified module could not be found.)) in Unknown on line 0
+[17-Mar-2023 03:31:07 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'gettext' (tried: C:\php\ext\gettext (The specified module could not be found.), C:\php\ext\php_gettext.dll (The specified module could not be found.)) in Unknown on line 0
+[17-Mar-2023 03:31:07 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'gmp' (tried: C:\php\ext\gmp (The specified module could not be found.), C:\php\ext\php_gmp.dll (The specified module could not be found.)) in Unknown on line 0
+[17-Mar-2023 03:31:07 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: C:\php\ext\intl (The specified module could not be found.), C:\php\ext\php_intl.dll (The specified module could not be found.)) in Unknown on line 0
+[17-Mar-2023 03:31:07 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'imap' (tried: C:\php\ext\imap (The specified module could not be found.), C:\php\ext\php_imap.dll (The specified module could not be found.)) in Unknown on line 0
+[17-Mar-2023 03:31:07 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: C:\php\ext\mbstring (The specified module could not be found.), C:\php\ext\php_mbstring.dll (The specified module could not be found.)) in Unknown on line 0
+[17-Mar-2023 03:31:07 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'exif' (tried: C:\php\ext\exif (The specified module could not be found.), C:\php\ext\php_exif.dll (The specified module could not be found.)) in Unknown on line 0
+[17-Mar-2023 03:31:07 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'mysqli' (tried: C:\php\ext\mysqli (The specified module could not be found.), C:\php\ext\php_mysqli.dll (The specified module could not be found.)) in Unknown on line 0
+[17-Mar-2023 03:31:07 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'openssl' (tried: C:\php\ext\openssl (The specified module could not be found.), C:\php\ext\php_openssl.dll (The specified module could not be found.)) in Unknown on line 0
+[17-Mar-2023 03:31:07 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_mysql' (tried: C:\php\ext\pdo_mysql (The specified module could not be found.), C:\php\ext\php_pdo_mysql.dll (The specified module could not be found.)) in Unknown on line 0
+[17-Mar-2023 03:31:07 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_pgsql' (tried: C:\php\ext\pdo_pgsql (The specified module could not be found.), C:\php\ext\php_pdo_pgsql.dll (The specified module could not be found.)) in Unknown on line 0
+[17-Mar-2023 03:31:07 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite' (tried: C:\php\ext\pdo_sqlite (The specified module could not be found.), C:\php\ext\php_pdo_sqlite.dll (The specified module could not be found.)) in Unknown on line 0
+[17-Mar-2023 03:31:07 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pgsql' (tried: C:\php\ext\pgsql (The specified module could not be found.), C:\php\ext\php_pgsql.dll (The specified module could not be found.)) in Unknown on line 0
+[17-Mar-2023 03:31:07 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'soap' (tried: C:\php\ext\soap (The specified module could not be found.), C:\php\ext\php_soap.dll (The specified module could not be found.)) in Unknown on line 0
+[17-Mar-2023 03:31:07 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'sockets' (tried: C:\php\ext\sockets (The specified module could not be found.), C:\php\ext\php_sockets.dll (The specified module could not be found.)) in Unknown on line 0
+[17-Mar-2023 03:31:07 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'sqlite3' (tried: C:\php\ext\sqlite3 (The specified module could not be found.), C:\php\ext\php_sqlite3.dll (The specified module could not be found.)) in Unknown on line 0
+[17-Mar-2023 03:31:07 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'tidy' (tried: C:\php\ext\tidy (The specified module could not be found.), C:\php\ext\php_tidy.dll (The specified module could not be found.)) in Unknown on line 0
+[17-Mar-2023 03:31:07 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'xsl' (tried: C:\php\ext\xsl (The specified module could not be found.), C:\php\ext\php_xsl.dll (The specified module could not be found.)) in Unknown on line 0
+[17-Mar-2023 03:31:08 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: C:\php\ext\curl (The specified module could not be found.), C:\php\ext\php_curl.dll (The specified module could not be found.)) in Unknown on line 0
+[17-Mar-2023 03:31:08 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'fileinfo' (tried: C:\php\ext\fileinfo (The specified module could not be found.), C:\php\ext\php_fileinfo.dll (The specified module could not be found.)) in Unknown on line 0
+[17-Mar-2023 03:31:08 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'gd2' (tried: C:\php\ext\gd2 (The specified module could not be found.), C:\php\ext\php_gd2.dll (The specified module could not be found.)) in Unknown on line 0
+[17-Mar-2023 03:31:08 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'gettext' (tried: C:\php\ext\gettext (The specified module could not be found.), C:\php\ext\php_gettext.dll (The specified module could not be found.)) in Unknown on line 0
+[17-Mar-2023 03:31:08 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'gmp' (tried: C:\php\ext\gmp (The specified module could not be found.), C:\php\ext\php_gmp.dll (The specified module could not be found.)) in Unknown on line 0
+[17-Mar-2023 03:31:08 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: C:\php\ext\intl (The specified module could not be found.), C:\php\ext\php_intl.dll (The specified module could not be found.)) in Unknown on line 0
+[17-Mar-2023 03:31:08 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'imap' (tried: C:\php\ext\imap (The specified module could not be found.), C:\php\ext\php_imap.dll (The specified module could not be found.)) in Unknown on line 0
+[17-Mar-2023 03:31:08 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: C:\php\ext\mbstring (The specified module could not be found.), C:\php\ext\php_mbstring.dll (The specified module could not be found.)) in Unknown on line 0
+[17-Mar-2023 03:31:08 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'exif' (tried: C:\php\ext\exif (The specified module could not be found.), C:\php\ext\php_exif.dll (The specified module could not be found.)) in Unknown on line 0
+[17-Mar-2023 03:31:08 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'mysqli' (tried: C:\php\ext\mysqli (The specified module could not be found.), C:\php\ext\php_mysqli.dll (The specified module could not be found.)) in Unknown on line 0
+[17-Mar-2023 03:31:08 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'openssl' (tried: C:\php\ext\openssl (The specified module could not be found.), C:\php\ext\php_openssl.dll (The specified module could not be found.)) in Unknown on line 0
+[17-Mar-2023 03:31:08 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_mysql' (tried: C:\php\ext\pdo_mysql (The specified module could not be found.), C:\php\ext\php_pdo_mysql.dll (The specified module could not be found.)) in Unknown on line 0
+[17-Mar-2023 03:31:08 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_pgsql' (tried: C:\php\ext\pdo_pgsql (The specified module could not be found.), C:\php\ext\php_pdo_pgsql.dll (The specified module could not be found.)) in Unknown on line 0
+[17-Mar-2023 03:31:08 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_sqlite' (tried: C:\php\ext\pdo_sqlite (The specified module could not be found.), C:\php\ext\php_pdo_sqlite.dll (The specified module could not be found.)) in Unknown on line 0
+[17-Mar-2023 03:31:08 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'pgsql' (tried: C:\php\ext\pgsql (The specified module could not be found.), C:\php\ext\php_pgsql.dll (The specified module could not be found.)) in Unknown on line 0
+[17-Mar-2023 03:31:08 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'soap' (tried: C:\php\ext\soap (The specified module could not be found.), C:\php\ext\php_soap.dll (The specified module could not be found.)) in Unknown on line 0
+[17-Mar-2023 03:31:08 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'sockets' (tried: C:\php\ext\sockets (The specified module could not be found.), C:\php\ext\php_sockets.dll (The specified module could not be found.)) in Unknown on line 0
+[17-Mar-2023 03:31:08 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'sqlite3' (tried: C:\php\ext\sqlite3 (The specified module could not be found.), C:\php\ext\php_sqlite3.dll (The specified module could not be found.)) in Unknown on line 0
+[17-Mar-2023 03:31:08 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'tidy' (tried: C:\php\ext\tidy (The specified module could not be found.), C:\php\ext\php_tidy.dll (The specified module could not be found.)) in Unknown on line 0
+[17-Mar-2023 03:31:08 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'xsl' (tried: C:\php\ext\xsl (The specified module could not be found.), C:\php\ext\php_xsl.dll (The specified module could not be found.)) in Unknown on line 0
+[17-Mar-2023 03:31:54 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'C:\php\ext\curl' - The specified module could not be found.
+ in Unknown on line 0
+[17-Mar-2023 03:31:54 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'C:\php\ext\fileinfo' - The specified module could not be found.
+ in Unknown on line 0
+[17-Mar-2023 03:31:54 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'C:\php\ext\gd2' - The specified module could not be found.
+ in Unknown on line 0
+[17-Mar-2023 03:31:54 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'C:\php\ext\gettext' - The specified module could not be found.
+ in Unknown on line 0
+[17-Mar-2023 03:31:54 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'C:\php\ext\gmp' - The specified module could not be found.
+ in Unknown on line 0
+[17-Mar-2023 03:31:54 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'C:\php\ext\intl' - The specified module could not be found.
+ in Unknown on line 0
+[17-Mar-2023 03:31:54 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'C:\php\ext\imap' - The specified module could not be found.
+ in Unknown on line 0
+[17-Mar-2023 03:31:54 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'C:\php\ext\mbstring' - The specified module could not be found.
+ in Unknown on line 0
+[17-Mar-2023 03:31:54 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'C:\php\ext\exif' - The specified module could not be found.
+ in Unknown on line 0
+[17-Mar-2023 03:31:54 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'C:\php\ext\mysqli' - The specified module could not be found.
+ in Unknown on line 0
+[17-Mar-2023 03:31:54 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'C:\php\ext\openssl' - The specified module could not be found.
+ in Unknown on line 0
+[17-Mar-2023 03:31:54 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'C:\php\ext\pdo_mysql' - The specified module could not be found.
+ in Unknown on line 0
+[17-Mar-2023 03:31:54 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'C:\php\ext\pdo_pgsql' - The specified module could not be found.
+ in Unknown on line 0
+[17-Mar-2023 03:31:54 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'C:\php\ext\pdo_sqlite' - The specified module could not be found.
+ in Unknown on line 0
+[17-Mar-2023 03:31:54 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'C:\php\ext\pgsql' - The specified module could not be found.
+ in Unknown on line 0
+[17-Mar-2023 03:31:54 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'C:\php\ext\soap' - The specified module could not be found.
+ in Unknown on line 0
+[17-Mar-2023 03:31:54 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'C:\php\ext\sockets' - The specified module could not be found.
+ in Unknown on line 0
+[17-Mar-2023 03:31:54 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'C:\php\ext\sqlite3' - The specified module could not be found.
+ in Unknown on line 0
+[17-Mar-2023 03:31:54 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'C:\php\ext\tidy' - The specified module could not be found.
+ in Unknown on line 0
+[17-Mar-2023 03:31:54 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'C:\php\ext\xsl' - The specified module could not be found.
+ in Unknown on line 0
+[17-Mar-2023 03:31:55 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'C:\php\ext\curl' - The specified module could not be found.
+ in Unknown on line 0
+[17-Mar-2023 03:31:55 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'C:\php\ext\fileinfo' - The specified module could not be found.
+ in Unknown on line 0
+[17-Mar-2023 03:31:55 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'C:\php\ext\gd2' - The specified module could not be found.
+ in Unknown on line 0
+[17-Mar-2023 03:31:55 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'C:\php\ext\gettext' - The specified module could not be found.
+ in Unknown on line 0
+[17-Mar-2023 03:31:55 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'C:\php\ext\gmp' - The specified module could not be found.
+ in Unknown on line 0
+[17-Mar-2023 03:31:55 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'C:\php\ext\intl' - The specified module could not be found.
+ in Unknown on line 0
+[17-Mar-2023 03:31:55 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'C:\php\ext\imap' - The specified module could not be found.
+ in Unknown on line 0
+[17-Mar-2023 03:31:55 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'C:\php\ext\mbstring' - The specified module could not be found.
+ in Unknown on line 0
+[17-Mar-2023 03:31:55 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'C:\php\ext\exif' - The specified module could not be found.
+ in Unknown on line 0
+[17-Mar-2023 03:31:55 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'C:\php\ext\mysqli' - The specified module could not be found.
+ in Unknown on line 0
+[17-Mar-2023 03:31:55 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'C:\php\ext\openssl' - The specified module could not be found.
+ in Unknown on line 0
+[17-Mar-2023 03:31:55 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'C:\php\ext\pdo_mysql' - The specified module could not be found.
+ in Unknown on line 0
+[17-Mar-2023 03:31:55 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'C:\php\ext\pdo_pgsql' - The specified module could not be found.
+ in Unknown on line 0
+[17-Mar-2023 03:31:55 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'C:\php\ext\pdo_sqlite' - The specified module could not be found.
+ in Unknown on line 0
+[17-Mar-2023 03:31:55 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'C:\php\ext\pgsql' - The specified module could not be found.
+ in Unknown on line 0
+[17-Mar-2023 03:31:55 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'C:\php\ext\soap' - The specified module could not be found.
+ in Unknown on line 0
+[17-Mar-2023 03:31:55 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'C:\php\ext\sockets' - The specified module could not be found.
+ in Unknown on line 0
+[17-Mar-2023 03:31:55 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'C:\php\ext\sqlite3' - The specified module could not be found.
+ in Unknown on line 0
+[17-Mar-2023 03:31:55 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'C:\php\ext\tidy' - The specified module could not be found.
+ in Unknown on line 0
+[17-Mar-2023 03:31:55 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'C:\php\ext\xsl' - The specified module could not be found.
+ in Unknown on line 0
+[17-Mar-2023 03:32:38 UTC] PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in E:\phpbb\www\info.php on line 2
+[18-Mar-2023 11:27:04 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: E:/phpbb/bin/php/ext/intl (The specified module could not be found), E:/phpbb/bin/php/ext/php_intl.dll (The specified module could not be found)) in Unknown on line 0
+[18-Mar-2023 11:27:05 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: E:/phpbb/bin/php/ext/intl (The specified module could not be found), E:/phpbb/bin/php/ext/php_intl.dll (The specified module could not be found)) in Unknown on line 0
