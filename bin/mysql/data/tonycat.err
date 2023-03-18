@@ -1,0 +1,18 @@
+2023-03-16T23:31:27.992779Z 0 [System] [MY-010116] [Server] E:\phpbb\bin\mysql\bin\mysqld.exe (mysqld 8.0.32) starting as process 7800
+2023-03-16T23:31:28.140665Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2023-03-16T23:31:28.872342Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2023-03-16T23:31:29.300581Z 0 [System] [MY-010229] [Server] Starting XA crash recovery...
+2023-03-16T23:31:29.306004Z 0 [System] [MY-010232] [Server] XA crash recovery finished.
+2023-03-16T23:31:29.418062Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2023-03-16T23:31:29.419225Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2023-03-16T23:31:29.484049Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060
+2023-03-16T23:31:29.484094Z 0 [System] [MY-010931] [Server] E:\phpbb\bin\mysql\bin\mysqld.exe: ready for connections. Version: '8.0.32'  socket: ''  port: 3308  MySQL Community Server - GPL.
+2023-03-17T11:16:17.940348Z 0 [System] [MY-010116] [Server] E:\phpbb\bin\mysql\bin\mysqld.exe (mysqld 8.0.32) starting as process 10540
+2023-03-17T11:16:18.057462Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2023-03-17T11:16:18.796000Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2023-03-17T11:16:19.411897Z 0 [System] [MY-010229] [Server] Starting XA crash recovery...
+2023-03-17T11:16:19.420117Z 0 [System] [MY-010232] [Server] XA crash recovery finished.
+2023-03-17T11:16:19.534929Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2023-03-17T11:16:19.535898Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2023-03-17T11:16:19.626725Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060
+2023-03-17T11:16:19.626878Z 0 [System] [MY-010931] [Server] E:\phpbb\bin\mysql\bin\mysqld.exe: ready for connections. Version: '8.0.32'  socket: ''  port: 3308  MySQL Community Server - GPL.
