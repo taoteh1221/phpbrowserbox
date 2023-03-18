@@ -1524,3 +1524,75 @@ Apache server shutdown initiated...
 [Sat Mar 18 12:27:27.551504 2023] [mpm_winnt:error] [pid 2716:tid 716] (OS 10038)An operation was attempted on something that is not a socket.  : AH00337: Child: Encountered too many AcceptEx faults accepting client connections. Possible causes: dynamic address renewal, or incompatible VPN or firewall software. 
 [Sat Mar 18 12:27:27.551504 2023] [mpm_winnt:notice] [pid 2716:tid 716] (OS 10038)An operation was attempted on something that is not a socket.  : AH00338: winnt_mpm: falling back to 'AcceptFilter none'.
 [Sat Mar 18 12:27:29.559655 2023] [mpm_winnt:notice] [pid 2716:tid 448] AH00364: Child: All worker threads have exited.
+[Sat Mar 18 12:39:34.300677 2023] [core:warn] [pid 16740:tid 432] AH00098: pid file E:/phpbrowserbox/work space/phpbbv60/bin/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Mar 18 12:39:34.575275 2023] [mpm_winnt:notice] [pid 16740:tid 432] AH00455: Apache/2.4.55 (Win64) PHP/8.2.2 configured -- resuming normal operations
+[Sat Mar 18 12:39:34.575275 2023] [mpm_winnt:notice] [pid 16740:tid 432] AH00456: Apache Lounge VS17 Server built: Feb  9 2023 09:58:39
+[Sat Mar 18 12:39:34.575275 2023] [core:notice] [pid 16740:tid 432] AH00094: Command line: 'E:\\phpbrowserbox\\work space\\phpbbv60\\bin\\apache\\bin\\httpd.exe -d E:/phpbrowserbox/work space/phpbbv60/bin/apache'
+[Sat Mar 18 12:39:34.580275 2023] [mpm_winnt:notice] [pid 16740:tid 432] AH00418: Parent: Created child process 7736
+[Sat Mar 18 12:39:35.545101 2023] [mpm_winnt:notice] [pid 7736:tid 440] AH00354: Child: Starting 64 worker threads.
+[Sat Mar 18 12:40:17.561470 2023] [mpm_winnt:crit] [pid 7736:tid 440] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Sat Mar 18 12:40:17.561470 2023] [mpm_winnt:warn] [pid 7736:tid 732] (OS 995)The I/O operation has been aborted because of either a thread exit or an application request.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Sat Mar 18 12:40:17.561470 2023] [mpm_winnt:warn] [pid 7736:tid 736] (OS 995)The I/O operation has been aborted because of either a thread exit or an application request.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Sat Mar 18 12:40:17.561470 2023] [mpm_winnt:error] [pid 7736:tid 736] (OS 10038)An operation was attempted on something that is not a socket.  : AH00337: Child: Encountered too many AcceptEx faults accepting client connections. Possible causes: dynamic address renewal, or incompatible VPN or firewall software. 
+[Sat Mar 18 12:40:17.561470 2023] [mpm_winnt:notice] [pid 7736:tid 736] (OS 10038)An operation was attempted on something that is not a socket.  : AH00338: winnt_mpm: falling back to 'AcceptFilter none'.
+[Sat Mar 18 12:40:17.561470 2023] [mpm_winnt:error] [pid 7736:tid 732] (OS 10038)An operation was attempted on something that is not a socket.  : AH00337: Child: Encountered too many AcceptEx faults accepting client connections. Possible causes: dynamic address renewal, or incompatible VPN or firewall software. 
+[Sat Mar 18 12:40:17.561470 2023] [mpm_winnt:notice] [pid 7736:tid 732] (OS 10038)An operation was attempted on something that is not a socket.  : AH00338: winnt_mpm: falling back to 'AcceptFilter none'.
+[Sat Mar 18 12:40:19.594191 2023] [mpm_winnt:notice] [pid 7736:tid 440] AH00364: Child: All worker threads have exited.
+[Sat Mar 18 12:45:37.031956 2023] [core:warn] [pid 8632:tid 420] AH00098: pid file E:/phpbrowserbox/work space/phpbbv60/bin/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Mar 18 12:45:37.091943 2023] [mpm_winnt:notice] [pid 8632:tid 420] AH00455: Apache/2.4.55 (Win64) PHP/8.2.2 configured -- resuming normal operations
+[Sat Mar 18 12:45:37.091943 2023] [mpm_winnt:notice] [pid 8632:tid 420] AH00456: Apache Lounge VS17 Server built: Feb  9 2023 09:58:39
+[Sat Mar 18 12:45:37.091943 2023] [core:notice] [pid 8632:tid 420] AH00094: Command line: 'E:\\phpbrowserbox\\work space\\phpbbv60\\bin\\apache\\bin\\httpd.exe -d E:/phpbrowserbox/work space/phpbbv60/bin/apache'
+[Sat Mar 18 12:45:37.091943 2023] [mpm_winnt:notice] [pid 8632:tid 420] AH00418: Parent: Created child process 9232
+[Sat Mar 18 12:45:37.796953 2023] [mpm_winnt:notice] [pid 9232:tid 440] AH00354: Child: Starting 64 worker threads.
+[Sat Mar 18 12:45:44.453995 2023] [mpm_winnt:crit] [pid 9232:tid 440] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Sat Mar 18 12:45:44.453995 2023] [mpm_winnt:warn] [pid 9232:tid 1216] (OS 995)The I/O operation has been aborted because of either a thread exit or an application request.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Sat Mar 18 12:45:44.453995 2023] [mpm_winnt:warn] [pid 9232:tid 1236] (OS 995)The I/O operation has been aborted because of either a thread exit or an application request.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Sat Mar 18 12:45:46.475544 2023] [mpm_winnt:notice] [pid 9232:tid 440] AH00364: Child: All worker threads have exited.
+[Sat Mar 18 12:46:07.210137 2023] [core:warn] [pid 10620:tid 428] AH00098: pid file E:/phpbrowserbox/work space/phpbbv60/bin/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Mar 18 12:46:07.274956 2023] [mpm_winnt:notice] [pid 10620:tid 428] AH00455: Apache/2.4.55 (Win64) PHP/8.2.2 configured -- resuming normal operations
+[Sat Mar 18 12:46:07.274956 2023] [mpm_winnt:notice] [pid 10620:tid 428] AH00456: Apache Lounge VS17 Server built: Feb  9 2023 09:58:39
+[Sat Mar 18 12:46:07.274956 2023] [core:notice] [pid 10620:tid 428] AH00094: Command line: 'E:\\phpbrowserbox\\work space\\phpbbv60\\bin\\apache\\bin\\httpd.exe -d E:/phpbrowserbox/work space/phpbbv60/bin/apache'
+[Sat Mar 18 12:46:07.278954 2023] [mpm_winnt:notice] [pid 10620:tid 428] AH00418: Parent: Created child process 7564
+[Sat Mar 18 12:46:08.014275 2023] [mpm_winnt:notice] [pid 7564:tid 432] AH00354: Child: Starting 64 worker threads.
+[Sat Mar 18 12:48:08.993602 2023] [mpm_winnt:crit] [pid 7564:tid 432] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Sat Mar 18 12:48:08.993602 2023] [mpm_winnt:warn] [pid 7564:tid 1268] (OS 995)The I/O operation has been aborted because of either a thread exit or an application request.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Sat Mar 18 12:48:08.993602 2023] [mpm_winnt:warn] [pid 7564:tid 1212] (OS 995)The I/O operation has been aborted because of either a thread exit or an application request.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Sat Mar 18 12:48:11.013104 2023] [mpm_winnt:notice] [pid 7564:tid 432] AH00364: Child: All worker threads have exited.
+[Sat Mar 18 12:49:14.954621 2023] [core:warn] [pid 9464:tid 428] AH00098: pid file E:/phpbrowserbox/work space 1/phpbbv60/bin/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Mar 18 12:49:15.054621 2023] [mpm_winnt:notice] [pid 9464:tid 428] AH00455: Apache/2.4.55 (Win64) PHP/8.2.2 configured -- resuming normal operations
+[Sat Mar 18 12:49:15.054621 2023] [mpm_winnt:notice] [pid 9464:tid 428] AH00456: Apache Lounge VS17 Server built: Feb  9 2023 09:58:39
+[Sat Mar 18 12:49:15.054621 2023] [core:notice] [pid 9464:tid 428] AH00094: Command line: 'E:\\phpbrowserbox\\work space 1\\phpbbv60\\bin\\apache\\bin\\httpd.exe -d E:/phpbrowserbox/work space 1/phpbbv60/bin/apache'
+[Sat Mar 18 12:49:15.059621 2023] [mpm_winnt:notice] [pid 9464:tid 428] AH00418: Parent: Created child process 5492
+[Sat Mar 18 12:49:15.939622 2023] [mpm_winnt:notice] [pid 5492:tid 428] AH00354: Child: Starting 64 worker threads.
+[Sat Mar 18 12:49:30.263203 2023] [mpm_winnt:crit] [pid 5492:tid 428] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Sat Mar 18 12:49:30.263203 2023] [mpm_winnt:warn] [pid 5492:tid 1244] (OS 995)The I/O operation has been aborted because of either a thread exit or an application request.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Sat Mar 18 12:49:30.263203 2023] [mpm_winnt:warn] [pid 5492:tid 648] (OS 995)The I/O operation has been aborted because of either a thread exit or an application request.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Sat Mar 18 12:49:30.263203 2023] [mpm_winnt:error] [pid 5492:tid 648] (OS 10038)An operation was attempted on something that is not a socket.  : AH00337: Child: Encountered too many AcceptEx faults accepting client connections. Possible causes: dynamic address renewal, or incompatible VPN or firewall software. 
+[Sat Mar 18 12:49:30.263203 2023] [mpm_winnt:error] [pid 5492:tid 1244] (OS 10038)An operation was attempted on something that is not a socket.  : AH00337: Child: Encountered too many AcceptEx faults accepting client connections. Possible causes: dynamic address renewal, or incompatible VPN or firewall software. 
+[Sat Mar 18 12:49:30.263203 2023] [mpm_winnt:notice] [pid 5492:tid 648] (OS 10038)An operation was attempted on something that is not a socket.  : AH00338: winnt_mpm: falling back to 'AcceptFilter none'.
+[Sat Mar 18 12:49:30.263203 2023] [mpm_winnt:notice] [pid 5492:tid 1244] (OS 10038)An operation was attempted on something that is not a socket.  : AH00338: winnt_mpm: falling back to 'AcceptFilter none'.
+[Sat Mar 18 12:49:32.292036 2023] [mpm_winnt:notice] [pid 5492:tid 428] AH00364: Child: All worker threads have exited.
+[Sat Mar 18 12:50:10.437009 2023] [core:warn] [pid 14852:tid 444] AH00098: pid file E:/phpbrowserbox/workspace/phpbbv60/bin/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Mar 18 12:50:10.530280 2023] [mpm_winnt:notice] [pid 14852:tid 444] AH00455: Apache/2.4.55 (Win64) PHP/8.2.2 configured -- resuming normal operations
+[Sat Mar 18 12:50:10.530280 2023] [mpm_winnt:notice] [pid 14852:tid 444] AH00456: Apache Lounge VS17 Server built: Feb  9 2023 09:58:39
+[Sat Mar 18 12:50:10.530280 2023] [core:notice] [pid 14852:tid 444] AH00094: Command line: 'E:\\phpbrowserbox\\workspace\\phpbbv60\\bin\\apache\\bin\\httpd.exe -d E:/phpbrowserbox/workspace/phpbbv60/bin/apache'
+[Sat Mar 18 12:50:10.535271 2023] [mpm_winnt:notice] [pid 14852:tid 444] AH00418: Parent: Created child process 4504
+[Sat Mar 18 12:50:11.460272 2023] [mpm_winnt:notice] [pid 4504:tid 436] AH00354: Child: Starting 64 worker threads.
+[Sat Mar 18 12:50:21.126930 2023] [mpm_winnt:crit] [pid 4504:tid 436] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Sat Mar 18 12:50:21.126930 2023] [mpm_winnt:warn] [pid 4504:tid 500] (OS 995)The I/O operation has been aborted because of either a thread exit or an application request.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Sat Mar 18 12:50:21.126930 2023] [mpm_winnt:warn] [pid 4504:tid 228] (OS 995)The I/O operation has been aborted because of either a thread exit or an application request.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Sat Mar 18 12:50:23.146955 2023] [mpm_winnt:notice] [pid 4504:tid 436] AH00364: Child: All worker threads have exited.
+[Sat Mar 18 12:50:53.479867 2023] [core:warn] [pid 124:tid 444] AH00098: pid file E:/phpbrowserbox/workspace5/phpbbv60/bin/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Mar 18 12:50:53.553891 2023] [mpm_winnt:notice] [pid 124:tid 444] AH00455: Apache/2.4.55 (Win64) PHP/8.2.2 configured -- resuming normal operations
+[Sat Mar 18 12:50:53.553891 2023] [mpm_winnt:notice] [pid 124:tid 444] AH00456: Apache Lounge VS17 Server built: Feb  9 2023 09:58:39
+[Sat Mar 18 12:50:53.553891 2023] [core:notice] [pid 124:tid 444] AH00094: Command line: 'E:\\phpbrowserbox\\workspace5\\phpbbv60\\bin\\apache\\bin\\httpd.exe -d E:/phpbrowserbox/workspace5/phpbbv60/bin/apache'
+[Sat Mar 18 12:50:53.558883 2023] [mpm_winnt:notice] [pid 124:tid 444] AH00418: Parent: Created child process 9100
+[Sat Mar 18 12:50:54.324211 2023] [mpm_winnt:notice] [pid 9100:tid 448] AH00354: Child: Starting 64 worker threads.
+[Sat Mar 18 12:52:04.815694 2023] [mpm_winnt:crit] [pid 9100:tid 448] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Sat Mar 18 12:52:04.815694 2023] [mpm_winnt:warn] [pid 9100:tid 1224] (OS 995)The I/O operation has been aborted because of either a thread exit or an application request.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Sat Mar 18 12:52:04.815694 2023] [mpm_winnt:warn] [pid 9100:tid 544] (OS 995)The I/O operation has been aborted because of either a thread exit or an application request.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Sat Mar 18 12:52:04.815694 2023] [mpm_winnt:error] [pid 9100:tid 1224] (OS 10038)An operation was attempted on something that is not a socket.  : AH00337: Child: Encountered too many AcceptEx faults accepting client connections. Possible causes: dynamic address renewal, or incompatible VPN or firewall software. 
+[Sat Mar 18 12:52:04.815694 2023] [mpm_winnt:notice] [pid 9100:tid 1224] (OS 10038)An operation was attempted on something that is not a socket.  : AH00338: winnt_mpm: falling back to 'AcceptFilter none'.
+[Sat Mar 18 12:52:04.815694 2023] [mpm_winnt:error] [pid 9100:tid 544] (OS 10038)An operation was attempted on something that is not a socket.  : AH00337: Child: Encountered too many AcceptEx faults accepting client connections. Possible causes: dynamic address renewal, or incompatible VPN or firewall software. 
+[Sat Mar 18 12:52:04.815694 2023] [mpm_winnt:notice] [pid 9100:tid 544] (OS 10038)An operation was attempted on something that is not a socket.  : AH00338: winnt_mpm: falling back to 'AcceptFilter none'.
+[Sat Mar 18 12:52:06.829762 2023] [mpm_winnt:notice] [pid 9100:tid 448] AH00364: Child: All worker threads have exited.

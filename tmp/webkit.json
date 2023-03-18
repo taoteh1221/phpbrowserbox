@@ -1,6 +1,0 @@
-{
-	"url": "http://localhost/",
-	"url2": "http://localhost/laravel8/public",
-	"apache_port": "80",
-	"mysql_port": "3307"
-}
