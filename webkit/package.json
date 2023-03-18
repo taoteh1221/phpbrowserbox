@@ -1,6 +1,6 @@
 {
     "name": "phpbbwebkit",
-    "version": "5.0.0",
+    "version": "6.0.0",
     "license": "MIT",
     "description": "Develop desktop GUI applications using PHP, HTML5, MySQL, JavaScript and SQLite",
     "author": "Anthony Ogundipe / diltony@gmail.com / https://anthonyogundipe.com",

@@ -16,7 +16,7 @@ set "maincwd=%cd%"
 
 color 1F
 mode con cols=98 lines=30
-title PHPBrowserBox v5.0 Troubleshooting
+title PHPBrowserBox v6.0 Troubleshooting
 setlocal EnableExtensions EnableDelayedExpansion
 
 echo.
@@ -34,9 +34,9 @@ echo %USERNAME%@%COMPUTERNAME% %cwd%
 
 echo.
 echo === Checking Application Version
-echo PHPBrowserBox 5.1.0 (built: March 20 2023 21:19:11) (ZTS Visual C++ 2019 x64)
+echo PHPBrowserBox 6.0 (built: March 20 2023 21:19:11) (ZTS Visual C++ 2019 x64)
 echo Copyright (c) The Africoders Network
-echo PHPBrowserBox v5.1.0, Copyright (c) Africoders Network
+echo PHPBrowserBox v6.0.0, Copyright (c) Africoders Network
 
 
 

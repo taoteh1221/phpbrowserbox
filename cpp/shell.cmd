@@ -17,7 +17,7 @@ cd www
 
 color 1F
 mode con cols=98 lines=30
-title PHPBrowserBox v5.0 Shell
+title PHPBrowserBox v6.0 Shell
 setlocal EnableExtensions EnableDelayedExpansion
 
 echo.

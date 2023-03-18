@@ -5,7 +5,7 @@
 <assemblyIdentity
     name="phpbrowserbox.exe"
     processorArchitecture="*"
-    version="5.0.0.0"
+    version="6.0.0.0"
     type="win64"/>
 <description>elevate execution level</description>
    <trustInfo xmlns="urn:schemas-microsoft-com:asm.v2">
