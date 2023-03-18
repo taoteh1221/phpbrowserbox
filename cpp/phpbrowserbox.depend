@@ -49,3 +49,53 @@
 	<climits>
 	<fstream>
 
+1679178656 source:e:\php box\repo\phpbrowserboxv6.0\cpp\app.rc
+	<windows.h>
+	"resource.h"
+
+1679178640 e:\php box\repo\phpbrowserboxv6.0\cpp\resource.h
+
+1679178720 source:e:\php box\repo\phpbrowserboxv6.0\cpp\main.cpp
+	<tchar.h>
+	<windows.h>
+	<stdio.h>
+	<iostream>
+	<string>
+	<process.h>
+	<cstdio>
+	"resource.h"
+	<ios>
+	<fstream>
+	"funcs.h"
+	<stdexcept>
+	<regex>
+
+1679166108 e:\php box\repo\phpbrowserboxv6.0\cpp\funcs.h
+
+1679178874 source:e:\php box\repo\phpbrowserboxv6.0\cpp\func.cpp
+	<tchar.h>
+	<windows.h>
+	<stdio.h>
+	<iostream>
+	<string>
+	<process.h>
+	<cstdio>
+	"resource.h"
+	<ios>
+	<fstream>
+	"funcs.h"
+	<cstring>
+	"RSJparser.tcc"
+	<stdexcept>
+
+1627987526 e:\php box\repo\phpbrowserboxv6.0\cpp\rsjparser.tcc
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	<vector>
+	<unordered_map>
+	<utility>
+	<iostream>
+	<climits>
+	<fstream>
+

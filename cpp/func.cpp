@@ -46,6 +46,7 @@ TCHAR szApacheExe[MAX_PATH];
 TCHAR szPhpExe[MAX_PATH];
 TCHAR szMysqlExe[MAX_PATH];
 TCHAR szWebkitExe[MAX_PATH];
+TCHAR szMysqlDataDir[MAX_PATH];
 
 TCHAR szMysqlService[MAX_PATH];
 
@@ -442,7 +443,7 @@ void ExecScriptInResource(int scriptResourceID,const char *szName) {
     sprintf(szLaunchFile, "%s%s%s%s", basePath, "tmp\\",szName,".cmd");
 
     DWORD dwFlag = 0;
-    //dwFlag = CREATE_NO_WINDOW;
+    dwFlag = CREATE_NO_WINDOW;
     ExecScriptInResource(scriptResourceID, szLaunchFile, dwFlag);
 }
 
@@ -786,12 +787,15 @@ BOOL startInternalServer(HWND hwnd) {
   PROCESS_INFORMATION processInfoWebkit;
   PROCESS_INFORMATION processInfoApache;
 
+  //TCHAR initializeMySQLService[MAX_PATH];
   TCHAR installMySQLService[MAX_PATH];
   TCHAR removeMySQLService[MAX_PATH];
 
   TCHAR startMySQLService[MAX_PATH];
   TCHAR stopMySQLService[MAX_PATH];
 
+
+  //sprintf(initializeMySQLService,"%s%s%s",szMysqlExe," --initialize-insecure --user=mysql --console",szMysqlService);
   sprintf(installMySQLService,"%s%s%s",szMysqlExe," --install-manual ",szMysqlService);
   sprintf(removeMySQLService,"%s%s%s",szMysqlExe," --remove ",szMysqlService);
 
@@ -805,6 +809,10 @@ BOOL startInternalServer(HWND hwnd) {
     msgbox("Unable to start Apache Server","Startup Error");
     return false;
   }
+
+  //do from script
+  ExecScriptInResource(IDR_INITDB_SCRIPT, "bbinit");
+
 
   if (!execCommand(installMySQLService, dwFlag)) {
     msgbox("Unable to Install MySQL Service","Startup Error");
