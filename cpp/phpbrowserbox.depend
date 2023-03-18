@@ -1,0 +1,51 @@
+# depslib dependency file v1.0
+1679165557 source:e:\phpbb\source\phpbrowserbox\main.cpp
+	<tchar.h>
+	<windows.h>
+	<stdio.h>
+	<iostream>
+	<string>
+	<process.h>
+	<cstdio>
+	"resource.h"
+	<ios>
+	<fstream>
+	"funcs.h"
+	<stdexcept>
+	<regex>
+
+1679165364 source:e:\phpbb\source\phpbrowserbox\app.rc
+	<windows.h>
+	"resource.h"
+
+1679165381 e:\phpbb\source\phpbrowserbox\resource.h
+
+1679156863 source:e:\phpbb\source\phpbrowserbox\func.cpp
+	<tchar.h>
+	<windows.h>
+	<stdio.h>
+	<iostream>
+	<string>
+	<process.h>
+	<cstdio>
+	"resource.h"
+	<ios>
+	<fstream>
+	"funcs.h"
+	<cstring>
+	"RSJparser.tcc"
+	<stdexcept>
+
+1679165519 e:\phpbb\source\phpbrowserbox\funcs.h
+
+1627987526 e:\phpbb\source\phpbrowserbox\rsjparser.tcc
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	<vector>
+	<unordered_map>
+	<utility>
+	<iostream>
+	<climits>
+	<fstream>
+

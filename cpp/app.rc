@@ -1,0 +1,65 @@
+
+//////////////////////////////////////////////////////////////////////////////
+//
+// Archivo Manifest genérico para Windows XP/Vista
+//
+
+#if !defined(wxUSE_NO_MANIFEST) || (wxUSE_NO_MANIFEST == 0)
+#if !defined(WX_MSC_FULL_VER) || WX_MSC_FULL_VER < 140040130
+
+// ver la página sobre "isolated applications" en MSDN
+#
+#ifdef ISOLATION_AWARE_ENABLED
+#define APP_MANIFEST 2
+#else
+#define APP_MANIFEST 1
+#endif
+
+#define RT_MANIFEST 24
+
+APP_MANIFEST RT_MANIFEST phpbrowserbox.exe.Manifest
+
+#endif // !defined(WX_MSC_FULL_VER) || WX_MSC_FULL_VER < 140040130
+#endif // !defined(wxUSE_NO_MANIFEST) || (wxUSE_NO_MANIFEST == 0)
+
+#include <windows.h> // include for version info constants
+#include "resource.h"
+
+
+A ICON "icon.ico"
+
+IDR_PRE_LAUNCH_SCRIPT TEXTFILE "firewall.cmd"
+IDR_STARTUP_SCRIPT TEXTFILE "startupcheck.cmd"
+IDR_SHELL_SCRIPT TEXTFILE "shell.cmd"
+IDR_DOCTOR_SCRIPT TEXTFILE "bbdoctor.cmd"
+IDR_CONFIG_JSON TEXTFILE "webkit.json"
+
+//
+// TO CHANGE VERSION INFORMATION, EDIT PROJECT OPTIONS...
+//
+1 VERSIONINFO
+FILEVERSION 5,1,0,0
+PRODUCTVERSION 5,1
+FILETYPE VFT_APP
+{
+  BLOCK "StringFileInfo"
+  {
+    BLOCK "040904E4"
+    {
+      VALUE "FileDescription", "PHPBrowserBox"
+      VALUE "Type", "Application"
+      VALUE "FileVersion", "5.1.0.0"
+      VALUE "ProductName", "PHPBrowserBox"
+      VALUE "WebsiteName", "phpbrowserbox.com"
+      VALUE "ProductVersion", "5.1"
+      VALUE "LegalCopyright", "Copyright 2023 Africoders Network"
+      VALUE "LegalTrademarks", "Copyright 2023 Africoders Network"
+      VALUE "InternalName", "PHPBrowserBox"
+      VALUE "OriginalFilename", "phpbrowserbox.exe"
+    }
+  }
+  BLOCK "VarFileInfo"
+  {
+    VALUE "Translation", 0x0409, 1252
+  }
+}
