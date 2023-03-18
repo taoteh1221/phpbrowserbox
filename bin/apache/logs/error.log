@@ -1596,3 +1596,9 @@ Apache server shutdown initiated...
 [Sat Mar 18 12:52:04.815694 2023] [mpm_winnt:error] [pid 9100:tid 544] (OS 10038)An operation was attempted on something that is not a socket.  : AH00337: Child: Encountered too many AcceptEx faults accepting client connections. Possible causes: dynamic address renewal, or incompatible VPN or firewall software. 
 [Sat Mar 18 12:52:04.815694 2023] [mpm_winnt:notice] [pid 9100:tid 544] (OS 10038)An operation was attempted on something that is not a socket.  : AH00338: winnt_mpm: falling back to 'AcceptFilter none'.
 [Sat Mar 18 12:52:06.829762 2023] [mpm_winnt:notice] [pid 9100:tid 448] AH00364: Child: All worker threads have exited.
+[Sat Mar 18 13:34:59.503946 2023] [core:warn] [pid 10596:tid 436] AH00098: pid file E:/phpbrowserbox/workspace5 0/phpbbv60/bin/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Mar 18 13:35:08.080898 2023] [mpm_winnt:notice] [pid 10596:tid 436] AH00455: Apache/2.4.55 (Win64) PHP/8.2.2 configured -- resuming normal operations
+[Sat Mar 18 13:35:08.080898 2023] [mpm_winnt:notice] [pid 10596:tid 436] AH00456: Apache Lounge VS17 Server built: Feb  9 2023 09:58:39
+[Sat Mar 18 13:35:08.080898 2023] [core:notice] [pid 10596:tid 436] AH00094: Command line: 'E:\\phpbrowserbox\\workspace5 0\\phpbbv60\\bin\\apache\\bin\\httpd.exe -d E:/phpbrowserbox/workspace5 0/phpbbv60/bin/apache'
+[Sat Mar 18 13:35:08.085916 2023] [mpm_winnt:notice] [pid 10596:tid 436] AH00418: Parent: Created child process 15040
+[Sat Mar 18 13:35:09.347934 2023] [mpm_winnt:notice] [pid 15040:tid 424] AH00354: Child: Starting 64 worker threads.
