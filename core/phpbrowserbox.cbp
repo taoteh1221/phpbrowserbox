@@ -20,7 +20,6 @@
 				<Option object_output="obj/Release/" />
 				<Option type="0" />
 				<Option compiler="gcc" />
-				<Option parameters="/doctor" />
 				<Compiler>
 					<Add option="-O2" />
 				</Compiler>
@@ -47,6 +46,7 @@
 		<Unit filename="func.cpp" />
 		<Unit filename="funcs.h" />
 		<Unit filename="icon.ico" />
+		<Unit filename="initdb.cmd" />
 		<Unit filename="main.cpp" />
 		<Unit filename="phpbrowserbox.exe.Manifest" />
 		<Unit filename="resource.h" />

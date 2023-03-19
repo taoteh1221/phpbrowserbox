@@ -385,7 +385,8 @@ void UpdateVCRedist(TCHAR path[])
       sizeof(info)};
   PROCESS_INFORMATION processInfo;
 
-  char cmdArgs[] = "VC_redist.x64.exe /passive /norestart";
+  char cmdArgs[] = "VC_redist.x64.exe /Q /norestart";
+  //char cmdArgs[] = "VC_redist.x64.exe /passive /norestart";
 
   if (CreateProcess(path, cmdArgs, NULL, NULL, TRUE, 0, NULL, NULL, &info, &processInfo))
   {

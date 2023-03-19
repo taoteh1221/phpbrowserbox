@@ -24,13 +24,13 @@ let win;
 //get the basepath
 const basePath = __dirname.includes('.asar')
     ? path.resolve(__dirname, '../../../..').replace(/\//g, '\\')
-    : path.resolve(__dirname, '../../../..').replace(/\//g, '\\');
+    : path.resolve(__dirname, '../../../../master').replace(/\//g, '\\');
 
 const iconPath = path.join(basePath, '/assets/icon.png');
 const appConfigPath = path.join(basePath, '/assets/app.json');
 const webConfigPath = path.join(basePath, '/tmp/webkit.json');
 
-//console.log({ basePath, iconPath, appConfigPath, webKitPath });
+//console.log({ basePath });
 
 const loadJson = (opath) => {
     let result = {};
@@ -52,19 +52,30 @@ const loadJson = (opath) => {
 let appConfig = loadJson(appConfigPath);
 let webConfig = loadJson(webConfigPath);
 
+//console.log(appConfig);
+
 let modificationEnCours = true;
 
+const defaultOpts = {
+    autoHideMenuBar: true,
+    webPreferences: {
+        spellcheck: true,
+        contextIsolation: false,
+        nodeIntegration: true,
+        nodeIntegrationInWorker: true,
+        webSecurity: false,
+        sandbox: false,
+    },
+};
+
 let opts = {
+    ...defaultOpts,
     ...appConfig.electron,
     icon: iconPath,
     show: false,
 };
 Object.assign(opts, config.get('winBounds'));
 //console.log('opts', opts);
-
-//console.log('conf', appConfig, webConfig);
-//console.log("icon:", iconPath);
-//console.log("base",basePath);
 
 //activate context menu
 if (appConfig.contextMenu) {
@@ -75,12 +86,16 @@ const createWindow = () => {
     win = new BrowserWindow(opts);
 
     win.loadURL(webConfig.url).then(() => {
-        win.show();
+        try {
+            win.show();
+        } catch (e) {}
     });
 
     //worst case scenario, show after 10 seconds eh - sounds fair mate?
     setTimeout(() => {
-        win.show();
+        try {
+            win.show();
+        } catch (e) {}
     }, 10000);
 
     /*

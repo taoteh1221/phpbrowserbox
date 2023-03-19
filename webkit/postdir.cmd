@@ -1,2 +1,2 @@
 @echo off
-cp -r dist/win-unpacked/* ../../bin/phpbbwebkit
+cp -r dist/win-unpacked/* ../../master/bin/phpbbwebkit
