@@ -62,6 +62,8 @@ int WINAPI WinMain(HINSTANCE hThisInstance,
   TCHAR szFileName[MAX_PATH];
   GetModuleFileName(NULL, szFileName, MAX_PATH);
 
+  cout << "Welcome to PHPBrowserbox v6.0" ;
+
   /*
   get basepath e.g. e:/phpbb/
   */
@@ -119,7 +121,7 @@ int WINAPI WinMain(HINSTANCE hThisInstance,
   }
 
   // start log
-  sprintf(szLogFileName, "%s%s", basePath, "phpbrowserbox.pid");
+  sprintf(szLogFileName, "%s%s", basePath, "tmp/phpbrowserbox.pid");
   // std::ofstream log(szLogFileName, std::ios_base::app | std::ios_base::out);
 
   ofs.open(szLogFileName, std::ofstream::out | std::ofstream::app);

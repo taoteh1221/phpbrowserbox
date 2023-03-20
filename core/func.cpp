@@ -41,6 +41,7 @@ TCHAR szStartupLog[MAX_PATH];
 
 TCHAR szConfigFile[MAX_PATH];
 TCHAR szWebkitConfigFile[MAX_PATH];
+TCHAR szWeburlConfigFile[MAX_PATH];
 
 TCHAR szApacheExe[MAX_PATH];
 TCHAR szPhpExe[MAX_PATH];
@@ -513,6 +514,8 @@ BOOL IsPHPConfigValid()
   replace_all(data, "short_open_tag = Off", "short_open_tag = On");
   replace_all(data, "max_execution_time = 30", "max_execution_time = 120");
   replace_all(data, "max_input_time = 60", "max_input_time = 120");
+  replace_all(data, "display_errors = Off", "display_errors = On");
+  replace_all(data, "display_startup_errors = Off", "display_startup_errors = On");
   replace_all(data, ";error_log = syslog", "error_log = \"%phpbrowserbox%/logs/php_error.log\"");
   replace_all(data, ";extension_dir = \"ext\"", "extension_dir = \"%phpbrowserbox%/bin/php/ext/\" ");
 
@@ -566,6 +569,7 @@ BOOL preprocessAppConfig(char *basePath)
 
   sprintf(szConfigFile, "%s%s", basePath, "assets\\app.json");
   sprintf(szWebkitConfigFile, "%s%s", basePath, "tmp\\webkit.json");
+  sprintf(szWeburlConfigFile, "%s%s", basePath, "tmp\\dashboard.url");
 
   sprintf(szPortScanFile, "%s%s", basePath, "tmp\\ports.txt");
   sprintf(szStartupLog, "%s%s", basePath, "tmp\\startup.txt");
@@ -736,7 +740,11 @@ void rebuildConfig()
 
   // load config from json resource and save it
   std::string szWebkitConfigData = getResFileContents(IDR_CONFIG_JSON);
+  std::string szWeburlConfigData = getResFileContents(IDR_URL_JSON);
+
+  //manually parse files
   replace_config_tokens(szWebkitConfigData);
+  replace_config_tokens(szWeburlConfigData);
 
   // save files
   saveFileContents(szApacheConfDest, strApacheConfData);
@@ -744,6 +752,7 @@ void rebuildConfig()
   saveFileContents(szPhpConfDest1, strPhpConfData);
   saveFileContents(szPhpConfDest2, strPhpConfData);
 
+  saveFileContents(szWeburlConfigFile, szWeburlConfigData);
   saveFileContents(szWebkitConfigFile, szWebkitConfigData);
 }
 
