@@ -5,27 +5,17 @@
 #endif
 
 #include <tchar.h>
-
 #include <windows.h>
-
 #include <stdio.h>
-
 #include <iostream>
-
 #include <string>
-
 #include <process.h>
-
 #include <cstdio>
-
-#include "resource.h"
-
 #include <ios>
-
 #include <fstream>
 
 #include "funcs.h"
-
+#include "resource.h"
 #include <stdexcept>
 #include <regex>
 
@@ -62,36 +52,11 @@ int WINAPI WinMain(HINSTANCE hThisInstance,
   TCHAR szFileName[MAX_PATH];
   GetModuleFileName(NULL, szFileName, MAX_PATH);
 
-  cout << "Welcome to PHPBrowserbox v6.0" ;
-
   /*
   get basepath e.g. e:/phpbb/
   */
   char *basePath = NULL;
   getEXEPath(basePath, szFileName);
-
-  setBasePath(basePath);
-  makeTempFolder();
-
-  //get commandline Arguments
-  std::string cmdLine(GetCommandLine());
-  std::string exeName (szFileName);
-
-  //check whether to start shell
-  cmdLine.replace(cmdLine.find(exeName),exeName.length(),"");
-
-  if (cmdLine.find("/doctor") != string::npos) {
-    //Execute bbdoctor
-    ExecScriptInResource(IDR_DOCTOR_SCRIPT, "bbdoctor");
-    return 0;
-  }
-
-  if (cmdLine.find("/shell") != string::npos) {
-    //Execute Shell script start
-    ExecScriptInResource(IDR_SHELL_SCRIPT, "bbshell");
-    return 0;
-  }
-
 
   // Create a mutex with a unique name
   char lockName[MAX_PATH];
@@ -108,11 +73,6 @@ int WINAPI WinMain(HINSTANCE hThisInstance,
     return 0;
   }
 
-  // check config
-  if (!preprocessAppConfig(basePath))
-  {
-    return 0;
-  }
 
   // create application window
   if (!CreateApplicationWindow(hThisInstance, hPrevInstance, lpszArgument, nCmdShow, hwnd))
@@ -128,33 +88,9 @@ int WINAPI WinMain(HINSTANCE hThisInstance,
 
   ofs << "starting app";
 
-  // registry check for vcruntime140
-  if (DoesVCRedistNeedUpdate())
-  {
-    TCHAR szVcRedistPath[MAX_PATH];
-    sprintf(szVcRedistPath, "%sbin\\vc_redist\\VC_redist.x64.exe", basePath);
-    UpdateVCRedist(szVcRedistPath);
-  }
 
-  // do this first so that tmp/ports.txt can be initialized
-  firewallConfig(basePath);
+  Sleep(5 * 1000);
 
-  // dynamic port scanning
-  freePortScanning();
 
-  // update the lamp configs on the fly
-  rebuildConfig();
-
-  if(!startupTest(basePath)) {
-    exitApp();
-  }
-
-  //Sleep(5 * 1000);
-
-  //start apache, mysql and webkit here
-  startInternalServer(hwnd);
-
-  exitApp();
-
-  return 0;
+  return exitApp();
 }

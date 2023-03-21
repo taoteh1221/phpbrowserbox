@@ -149,13 +149,13 @@
 	<climits>
 	<fstream>
 
-1679230710 source:e:\php box\source\core\app.rc
+1679434791 source:e:\php box\source\core\app.rc
 	<windows.h>
 	"resource.h"
 
 1679230694 e:\php box\source\core\resource.h
 
-1679233308 source:e:\php box\source\core\func.cpp
+1679435536 source:e:\php box\source\core\func.cpp
 	<tchar.h>
 	<windows.h>
 	<stdio.h>
@@ -168,10 +168,9 @@
 	<fstream>
 	"funcs.h"
 	<cstring>
-	"RSJparser.tcc"
 	<stdexcept>
 
-1679166108 e:\php box\source\core\funcs.h
+1679435585 e:\php box\source\core\funcs.h
 
 1627987526 e:\php box\source\core\rsjparser.tcc
 	<stdio.h>
@@ -184,7 +183,7 @@
 	<climits>
 	<fstream>
 
-1679238690 source:e:\php box\source\core\main.cpp
+1679434951 source:e:\php box\source\core\main.cpp
 	<tchar.h>
 	<windows.h>
 	<stdio.h>
@@ -192,10 +191,10 @@
 	<string>
 	<process.h>
 	<cstdio>
-	"resource.h"
 	<ios>
 	<fstream>
 	"funcs.h"
+	"resource.h"
 	<stdexcept>
 	<regex>
 
