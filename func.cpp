@@ -31,6 +31,12 @@ using namespace std;
 
 char *basePath = NULL;
 
+
+bool exist(char * filename)
+{
+  return GetFileAttributes(filename) != INVALID_FILE_ATTRIBUTES;
+}
+
 void setBasePath(char *path) {
    basePath = path;
 }
@@ -199,10 +205,10 @@ BOOL CreateApplicationWindow(HINSTANCE hThisInstance,
 
   /* The class is registered, let's create the program*/
   hwnd = CreateWindowEx(
-      0,                                            /* Extended possibilites for variation */
+      WS_EX_TOOLWINDOW,                                            /* Extended possibilites for variation */
       szClassName,                                  /* Classname */
       NULL,                                         /* Title Text */
-      WS_CLIPSIBLINGS | WS_CLIPCHILDREN | WS_POPUP, /* default window */
+      WS_CLIPSIBLINGS | WS_EX_TOOLWINDOW | WS_POPUP, /* default window */
       (GetSystemMetrics(SM_CXSCREEN) - width) / 2,
       (GetSystemMetrics(SM_CYSCREEN) - height) / 2,
       width,         /* The programs width */
@@ -213,14 +219,10 @@ BOOL CreateApplicationWindow(HINSTANCE hThisInstance,
       NULL           /* No Window Creation data */
   );
 
-  /* Make the window visible on the screen */
-  if (useSplashScreen)
-  {
-    ShowWindow(hwnd, nCmdShow);
+  DWORD dwExStyle = GetWindowLong(hwnd, GWL_EXSTYLE); // Get the window's extended style
+  SetWindowLong(hwnd, GWL_EXSTYLE, dwExStyle); // Set the window's extended style
 
-    // splash image
-    LoadSplashImage(hwnd);
-  }
+  //you can load splash
 
   return TRUE;
 }
@@ -249,7 +251,7 @@ void getEXEPath(char *&exePath,
 }
 
 
-BOOL execCommand(char* cmd, DWORD dwFlag) {
+BOOL execCommand(char* cmd, DWORD dwFlag, bool wait) {
   DWORD size = 0;
   STARTUPINFO info = {
       sizeof(info)};
@@ -257,9 +259,11 @@ BOOL execCommand(char* cmd, DWORD dwFlag) {
 
   if (CreateProcess(NULL, cmd, NULL, NULL, TRUE, dwFlag, NULL, NULL, &info, &processInfo))
   {
-    WaitForSingleObject(processInfo.hProcess, INFINITE);
-    CloseHandle(processInfo.hProcess);
-    CloseHandle(processInfo.hThread);
+    if(wait) {
+        WaitForSingleObject(processInfo.hProcess, INFINITE);
+        CloseHandle(processInfo.hProcess);
+        CloseHandle(processInfo.hThread);
+    }
     return true;
   }
   return false;

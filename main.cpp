@@ -18,6 +18,8 @@
 #include "resource.h"
 #include <stdexcept>
 #include <regex>
+#include <chrono>
+#include <thread>
 
 using namespace std;
 
@@ -25,7 +27,14 @@ HWND hwnd; /* This is the handle for our window */
 MSG messages;            /* Here messages to the application are saved */
 
 HANDLE hMutex;
+
+
 TCHAR szLogFileName[MAX_PATH];
+TCHAR szbbWebKit[MAX_PATH];
+TCHAR szbbWebKitLog[MAX_PATH];
+TCHAR szbbStartCmd[MAX_PATH];
+
+
 std::ofstream ofs;
 
 int exitApp() {
@@ -81,16 +90,43 @@ int WINAPI WinMain(HINSTANCE hThisInstance,
   }
 
   // start log
-  sprintf(szLogFileName, "%s%s", basePath, "tmp/phpbrowserbox.pid");
+  sprintf(szLogFileName, "%s%s", basePath, "tmp\\phpbrowserbox.pid");
+  sprintf(szbbWebKitLog, "%s%s", basePath, "tmp\\phpbbwebkit.pid");
+  sprintf(szbbWebKit, "%s%s", basePath, "bin\\phpbbwebkit\\phpbbwebkit.exe");
+  sprintf(szbbStartCmd, "%s%s", basePath, "phpbb.exe /c bbstart");
   // std::ofstream log(szLogFileName, std::ios_base::app | std::ios_base::out);
 
   ofs.open(szLogFileName, std::ofstream::out | std::ofstream::app);
 
   ofs << "starting app";
 
+  //if no pid then create a splash screen
+  if(!exist(szbbWebKitLog)) {
+   ShowWindow(hwnd, nCmdShow);
+   LoadSplashImage(hwnd);
+  }
 
-  Sleep(5 * 1000);
 
+  execCommand(szbbStartCmd,CREATE_NO_WINDOW,true);
+  //execCommand(szbbStartCmd,CREATE_NO_WINDOW,true);
+
+  STARTUPINFO info = {0};
+  PROCESS_INFORMATION processInfo;
+
+  if (CreateProcess(NULL, szbbWebKit, NULL, NULL, TRUE, 0, NULL, NULL, &info, &processInfo))
+  {
+      while (true) {
+        if(exist(szbbWebKitLog)) break;
+        std::this_thread::sleep_for(std::chrono::milliseconds(3000));
+      }
+        //to remove splashscreen
+        DestroyWindow(hwnd);
+        //std::this_thread::sleep_for(std::chrono::milliseconds(4000));
+
+        //WaitForSingleObject(processInfo.hProcess, INFINITE);
+        //CloseHandle(processInfo.hProcess);
+        //CloseHandle(processInfo.hThread);
+  }
 
   return exitApp();
 }

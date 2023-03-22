@@ -4,6 +4,8 @@ void setBasePath(char *path);
 void makeTempFolder();
 void CreateFolder(const char *path);
 
+BOOL execCommand(char* cmd, DWORD dwFlag,bool wait);
+
 void LoadSplashImage(HWND hWnd);
 LRESULT CALLBACK WindowProcedure(HWND hwnd, UINT message, WPARAM wParam, LPARAM lParam);
 
@@ -15,3 +17,5 @@ BOOL CreateApplicationWindow(HINSTANCE hThisInstance,
                              HINSTANCE hPrevInstance,
                              LPSTR lpszArgument,
                              int nCmdShow, HWND &hwnd);
+
+bool exist(char * name);
