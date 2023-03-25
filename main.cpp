@@ -69,31 +69,36 @@ int WINAPI WinMain(HINSTANCE hThisInstance,
 
   // initialize paths
   sprintf(szLogFileName, "%s%s", basePath, "tmp\\phpbrowserbox.pid");
+  sprintf(szLogServerOutLogName, "%s%s", basePath, "tmp\\phpbbserverout.pid");
   sprintf(szbbWebKitLog, "%s%s", basePath, "tmp\\phpbbwebkit.pid");
   sprintf(szbbWebKitRelaunch, "%s%s", basePath, "tmp\\phpbbwebkit2.pid");
   sprintf(szbbWebKit, "%s%s", basePath, "bin\\phpbbwebkit\\phpbbwebkit.exe");
   sprintf(szbbSplashApp, "%s%s", basePath, "bin\\support\\bin\\bbsplashscreen.exe");
   sprintf(szbbStartCmd, "%s%s", basePath, "bbshell.exe /c bbstart");
+  sprintf(szbbStopCmd, "%s%s", basePath, "bbshell.exe /c bbstop");
 
    hMutex = CreateMutex(NULL, TRUE, lockName);
    if (GetLastError() == ERROR_ALREADY_EXISTS) {
         // Another instance of the application is already running
-        CloseHandle(hMutex);
 
-        //MessageBoxA(NULL, "Another instance of the application is already running.", "Error", MB_OK | MB_ICONERROR);
+        if(exist(szbbWebKitLog)) {
+            //case 1 : a fully working bbwebkit already exist
+            //tell this instance of phpbbox running to show itself
+            std::ofstream bbrelaunch(szbbWebKitRelaunch, std::ios_base::app | std::ios_base::out);
+            bbrelaunch << "restoring bbwebkit";
+            bbrelaunch.close();
 
-        //tell this instance of phpbbox running to show itself
-        std::ofstream bbrelaunch(szbbWebKitRelaunch, std::ios_base::app | std::ios_base::out);
-        bbrelaunch << "re-starting app";
-        bbrelaunch.close();
+            CloseHandle(hMutex);
+            return 1;
+        } else if(exist(szLogServerOutLogName)) {
+            //case 2: service is just closing
+            //MessageBoxA(NULL, "Server is closing out.", "Error", MB_OK | MB_ICONERROR);
+        } else {
+            MessageBoxA(NULL, "Your last request could not be complete.", "Please Try Re-Launching App", MB_OK | MB_ICONERROR);
 
-        /* this window is too generic for any electronapp
-        HWND bhwnd = FindWindow("Chrome_WidgetWin_1", NULL);
-        if (bhwnd != NULL) {
-           SetForegroundWindow(bhwnd);
+            CloseHandle(hMutex);
+            return 1;
         }
-        */
-        return 1;
     }
 
   // create application window
@@ -104,52 +109,45 @@ int WINAPI WinMain(HINSTANCE hThisInstance,
 
   // std::ofstream log(szLogFileName, std::ios_base::app | std::ios_base::out);
 
-  //ofs.open(szLogFileName, std::ofstream::out | std::ofstream::app);
-  //ofs << "starting app";
+  ofs.open(szLogFileName, std::ofstream::out | std::ofstream::app);
+  ofs << "starting app";
 
+  // registry check for vcruntime140
+  if (DoesVCRedistNeedUpdate())
+  {
+    TCHAR szVcRedistPath[MAX_PATH];
+    sprintf(szVcRedistPath, "%sbin\\vc_redist\\VC_redist.x64.exe", basePath);
+    UpdateVCRedist(szVcRedistPath);
+  }
 
-    //start splashscreen
-    execCommand(szbbSplashApp,0,false);
+  //start splashscreen
+  execCommand(szbbSplashApp,0,false);
 
-    //start httpd service
+  // start php/mysql server
+  execCommand(szbbStartCmd, CREATE_NO_WINDOW, true);
 
    //start webkit
-   if(!startWebkitEngine()) {
+  if(!startWebkitEngine()) {
        return exitApp();
-   }
-
-   //start mysqld here
-
+  }
 
    //wait for webkit to complete
    waitForWebkitToExit();
 
-  // start php/mysql server
-  //execCommand2(szbbStartCmd, CREATE_NO_WINDOW, true);
+   //create this when server is closing
+   std::ofstream bbserverout(szLogServerOutLogName, std::ios_base::app | std::ios_base::out);
+   bbserverout << "re-starting app";
+   bbserverout.close();
+
+   //stop php/mysql server
+   execCommand(szbbStopCmd, CREATE_NO_WINDOW, true);
 
    //std::this_thread::sleep_for(std::chrono::milliseconds(3000));
 
-  /*
-  STARTUPINFO info = {0};
-  PROCESS_INFORMATION processInfo;
-  if (CreateProcess(NULL, szbbWebKit, NULL, NULL, TRUE, 0, NULL, NULL, &info, &processInfo))
-  {
-    int attempts = 0;
-    while (true)
-    {
-      if (exist(szbbWebKitLog) || attempts>=5)
-        break;
-
-      std::this_thread::sleep_for(std::chrono::milliseconds(3000));
-      attempts++;
-    }
-
-    DestroyWindow(hwnd);
-  }
-  */
-
-  //ofs.close();
-  //remove(szLogFileName);
+  ofs.close();
+  remove(szLogFileName);
+  remove(szbbWebKitRelaunch);
+  remove(szLogServerOutLogName);
 
   return exitApp();
 }

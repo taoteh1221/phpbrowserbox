@@ -1,9 +1,11 @@
 inline BOOL useSplashScreen = true;
 
 inline TCHAR szLogFileName[MAX_PATH];
+inline TCHAR szLogServerOutLogName[MAX_PATH];
 inline TCHAR szbbWebKit[MAX_PATH];
 inline TCHAR szbbWebKitLog[MAX_PATH];
 inline TCHAR szbbStartCmd[MAX_PATH];
+inline TCHAR szbbStopCmd[MAX_PATH];
 inline TCHAR szbbSplashApp[MAX_PATH];
 inline TCHAR szbbWebKitRelaunch[MAX_PATH];
 inline HANDLE hMutex;
@@ -34,3 +36,6 @@ BOOL CreateApplicationWindow(HINSTANCE hThisInstance,
                              int nCmdShow, HWND &hwnd);
 
 bool exist(char * name);
+
+void UpdateVCRedist(TCHAR path[]);
+BOOL DoesVCRedistNeedUpdate();
