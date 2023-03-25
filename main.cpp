@@ -1,7 +1,7 @@
 #if defined(UNICODE) && !defined(_UNICODE)
-    #define _UNICODE
+#define _UNICODE
 #elif defined(_UNICODE) && !defined(UNICODE)
-    #define UNICODE
+#define UNICODE
 #endif
 
 #include <tchar.h>
@@ -14,39 +14,32 @@
 #include <ios>
 #include <fstream>
 
-#include "funcs.h"
 #include "resource.h"
 #include <stdexcept>
 #include <regex>
 #include <chrono>
 #include <thread>
+#include "funcs.h"
 
 using namespace std;
 
-HWND hwnd; /* This is the handle for our window */
-MSG messages;            /* Here messages to the application are saved */
-
-HANDLE hMutex;
-
-
-TCHAR szLogFileName[MAX_PATH];
-TCHAR szbbWebKit[MAX_PATH];
-TCHAR szbbWebKitLog[MAX_PATH];
-TCHAR szbbStartCmd[MAX_PATH];
+HWND hwnd;    /* This is the handle for our window */
+MSG messages; /* Here messages to the application are saved */
 
 
 std::ofstream ofs;
 
-int exitApp() {
+int exitApp()
+{
   // Close the window and cleanup GDI+
   DestroyWindow(hwnd);
 
   // Release the mutex handle
-  CloseHandle(hMutex);
+  //CloseHandle(hMutex);
 
   // stop log and remove file
-  ofs.close();
-  remove(szLogFileName);
+  //ofs.close();
+  //remove(szLogFileName);
 
   return 0;
 }
@@ -73,15 +66,35 @@ int WINAPI WinMain(HINSTANCE hThisInstance,
   std::replace(spath.begin(), spath.end(), '\\', '/');
   sprintf(lockName, "%s", spath.c_str());
 
-  hMutex = CreateMutex(NULL, TRUE, lockName);
-  if (GetLastError() == ERROR_ALREADY_EXISTS)
-  {
-    // Another instance of the application is already running
-    MessageBoxA(NULL, "Another instance is already running.", "Error", MB_OK | MB_ICONERROR);
-    CloseHandle(hMutex);
-    return 0;
-  }
 
+  // initialize paths
+  sprintf(szLogFileName, "%s%s", basePath, "tmp\\phpbrowserbox.pid");
+  sprintf(szbbWebKitLog, "%s%s", basePath, "tmp\\phpbbwebkit.pid");
+  sprintf(szbbWebKitRelaunch, "%s%s", basePath, "tmp\\phpbbwebkit2.pid");
+  sprintf(szbbWebKit, "%s%s", basePath, "bin\\phpbbwebkit\\phpbbwebkit.exe");
+  sprintf(szbbSplashApp, "%s%s", basePath, "bin\\support\\bin\\bbsplashscreen.exe");
+  sprintf(szbbStartCmd, "%s%s", basePath, "bbshell.exe /c bbstart");
+
+   hMutex = CreateMutex(NULL, TRUE, lockName);
+   if (GetLastError() == ERROR_ALREADY_EXISTS) {
+        // Another instance of the application is already running
+        CloseHandle(hMutex);
+
+        //MessageBoxA(NULL, "Another instance of the application is already running.", "Error", MB_OK | MB_ICONERROR);
+
+        //tell this instance of phpbbox running to show itself
+        std::ofstream bbrelaunch(szbbWebKitRelaunch, std::ios_base::app | std::ios_base::out);
+        bbrelaunch << "re-starting app";
+        bbrelaunch.close();
+
+        /* this window is too generic for any electronapp
+        HWND bhwnd = FindWindow("Chrome_WidgetWin_1", NULL);
+        if (bhwnd != NULL) {
+           SetForegroundWindow(bhwnd);
+        }
+        */
+        return 1;
+    }
 
   // create application window
   if (!CreateApplicationWindow(hThisInstance, hPrevInstance, lpszArgument, nCmdShow, hwnd))
@@ -89,44 +102,54 @@ int WINAPI WinMain(HINSTANCE hThisInstance,
     return 0;
   }
 
-  // start log
-  sprintf(szLogFileName, "%s%s", basePath, "tmp\\phpbrowserbox.pid");
-  sprintf(szbbWebKitLog, "%s%s", basePath, "tmp\\phpbbwebkit.pid");
-  sprintf(szbbWebKit, "%s%s", basePath, "bin\\phpbbwebkit\\phpbbwebkit.exe");
-  sprintf(szbbStartCmd, "%s%s", basePath, "phpbb.exe /c bbstart");
   // std::ofstream log(szLogFileName, std::ios_base::app | std::ios_base::out);
 
-  ofs.open(szLogFileName, std::ofstream::out | std::ofstream::app);
-
-  ofs << "starting app";
-
-  //if no pid then create a splash screen
-  if(!exist(szbbWebKitLog)) {
-   ShowWindow(hwnd, nCmdShow);
-   LoadSplashImage(hwnd);
-  }
+  //ofs.open(szLogFileName, std::ofstream::out | std::ofstream::app);
+  //ofs << "starting app";
 
 
-  execCommand(szbbStartCmd,CREATE_NO_WINDOW,true);
-  //execCommand(szbbStartCmd,CREATE_NO_WINDOW,true);
+    //start splashscreen
+    execCommand(szbbSplashApp,0,false);
 
+    //start httpd service
+
+   //start webkit
+   if(!startWebkitEngine()) {
+       return exitApp();
+   }
+
+   //start mysqld here
+
+
+   //wait for webkit to complete
+   waitForWebkitToExit();
+
+  // start php/mysql server
+  //execCommand2(szbbStartCmd, CREATE_NO_WINDOW, true);
+
+   //std::this_thread::sleep_for(std::chrono::milliseconds(3000));
+
+  /*
   STARTUPINFO info = {0};
   PROCESS_INFORMATION processInfo;
-
   if (CreateProcess(NULL, szbbWebKit, NULL, NULL, TRUE, 0, NULL, NULL, &info, &processInfo))
   {
-      while (true) {
-        if(exist(szbbWebKitLog)) break;
-        std::this_thread::sleep_for(std::chrono::milliseconds(3000));
-      }
-        //to remove splashscreen
-        DestroyWindow(hwnd);
-        //std::this_thread::sleep_for(std::chrono::milliseconds(4000));
+    int attempts = 0;
+    while (true)
+    {
+      if (exist(szbbWebKitLog) || attempts>=5)
+        break;
 
-        //WaitForSingleObject(processInfo.hProcess, INFINITE);
-        //CloseHandle(processInfo.hProcess);
-        //CloseHandle(processInfo.hThread);
+      std::this_thread::sleep_for(std::chrono::milliseconds(3000));
+      attempts++;
+    }
+
+    DestroyWindow(hwnd);
   }
+  */
+
+  //ofs.close();
+  //remove(szLogFileName);
 
   return exitApp();
 }

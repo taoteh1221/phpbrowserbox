@@ -22,7 +22,6 @@
 
 #include <cstring>
 
-
 #include <stdexcept>
 
 using namespace std;
@@ -31,62 +30,75 @@ using namespace std;
 
 char *basePath = NULL;
 
-
-bool exist(char * filename)
+bool exist(char *filename)
 {
   return GetFileAttributes(filename) != INVALID_FILE_ATTRIBUTES;
 }
 
-void setBasePath(char *path) {
-   basePath = path;
+void setBasePath(char *path)
+{
+  basePath = path;
 }
 
-BOOL closeWindowByTitle(char * title) {
+BOOL closeWindowByTitle(char *title)
+{
 
-    auto hwnd = FindWindow(nullptr, title);
+  auto hwnd = FindWindow(nullptr, title);
 
-	if (hwnd != nullptr) {
-		PostMessage(hwnd, WM_CLOSE, 0, 0);
-        //MessageBoxA(NULL, "success", title, MB_OK | MB_ICONERROR);
-        return true;
-	} else {
-        //MessageBoxA(NULL, "failed", title, MB_OK | MB_ICONERROR);
-        return false;
-	}
+  if (hwnd != nullptr)
+  {
+    PostMessage(hwnd, WM_CLOSE, 0, 0);
+    // MessageBoxA(NULL, "success", title, MB_OK | MB_ICONERROR);
+    return true;
+  }
+  else
+  {
+    // MessageBoxA(NULL, "failed", title, MB_OK | MB_ICONERROR);
+    return false;
+  }
 }
 
-uint32_t fnv1a_hash(const char* data, size_t size) {
-    uint32_t hash = 2166136261u; // FNV offset basis
-    for (size_t i = 0; i < size; i++) {
-        hash ^= data[i];
-        hash *= 16777619u; // FNV prime
+uint32_t fnv1a_hash(const char *data, size_t size)
+{
+  uint32_t hash = 2166136261u; // FNV offset basis
+  for (size_t i = 0; i < size; i++)
+  {
+    hash ^= data[i];
+    hash *= 16777619u; // FNV prime
+  }
+  return hash;
+}
+
+std::string hashString(std::string original, std::string prefix)
+{
+  std::string result = prefix;
+  uint32_t hash = fnv1a_hash(original.c_str(), original.size());
+  string substr = std::to_string(hash);
+  result.append(substr);
+  return result;
+}
+
+std::string exec(const char *cmd)
+{
+  char buffer[128];
+  std::string result = "";
+  FILE *pipe = popen(cmd, "r");
+  if (!pipe)
+    throw std::runtime_error("popen() failed!");
+  try
+  {
+    while (fgets(buffer, sizeof buffer, pipe) != NULL)
+    {
+      result += buffer;
     }
-    return hash;
-}
-
-std::string hashString(std::string original, std::string prefix) {
-    std::string result = prefix;
-    uint32_t hash = fnv1a_hash(original.c_str(), original.size());
-    string substr = std::to_string(hash);
-    result.append(substr);
-    return result;
-}
-
-std::string exec(const char* cmd) {
-    char buffer[128];
-    std::string result = "";
-    FILE* pipe = popen(cmd, "r");
-    if (!pipe) throw std::runtime_error("popen() failed!");
-    try {
-        while (fgets(buffer, sizeof buffer, pipe) != NULL) {
-            result += buffer;
-        }
-    } catch (...) {
-        pclose(pipe);
-        throw;
-    }
+  }
+  catch (...)
+  {
     pclose(pipe);
-    return result;
+    throw;
+  }
+  pclose(pipe);
+  return result;
 }
 
 void msgbox(char *message, char *title)
@@ -113,7 +125,8 @@ void CreateFolder(const char *path)
   }
 }
 
-void makeTempFolder() {
+void makeTempFolder()
+{
   // create temp folder
   TCHAR szTempFolder[MAX_PATH];
   sprintf(szTempFolder, "%s%s", basePath, "tmp");
@@ -152,12 +165,9 @@ LRESULT CALLBACK WindowProcedure(HWND hwnd, UINT message, WPARAM wParam, LPARAM 
   case WM_DESTROY:
     PostQuitMessage(0); /* send a WM_QUIT to the message queue */
     break;
-  case WM_KILLFOCUS:
-  /*
-  case EN_KILLFOCUS:
-    msgbox("lost focus",NULL);
-    break;
-  */
+ case WM_KILLFOCUS:
+      PostQuitMessage (0);
+      break;
   default:
     /* for messages that we don't deal with */
     return DefWindowProc(hwnd, message, wParam, lParam);
@@ -205,9 +215,9 @@ BOOL CreateApplicationWindow(HINSTANCE hThisInstance,
 
   /* The class is registered, let's create the program*/
   hwnd = CreateWindowEx(
-      WS_EX_TOOLWINDOW,                                            /* Extended possibilites for variation */
-      szClassName,                                  /* Classname */
-      NULL,                                         /* Title Text */
+      WS_EX_TOOLWINDOW,                              /* Extended possibilites for variation */
+      szClassName,                                   /* Classname */
+      NULL,                                          /* Title Text */
       WS_CLIPSIBLINGS | WS_EX_TOOLWINDOW | WS_POPUP, /* default window */
       (GetSystemMetrics(SM_CXSCREEN) - width) / 2,
       (GetSystemMetrics(SM_CYSCREEN) - height) / 2,
@@ -220,13 +230,12 @@ BOOL CreateApplicationWindow(HINSTANCE hThisInstance,
   );
 
   DWORD dwExStyle = GetWindowLong(hwnd, GWL_EXSTYLE); // Get the window's extended style
-  SetWindowLong(hwnd, GWL_EXSTYLE, dwExStyle); // Set the window's extended style
+  SetWindowLong(hwnd, GWL_EXSTYLE, dwExStyle);        // Set the window's extended style
 
-  //you can load splash
+  // you can load splash
 
   return TRUE;
 }
-
 
 void getEXEPath(char *&exePath,
                 const char *szFileName)
@@ -250,8 +259,8 @@ void getEXEPath(char *&exePath,
   exePath = path_array;
 }
 
-
-BOOL execCommand(char* cmd, DWORD dwFlag, bool wait) {
+BOOL execCommand(char *cmd, DWORD dwFlag, bool wait)
+{
   DWORD size = 0;
   STARTUPINFO info = {
       sizeof(info)};
@@ -259,10 +268,32 @@ BOOL execCommand(char* cmd, DWORD dwFlag, bool wait) {
 
   if (CreateProcess(NULL, cmd, NULL, NULL, TRUE, dwFlag, NULL, NULL, &info, &processInfo))
   {
-    if(wait) {
-        WaitForSingleObject(processInfo.hProcess, INFINITE);
-        CloseHandle(processInfo.hProcess);
-        CloseHandle(processInfo.hThread);
+    if (wait)
+    {
+      WaitForSingleObject(processInfo.hProcess, INFINITE);
+      CloseHandle(processInfo.hProcess);
+      CloseHandle(processInfo.hThread);
+    }
+    return true;
+  }
+  return false;
+}
+
+BOOL execCommand2(char *cmd, DWORD dwFlag, bool wait)
+{
+  DWORD size = 0;
+  STARTUPINFO info = {
+      sizeof(info)};
+  PROCESS_INFORMATION processInfo;
+
+  if (CreateProcess(NULL, cmd, NULL, NULL, TRUE, dwFlag, NULL, NULL, &info, &processInfo))
+  {
+    if (wait)
+    {
+      //5 minutes wait max
+      WaitForSingleObject(processInfo.hProcess, 60 * 5 * 1000);
+      CloseHandle(processInfo.hProcess);
+      CloseHandle(processInfo.hThread);
     }
     return true;
   }
@@ -270,3 +301,25 @@ BOOL execCommand(char* cmd, DWORD dwFlag, bool wait) {
 }
 
 
+
+BOOL startWebkitEngine()
+{
+  DWORD size = 0;
+  STARTUPINFO info = {
+      sizeof(info)};
+
+  if (CreateProcess(NULL, szbbWebKit, NULL, NULL, TRUE, 0, NULL, NULL, &info, &webkitProcessInfo))
+  {
+    return true;
+  }
+
+  MessageBoxA(NULL, "PHPBBWebkit could not be started for unknown reasons.", "Error", MB_OK | MB_ICONERROR);
+
+  return false;
+}
+
+void waitForWebkitToExit() {
+  WaitForSingleObject(webkitProcessInfo.hProcess, INFINITE);
+  CloseHandle(webkitProcessInfo.hProcess);
+  CloseHandle(webkitProcessInfo.hThread);
+}
