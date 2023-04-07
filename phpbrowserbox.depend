@@ -200,3 +200,26 @@
 	<thread>
 	"funcs.h"
 
+1679434791 source:e:\phpbrowserbo x\source\phpbrowserbox\app.rc
+	<windows.h>
+	"resource.h"
+
+1679230694 e:\phpbrowserbo x\source\phpbrowserbox\resource.h
+
+1679751090 source:e:\phpbrowserbo x\source\phpbrowserbox\func.cpp
+	<tchar.h>
+	<windows.h>
+	<stdio.h>
+	<iostream>
+	<string>
+	<process.h>
+	<cstdio>
+	"resource.h"
+	<ios>
+	<fstream>
+	"funcs.h"
+	<cstring>
+	<stdexcept>
+
+1680401108 e:\phpbrowserbo x\source\phpbrowserbox\funcs.h
+

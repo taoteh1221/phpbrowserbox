@@ -72,10 +72,10 @@ int WINAPI WinMain(HINSTANCE hThisInstance,
   sprintf(szLogServerOutLogName, "%s%s", basePath, "tmp\\phpbbserverout.pid");
   sprintf(szbbWebKitLog, "%s%s", basePath, "tmp\\phpbbwebkit.pid");
   sprintf(szbbWebKitRelaunch, "%s%s", basePath, "tmp\\phpbbwebkit2.pid");
-  sprintf(szbbWebKit, "%s%s", basePath, "bin\\phpbbwebkit\\phpbbwebkit.exe");
-  sprintf(szbbSplashApp, "%s%s", basePath, "bin\\support\\bin\\bbsplashscreen.exe");
-  sprintf(szbbStartCmd, "%s%s", basePath, "bbshell.exe /c bbstart");
-  sprintf(szbbStopCmd, "%s%s", basePath, "bbshell.exe /c bbstop");
+  sprintf(szbbWebKit, "%s%s", basePath, "bin\\nw.js\\nw.exe");
+  sprintf(szbbSplashApp, "%s%s", basePath, "bin\\bbsplashscreen.exe");
+  sprintf(szbbStartCmd, "%s%s", basePath, "bin\\bbserver.exe start");
+  sprintf(szbbStopCmd, "%s%s", basePath, "bin\\bbserver stop");
 
    hMutex = CreateMutex(NULL, TRUE, lockName);
    if (GetLastError() == ERROR_ALREADY_EXISTS) {
@@ -123,7 +123,7 @@ int WINAPI WinMain(HINSTANCE hThisInstance,
   //start splashscreen
   execCommand(szbbSplashApp,0,false);
 
-  // start php/mysql server
+  //start server with db and preload webkit
   execCommand(szbbStartCmd, CREATE_NO_WINDOW, true);
 
    //start webkit
