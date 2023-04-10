@@ -23,7 +23,6 @@ APP_MANIFEST RT_MANIFEST phpbrowserbox.exe.Manifest
 #endif // !defined(wxUSE_NO_MANIFEST) || (wxUSE_NO_MANIFEST == 0)
 
 #include <windows.h> // include for version info constants
-#include "resource.h"
 
 
 A ICON "icon.ico"

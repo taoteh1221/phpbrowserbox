@@ -12,14 +12,17 @@ Table of contents:
 
 PHPBrowserBox is an open source project founded by Anthony Ogundipe in the year 2013 to provide a way for developing native desktop GUI applications using web technologies such as PHP, HTML5, JavaScript, MySQL, SQLite and Google Chrome.
 
-![3 ](https://user-images.githubusercontent.com/948100/221455215-802497e3-051d-415f-b109-4e3ed24b1bae.png)
+\
+![bbwebkit](https://user-images.githubusercontent.com/948100/230798579-46094938-3ee3-4c5c-8673-98d343455043.png)
 
-It is a convenient tool for converting PHP web apps and PHP CLI tools to desktop applications with little effort.
+
+It is a an excellent software for converting web applications written with HTML/PHP web apps and PHP into desktop applications with little effort.
 
 In a certain sense phpbrowserbox acts differently from a PHP to EXE compiler. It embeds a web browser, a multi-threaded web server and a PHP interpreter.
 All embedded into a single application, a portable folder that you can easily distribute to end users by packing it to zip archive or by making an [installer for your application](../../wiki/Knowledge-Base#application-installer).
 
-Technically all php versions are supported, but official support is php 7.0,7.3,7.4,8.0,8.1 and 8.2.
+It has been tested with the following php versions :  5.5, 5.6, 7.0, 7.1, 7.2, 7.3, 7.4, 8.0, 8.1 and 8.2 on both Windows 10 and Windows 11 x64.
+
 All popular PHP frameworks are supported, see the [PHP frameworks support](../../wiki/PHP-frameworks-support) wiki page.
 
 You can create a standalone executable for distribution with the help of the [Inno Setup installer](../../wiki/Knowledge-Base#application-installer).
@@ -32,43 +35,24 @@ Lots of other useful information can be found on the
 
 ## Installation
 
-![phpbrowserbox-structure](https://user-images.githubusercontent.com/948100/221671814-5b345dea-d8ef-4c90-ac72-2fe81cba1511.png)
+![bbcpanel](https://user-images.githubusercontent.com/948100/230798630-a267ef9e-411a-47ff-a5ea-ef1e14363744.png)
 
 #### Installation Requirements
 
-The minimum requirements is Windows 10.
-
-#### Getting Started
-
-- [Setup BasicHTML Application](../../wiki/Knowledge-Base#hello-world-html)
-- [Setup Basic PHP Application](../../wiki/Knowledge-Base#hello-world-php)
+The minimum requirements is Windows 10 x64.
 
 ## Downloads
 
-- PHPBrowserBox [Download Guide](../../wiki/Download-Phpbrowserbox). This is very necessary for new users.
+- PHPBrowserBox Binary distribution - [PHPBrowserBox latest release for Windows](https://github.com/dhtml/phpbrowserbox/releases/latest)
 
-- PHPBrowserBox Base Application - [PHPBrowserBox latest release for Windows](https://github.com/dhtml/phpbrowserbox/releases/latest)
-
-- [PHPBrowserBox v5.0 For Windows + PHP 8.2 + Wordpress 6.1](https://github.com/dhtml/phpbrowserbox/releases/tag/phpbrowserboxv5.0%2Bphp8.2%2Bwp6)
-
-- [PHPBrowserBox v5.0 For Windows + PHP 8.1 + Wordpress 6.1](https://github.com/dhtml/phpbrowserbox/releases/tag/phpbrowserboxv5.0%2Bphp8.1%2Bwp6)
-
-- [PHPBrowserBox v5.0 For Windows + PHP 8.0 + Wordpress 6.1](https://github.com/dhtml/phpbrowserbox/releases/tag/phpbrowserboxv5.0%2Bphp8.0%2Bwp6)
-
-- [PHPBrowserBox v5.0 For Windows + PHP 7.4 + Wordpress 6.1](https://github.com/dhtml/phpbrowserbox/releases/tag/phpbrowserboxv5.0%2Bwordpressv6.1%2Bdemo)
-
-- [PHPBrowserBox v5.0 For Windows + PHP 7.3 + Wordpress 6.1](https://github.com/dhtml/phpbrowserbox/releases/tag/phpbrowserboxv5.0%2Bphp7.3%2Bwp6)
-
-- PHPBrowserBox Support Packages - [PHPBrowserBox support packages for Windows
-  ](../../wiki/Support-packages)
 
 ## Support
 
 - Documentation is on the [Wiki Pages](../../wiki). Start with the
-  [Knowledge Base](../../wiki/Knowledge-Base), and [Settings](../../wiki/Settings)
+  [Knowledge Base](../../wiki/Knowledge-Base), and [Tweaks](../../wiki/Tweaks)
   wiki pages.
 - Ask questions and report problems on the
-  [PHPBrowserBox Support Forum](https://web.facebook.com/phpbrowserbox)
+  [PHPBrowserBox Support Page](https://web.facebook.com/phpbrowserbox)
 
 ## Sponsors
 

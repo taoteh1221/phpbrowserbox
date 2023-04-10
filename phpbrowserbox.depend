@@ -223,3 +223,17 @@
 
 1680401108 e:\phpbrowserbo x\source\phpbrowserbox\funcs.h
 
+1680963841 source:e:\phpbrowserbo x\source\phpbrowserbox6\app.rc
+	<windows.h>
+
+1680963831 source:e:\phpbrowserbo x\source\phpbrowserbox6\main.cpp
+	<tchar.h>
+	<windows.h>
+	<stdio.h>
+	<iostream>
+	<string>
+	<process.h>
+	<cstdio>
+	<direct.h>
+	"unistd.h"
+

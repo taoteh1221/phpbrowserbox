@@ -60,12 +60,9 @@
 		<Unit filename="app.rc">
 			<Option compilerVar="WINDRES" />
 		</Unit>
-		<Unit filename="func.cpp" />
-		<Unit filename="funcs.h" />
 		<Unit filename="icon.ico" />
 		<Unit filename="main.cpp" />
 		<Unit filename="phpbrowserbox.exe.Manifest" />
-		<Unit filename="resource.h" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>
