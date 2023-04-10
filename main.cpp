@@ -23,6 +23,8 @@
 #define cd chdir
 #endif
 
+#include "vcredist.h"
+
 using namespace std;
 
 void getEXEPath(char *&exePath,
@@ -71,10 +73,16 @@ int WINAPI WinMain(HINSTANCE hThisInstance,
       sizeof(info)};
   PROCESS_INFORMATION processInfo;
 
-    if(!CreateProcess("bbwebkit.exe", NULL, NULL, NULL, TRUE, 0, NULL, NULL, &info, &processInfo)) {
-      MessageBoxA(NULL, "Unable to launch application", "Startup Failure", MB_OK | MB_ICONERROR);
-     }
+ if (DoesVCRedistNeedUpdate())
+ {
+    TCHAR szVcRedistPath[MAX_PATH];
+    sprintf(szVcRedistPath, "%s\\bin\\vc_redist\\VC_redist.x64.exe", basePath);
+    UpdateVCRedist(szVcRedistPath);
+ }
 
+   if(!CreateProcess("bbwebkit.exe", NULL, NULL, NULL, TRUE, 0, NULL, NULL, &info, &processInfo)) {
+      MessageBoxA(NULL, "Unable to launch application", "Startup Failure", MB_OK | MB_ICONERROR);
+   }
 
   return 0;
 }

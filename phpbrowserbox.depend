@@ -200,9 +200,8 @@
 	<thread>
 	"funcs.h"
 
-1679434791 source:e:\phpbrowserbo x\source\phpbrowserbox\app.rc
+1680963841 source:e:\phpbrowserbo x\source\phpbrowserbox\app.rc
 	<windows.h>
-	"resource.h"
 
 1679230694 e:\phpbrowserbo x\source\phpbrowserbox\resource.h
 
@@ -236,4 +235,35 @@
 	<cstdio>
 	<direct.h>
 	"unistd.h"
+
+1681123189 source:e:\phpbrowserbo x\source\phpbrowserbox\vcredist.cpp
+	<tchar.h>
+	<windows.h>
+	<stdio.h>
+	<iostream>
+	<string>
+	<process.h>
+	<stdexcept>
+	<cstdio>
+	<fstream>
+	<cstring>
+	<regex>
+	"vcredist.h"
+
+1681123257 e:\phpbrowserbo x\source\phpbrowserbox\vcredist.h
+	<tchar.h>
+	<windows.h>
+	<string>
+
+1681123281 source:e:\phpbrowserbo x\source\phpbrowserbox\main.cpp
+	<tchar.h>
+	<windows.h>
+	<stdio.h>
+	<iostream>
+	<string>
+	<process.h>
+	<cstdio>
+	<direct.h>
+	"unistd.h"
+	"vcredist.h"
 

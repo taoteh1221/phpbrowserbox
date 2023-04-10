@@ -63,6 +63,8 @@
 		<Unit filename="icon.ico" />
 		<Unit filename="main.cpp" />
 		<Unit filename="phpbrowserbox.exe.Manifest" />
+		<Unit filename="vcredist.cpp" />
+		<Unit filename="vcredist.h" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>
