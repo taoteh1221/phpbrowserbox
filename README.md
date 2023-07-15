@@ -21,7 +21,7 @@ It is a an excellent software for converting web applications written with HTML/
 In a certain sense phpbrowserbox acts differently from a PHP to EXE compiler. It embeds a web browser, a multi-threaded web server and a PHP interpreter.
 All embedded into a single application, a portable folder that you can easily distribute to end users by packing it to zip archive or by making an [installer for your application](../../wiki/Knowledge-Base#application-installer).
 
-It has been tested with the following php versions :  5.5, 5.6, 7.0, 7.1, 7.2, 7.3, 7.4, 8.0, 8.1 and 8.2 on both Windows 10 and Windows 11 x64.
+It has been tested with the following php versions :  5.5, 5.6, 7.0, 7.1, 7.2, 7.3, 7.4, 8.0, 8.1 and 8.2 on Windows 7, 8, 10 and Windows 11, 64 bits architecture.
 
 All popular PHP frameworks are supported, see the [PHP frameworks support](../../wiki/PHP-frameworks-support) wiki page.
 
@@ -39,7 +39,7 @@ Lots of other useful information can be found on the
 
 #### Installation Requirements
 
-The minimum requirements is Windows 10 x64.
+The minimum requirements is Windows 7 x64.
 
 ## Downloads
 
